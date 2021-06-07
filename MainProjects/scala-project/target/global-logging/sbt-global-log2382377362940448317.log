@@ -1,0 +1,58 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@26c84006, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"258","parents":[]},"eventTime":1623091816083,"message":"Compiling scala-project","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\target\\scala-2.13\\classes ..."})[0m
+[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":2,"message":"1 deprecation (since 2.13.0); re-run with -deprecation for details"})[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":2,"message":"one warning found"})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\target\\scala-2.13\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"diagnostics":[{"range":{"start":{"line":11,"character":6},"end":{"line":11,"character":7}},"severity":1,"source":"sbt","message":"value printBST is not a member of FruitBST"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala:12:7: value printBST is not a member of FruitBST[0m
+[0m[[0m[31merror[0m] [0m[0m  bst.printBST(bst.root);[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\src\\main\\scala\\Main.scala:12:7: value printBST is not a member of FruitBST"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  bst.printBST(bst.root);"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"      ^"})[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"one error found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/Fruit.scala"},"buildTarget":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/FruitBST.scala"},"buildTarget":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"diagnostics":[{"range":{"start":{"line":11,"character":6},"end":{"line":11,"character":7}},"severity":1,"source":"sbt","message":"value printBST is not a member of FruitBST"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"258","parents":[]},"eventTime":1623091816247,"message":"Compiled scala-project","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"errors":1,"warnings":0,"time":164}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jun 7, 2021, 8:50:16 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/FruitBST.scala"},"position":{"line":52,"character":15}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:             printBST(temp.LeftNode);[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":32})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/FruitBST.scala"},"position":{"line":53,"character":18}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:             printBST(temp.RightNode);[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":33})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/FruitBST.scala"},"position":{"line":52,"character":16}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:             printBST(temp.LeftNode);[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":34})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/FruitBST.scala"},"position":{"line":52,"character":16}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:             printBST(temp.LeftNode);[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol printBST[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol printBST[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol printBST[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol printBST[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m

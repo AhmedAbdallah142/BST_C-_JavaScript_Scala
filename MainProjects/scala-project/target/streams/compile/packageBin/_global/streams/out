@@ -1,9 +1,31 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\hello-world_2.13-1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Apple.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Apple.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Avocado.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Avocado.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Berry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Berry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Blackberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Blackberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Blueberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Blueberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Elderberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Elderberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Fruit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Fruit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gooseberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Gooseberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Grapes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Grapes.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Main$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Main$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Oval_Shaped.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Oval_Shaped.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Tiny_Fruit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes\Tiny_Fruit.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
