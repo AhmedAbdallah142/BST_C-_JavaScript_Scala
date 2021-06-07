@@ -681,3 +681,1103 @@ Caused by: java.net.SocketException: Socket closed
 [0m2021.06.07 15:51:11 INFO  Canceling debug proxy for [Main][0m
 [0m2021.06.07 15:54:21 INFO  compiling scala-project (1 scala source)[0m
 [0m2021.06.07 15:54:21 INFO  time: compiled scala-project in 0.55s[0m
+[0m2021.06.07 15:58:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:58:41 INFO  time: compiled scala-project in 84ms[0m
+[0m2021.06.07 15:59:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:59:21 INFO  time: compiled scala-project in 72ms[0m
+[0m2021.06.07 15:59:25 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:59:25 INFO  time: compiled scala-project in 75ms[0m
+[0m2021.06.07 15:59:46 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:59:46 INFO  time: compiled scala-project in 0.68s[0m
+[0m2021.06.07 15:59:57 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:59:57 INFO  time: compiled scala-project in 82ms[0m
+[0m2021.06.07 16:00:11 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:00:11 INFO  time: compiled scala-project in 0.55s[0m
+[0m2021.06.07 16:00:40 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:00:40 INFO  time: compiled scala-project in 99ms[0m
+[0m2021.06.07 16:00:54 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:00:54 INFO  time: compiled scala-project in 0.54s[0m
+[0m2021.06.07 16:01:13 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:01:13 INFO  time: compiled scala-project in 55ms[0m
+[0m2021.06.07 16:01:40 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:01:40 INFO  time: compiled scala-project in 0.54s[0m
+[0m2021.06.07 16:01:52 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:01:52 INFO  time: compiled scala-project in 0.54s[0m
+[0m2021.06.07 16:01:56 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:01:56 INFO  time: compiled scala-project in 0.56s[0m
+[0m2021.06.07 16:01:59 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:01:59 INFO  time: compiled scala-project in 0.55s[0m
+[0m2021.06.07 16:02:09 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:02:09 INFO  time: compiled scala-project in 0.54s[0m
+[0m2021.06.07 16:02:28 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:02:28 INFO  time: compiled scala-project in 0.53s[0m
+[0m2021.06.07 16:02:42 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:02:42 INFO  time: compiled scala-project in 0.53s[0m
+[0m2021.06.07 16:02:51 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:02:51 INFO  time: compiled scala-project in 0.55s[0m
+[0m2021.06.07 16:03:08 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:03:08 INFO  time: compiled scala-project in 0.55s[0m
+[0m2021.06.07 16:03:37 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:03:37 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 16:03:43 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 22m 36.616s)[0m
+[0m2021.06.07 16:03:47 INFO  Listening for transport dt_socket at address: 57419[0m
+[0m2021.06.07 16:03:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 16:03:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 16:03:47 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 16:03:47 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57419 .[0m
+[0m2021.06.07 16:03:47 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 16:03:47 INFO  150[0m
+[0m2021.06.07 16:03:47 INFO  0[0m
+[0m2021.06.07 16:03:47 INFO  0[0m
+[0m2021.06.07 16:03:47 INFO  0[0m
+[0m2021.06.07 16:03:47 INFO  0[0m
+[0m2021.06.07 16:03:47 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 16:04:12 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:04:12 INFO  time: compiled scala-project in 0.57s[0m
+[0m2021.06.07 16:04:15 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:04:15 INFO  time: compiled scala-project in 0.54s[0m
+[0m2021.06.07 16:05:33 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:05:33 INFO  time: compiled scala-project in 0.57s[0m
+[0m2021.06.07 16:05:58 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:05:58 INFO  time: compiled scala-project in 0.51s[0m
+[0m2021.06.07 16:07:05 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:07:05 INFO  time: compiled scala-project in 0.73s[0m
+[0m2021.06.07 16:07:20 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 26m 13.659s)[0m
+[0m2021.06.07 16:07:24 INFO  Listening for transport dt_socket at address: 63404[0m
+[0m2021.06.07 16:07:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 16:07:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 16:07:24 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 16:07:24 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63404 .[0m
+[0m2021.06.07 16:07:24 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 16:07:24 INFO  150[0m
+[0m2021.06.07 16:07:24 INFO  80[0m
+[0m2021.06.07 16:07:24 INFO  0[0m
+[0m2021.06.07 16:07:24 INFO  130[0m
+[0m2021.06.07 16:07:24 INFO  140[0m
+[0m2021.06.07 16:07:24 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 16:09:16 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\Fruit.scala[0m
+[0m2021.06.07 16:09:17 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+Jun 07, 2021 4:09:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2186
+[0m2021.06.07 16:09:26 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:09:26 INFO  time: compiled scala-project in 0.1s[0m
+[0m2021.06.07 16:09:37 INFO  compiling scala-project (2 scala sources)[0m
+[0m2021.06.07 16:09:37 INFO  time: compiled scala-project in 76ms[0m
+[0m2021.06.07 16:09:40 INFO  compiling scala-project (2 scala sources)[0m
+[0m2021.06.07 16:09:40 INFO  time: compiled scala-project in 69ms[0m
+Jun 07, 2021 4:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2231
+Jun 07, 2021 4:09:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2246
+Jun 07, 2021 4:09:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2252
+[0m2021.06.07 16:09:58 INFO  compiling scala-project (2 scala sources)[0m
+[0m2021.06.07 16:09:58 INFO  time: compiled scala-project in 91ms[0m
+Jun 07, 2021 4:10:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2268
+[0m2021.06.07 16:10:06 ERROR code navigation does not work for the file 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala' because the SemanticDB file 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project\bloop-bsp-clients-classes\classes-Metals-PFGcymfZQOKrAIG8h1nVTQ==\META-INF\semanticdb\src\main\scala\Fruit.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.07 16:10:07 INFO  compiling scala-project (2 scala sources)[0m
+[0m2021.06.07 16:10:07 INFO  time: compiled scala-project in 0.55s[0m
+Jun 07, 2021 4:10:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2283
+Jun 07, 2021 4:10:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2302
+Jun 07, 2021 4:10:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2309
+[0m2021.06.07 16:10:37 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 29m 30.478s)[0m
+[0m2021.06.07 16:10:41 INFO  Listening for transport dt_socket at address: 49686[0m
+[0m2021.06.07 16:10:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 16:10:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 16:10:41 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 16:10:41 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49686 .[0m
+[0m2021.06.07 16:10:41 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 16:10:41 INFO  150[0m
+[0m2021.06.07 16:10:41 INFO  80[0m
+[0m2021.06.07 16:10:41 INFO  0[0m
+[0m2021.06.07 16:10:41 INFO  130[0m
+[0m2021.06.07 16:10:41 INFO  140[0m
+[0m2021.06.07 16:10:41 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 4:10:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2323
+[0m2021.06.07 16:11:06 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:11:06 INFO  time: compiled scala-project in 80ms[0m
+[0m2021.06.07 16:11:11 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 16:11:11 INFO  time: compiled scala-project in 0.57s[0m
+[0m2021.06.07 16:45:34 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 1h 4m 27.578s)[0m
+[0m2021.06.07 16:45:38 INFO  Listening for transport dt_socket at address: 61503[0m
+[0m2021.06.07 16:45:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 16:45:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 16:45:38 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 16:45:38 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61503 .[0m
+[0m2021.06.07 16:45:38 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 16:45:38 INFO  150[0m
+[0m2021.06.07 16:45:38 INFO  80[0m
+[0m2021.06.07 16:45:38 INFO  0[0m
+[0m2021.06.07 16:45:38 INFO  130[0m
+[0m2021.06.07 16:45:38 INFO  140[0m
+[0m2021.06.07 16:45:38 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 17:01:01 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:01:01 INFO  time: compiled scala-project in 0.89s[0m
+[0m2021.06.07 17:01:11 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 1h 20m 4.675s)[0m
+[0m2021.06.07 17:01:15 INFO  Listening for transport dt_socket at address: 59567[0m
+[0m2021.06.07 17:01:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 17:01:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 17:01:16 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 17:01:15 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59567 .[0m
+[0m2021.06.07 17:01:15 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 17:01:15 INFO  150[0m
+[0m2021.06.07 17:01:15 INFO  80[0m
+[0m2021.06.07 17:01:15 INFO  0[0m
+[0m2021.06.07 17:01:15 INFO  130[0m
+[0m2021.06.07 17:01:15 INFO  140[0m
+[0m2021.06.07 17:01:16 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 17:02:47 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:02:47 INFO  time: compiled scala-project in 0.69s[0m
+[0m2021.06.07 17:02:49 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:02:49 INFO  time: compiled scala-project in 0.58s[0m
+[0m2021.06.07 17:04:53 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:04:53 INFO  time: compiled scala-project in 0.79s[0m
+[0m2021.06.07 17:09:39 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:09:39 INFO  time: compiled scala-project in 95ms[0m
+[0m2021.06.07 17:09:52 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:09:52 INFO  time: compiled scala-project in 61ms[0m
+[0m2021.06.07 17:09:52 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:09:52 INFO  time: compiled scala-project in 49ms[0m
+[0m2021.06.07 17:10:12 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:10:12 INFO  time: compiled scala-project in 58ms[0m
+[0m2021.06.07 17:10:16 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:10:16 INFO  time: compiled scala-project in 0.67s[0m
+[0m2021.06.07 17:10:21 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 1h 29m 14.954s)[0m
+[0m2021.06.07 17:10:25 INFO  Listening for transport dt_socket at address: 63463[0m
+[0m2021.06.07 17:10:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 17:10:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 17:10:26 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 17:10:25 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63463 .[0m
+[0m2021.06.07 17:10:25 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 17:10:25 INFO  150[0m
+[0m2021.06.07 17:10:25 INFO  80[0m
+[0m2021.06.07 17:10:25 INFO  0[0m
+[0m2021.06.07 17:10:25 INFO  130[0m
+[0m2021.06.07 17:10:25 INFO  140[0m
+[0m2021.06.07 17:10:26 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 17:12:11 INFO  shutting down Metals[0m
+[0m2021.06.07 17:12:11 INFO  Shut down connection with build server.[0m
+[0m2021.06.07 17:12:11 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.06.07 17:13:07 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.07 17:13:13 INFO  time: initialize in 6.2s[0m
+[0m2021.06.07 17:13:13 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.07 17:13:13 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.07 17:13:13 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44360'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44360...
+The server is listening for incoming connections at tcp://127.0.0.1:44360...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 17:13:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 17:13:15 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 18598'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:18598...
+The server is listening for incoming connections at tcp://127.0.0.1:18598...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 17:13:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 17:13:15 INFO  time: Connected to build server in 1.6s[0m
+[0m2021.06.07 17:13:15 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.07 17:13:17 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.07 17:13:20 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.07 17:13:20 INFO  time: code lens generation in 6.07s[0m
+[0m2021.06.07 17:13:20 INFO  time: indexed workspace in 3.61s[0m
+[0m2021.06.07 17:13:23 INFO  time: code lens generation in 9.27s[0m
+[0m2021.06.07 17:34:08 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:34:08 INFO  time: compiled scala-project in 0.22s[0m
+[0m2021.06.07 17:34:23 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:34:23 INFO  time: compiled scala-project in 0.4s[0m
+[0m2021.06.07 17:34:27 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:34:27 INFO  time: compiled scala-project in 0.46s[0m
+[0m2021.06.07 17:34:30 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:34:30 INFO  time: compiled scala-project in 0.46s[0m
+Jun 07, 2021 5:34:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 172
+Jun 07, 2021 5:34:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 181
+[0m2021.06.07 17:36:03 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:36:03 INFO  time: compiled scala-project in 89ms[0m
+[0m2021.06.07 17:36:09 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:36:09 INFO  time: compiled scala-project in 49ms[0m
+[0m2021.06.07 17:36:49 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:36:49 INFO  time: compiled scala-project in 59ms[0m
+[0m2021.06.07 17:37:01 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:37:01 INFO  time: compiled scala-project in 0.43s[0m
+[0m2021.06.07 17:37:04 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:37:04 INFO  time: compiled scala-project in 0.42s[0m
+[0m2021.06.07 17:37:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:37:21 INFO  time: compiled scala-project in 0.5s[0m
+Jun 07, 2021 5:37:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 552
+Jun 07, 2021 5:37:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 566
+Jun 07, 2021 5:38:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 35 is not a valid line number, allowed [0..4]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 35 is not a valid line number, allowed [0..4]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 35 is not a valid line number, allowed [0..4]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.06.07 17:38:01 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:38:01 INFO  time: compiled scala-project in 74ms[0m
+Jun 07, 2021 5:38:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 35 is not a valid line number, allowed [0..4]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 35 is not a valid line number, allowed [0..4]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 35 is not a valid line number, allowed [0..4]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Jun 07, 2021 5:38:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 5 is not a valid line number, allowed [0..4]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 5 is not a valid line number, allowed [0..4]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 5 is not a valid line number, allowed [0..4]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.06.07 17:38:04 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:38:04 INFO  time: compiled scala-project in 39ms[0m
+Jun 07, 2021 5:38:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 5 is not a valid line number, allowed [0..4]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 5 is not a valid line number, allowed [0..4]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 5 is not a valid line number, allowed [0..4]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.06.07 17:38:08 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:38:08 INFO  time: compiled scala-project in 60ms[0m
+Jun 07, 2021 5:38:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 619
+[0m2021.06.07 17:38:20 INFO  compiling scala-project (2 scala sources)[0m
+[0m2021.06.07 17:38:20 INFO  time: compiled scala-project in 61ms[0m
+Jun 07, 2021 5:38:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 633
+[0m2021.06.07 17:38:22 INFO  compiling scala-project (2 scala sources)[0m
+[0m2021.06.07 17:38:22 INFO  time: compiled scala-project in 29ms[0m
+[0m2021.06.07 17:38:43 INFO  compiling scala-project (3 scala sources)[0m
+[0m2021.06.07 17:38:43 INFO  time: compiled scala-project in 33ms[0m
+Jun 07, 2021 5:38:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 658
+[0m2021.06.07 17:38:45 INFO  compiling scala-project (3 scala sources)[0m
+[0m2021.06.07 17:38:45 INFO  time: compiled scala-project in 44ms[0m
+Jun 07, 2021 5:38:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 5 is not a valid line number, allowed [0..4]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 5 is not a valid line number, allowed [0..4]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 5 is not a valid line number, allowed [0..4]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.06.07 17:38:52 INFO  compiling scala-project (3 scala sources)[0m
+[0m2021.06.07 17:38:52 INFO  time: compiled scala-project in 40ms[0m
+[0m2021.06.07 17:38:55 INFO  compiling scala-project (3 scala sources)[0m
+[0m2021.06.07 17:38:55 INFO  time: compiled scala-project in 75ms[0m
+[0m2021.06.07 17:39:00 INFO  compiling scala-project (3 scala sources)[0m
+[0m2021.06.07 17:39:00 INFO  time: compiled scala-project in 73ms[0m
+Jun 07, 2021 5:39:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 702
+[0m2021.06.07 17:39:06 INFO  compiling scala-project (3 scala sources)[0m
+[0m2021.06.07 17:39:06 INFO  time: compiled scala-project in 0.66s[0m
+Jun 07, 2021 5:39:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 715
+[0m2021.06.07 17:39:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:39:21 INFO  time: compiled scala-project in 0.48s[0m
+Jun 07, 2021 5:40:59 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 07, 2021 5:40:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+[0m2021.06.07 17:41:04 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:41:04 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:41:04 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 17:41:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:41:21 INFO  time: compiled scala-project in 73ms[0m
+[0m2021.06.07 17:41:34 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:41:34 INFO  time: compiled scala-project in 39ms[0m
+[0m2021.06.07 17:41:52 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:41:52 INFO  time: compiled scala-project in 72ms[0m
+[0m2021.06.07 17:43:08 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:43:08 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:43:08 INFO  time: compiled scala-project in 0.46s[0m
+[0m2021.06.07 17:43:12 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:43:12 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:43:12 INFO  time: compiled scala-project in 0.44s[0m
+[0m2021.06.07 17:43:49 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:43:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:43:49 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 17:44:47 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:44:47 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:44:47 INFO  time: compiled scala-project in 0.49s[0m
+[0m2021.06.07 17:44:54 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:44:54 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:44:54 INFO  time: compiled scala-project in 0.66s[0m
+[0m2021.06.07 17:44:56 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:44:56 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:44:56 INFO  time: compiled scala-project in 0.42s[0m
+[0m2021.06.07 17:45:24 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:45:24 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:45:24 INFO  time: compiled scala-project in 0.47s[0m
+[0m2021.06.07 17:49:40 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:49:40 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:49:40 INFO  time: compiled scala-project in 0.46s[0m
+[0m2021.06.07 17:51:17 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:51:17 INFO  time: compiled scala-project in 0.42s[0m
+[0m2021.06.07 17:51:19 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:51:19 INFO  time: compiled scala-project in 0.41s[0m
+[0m2021.06.07 17:52:27 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:52:27 INFO  time: compiled scala-project in 0.41s[0m
+[0m2021.06.07 17:52:30 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:52:30 INFO  time: compiled scala-project in 0.43s[0m
+[0m2021.06.07 17:52:56 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:52:56 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:52:56 INFO  time: compiled scala-project in 0.48s[0m
+[0m2021.06.07 17:53:12 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:53:12 INFO  time: compiled scala-project in 0.44s[0m
+[0m2021.06.07 17:53:17 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:53:17 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:53:17 INFO  time: compiled scala-project in 0.47s[0m
+Jun 07, 2021 5:53:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2156
+[0m2021.06.07 17:53:26 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:53:26 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:53:26 INFO  time: compiled scala-project in 0.49s[0m
+[0m2021.06.07 17:53:47 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:53:47 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:53:47 INFO  time: compiled scala-project in 0.49s[0m
+[0m2021.06.07 17:53:53 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:53:53 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:53:53 INFO  time: compiled scala-project in 0.53s[0m
+[0m2021.06.07 17:54:09 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:54:09 INFO  time: compiled scala-project in 78ms[0m
+[0m2021.06.07 17:54:25 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:54:25 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:54:25 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 17:54:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:54:41 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:54:41 INFO  time: compiled scala-project in 0.49s[0m
+[0m2021.06.07 17:54:43 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:54:43 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:54:43 INFO  time: compiled scala-project in 0.45s[0m
+[0m2021.06.07 17:54:57 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:54:57 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:54:57 INFO  time: compiled scala-project in 0.49s[0m
+[0m2021.06.07 17:55:10 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 17:55:10 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 17:55:10 INFO  time: compiled scala-project in 0.5s[0m
+Jun 07, 2021 5:58:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2479
+[0m2021.06.07 18:00:44 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 18:00:44 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 18:00:44 INFO  time: compiled scala-project in 0.58s[0m
+[0m2021.06.07 18:02:24 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 18:02:24 INFO  time: compiled scala-project in 52ms[0m
+[0m2021.06.07 18:02:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 18:02:35 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 18:02:35 INFO  time: compiled scala-project in 0.51s[0m
+error: Unexpected error when forwarding client stdin ---> server stdout
+No more data in the server stdin, exiting...
+java.io.IOException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:355)
+	at java.base/sun.nio.ch.SourceChannelImpl.read(SourceChannelImpl.java:113)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:59)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:109)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:103)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$1(BspBridge.scala:197)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+Jun 07, 2021 7:15:25 PM org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor run
+SEVERE: java.io.IOException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:122)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.io.IOException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:355)
+	at java.base/sun.nio.ch.SourceChannelImpl.read(SourceChannelImpl.java:113)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:59)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:109)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:103)
+	at java.base/java.io.InputStream.read(InputStream.java:205)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:81)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	... 6 more
+
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39377'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39377...
+The server is listening for incoming connections at tcp://127.0.0.1:39377...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 19:15:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 19:26:13 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:26:13 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:26:13 INFO  time: compiled scala-project in 0.75s[0m
+[0m2021.06.07 19:28:12 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:28:12 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:28:12 INFO  time: compiled scala-project in 0.63s[0m
+[0m2021.06.07 19:28:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:28:41 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:28:41 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 19:29:24 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:29:24 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:29:24 INFO  time: compiled scala-project in 0.56s[0m
+Jun 07, 2021 7:29:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3466
+[0m2021.06.07 19:29:45 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:29:45 INFO  time: compiled scala-project in 0.49s[0m
+[0m2021.06.07 19:30:14 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:30:14 INFO  time: compiled scala-project in 0.48s[0m
+Jun 07, 2021 7:30:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3671
+Jun 07, 2021 7:30:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3678
+[0m2021.06.07 19:30:44 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:30:44 INFO  time: compiled scala-project in 0.46s[0m
+[0m2021.06.07 19:31:06 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:31:06 INFO  time: compiled scala-project in 0.47s[0m
+[0m2021.06.07 19:31:14 INFO  Listening for transport dt_socket at address: 53300[0m
+[0m2021.06.07 19:31:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:31:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:31:14 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:31:14 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53300 .[0m
+[0m2021.06.07 19:31:14 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:31:14 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 7:31:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3830
+[0m2021.06.07 19:32:10 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:32:10 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:32:10 INFO  time: compiled scala-project in 0.53s[0m
+[0m2021.06.07 19:33:23 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:33:23 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:33:23 INFO  time: compiled scala-project in 0.8s[0m
+[0m2021.06.07 19:34:22 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:34:22 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:34:22 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 19:34:25 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:34:25 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:34:25 INFO  time: compiled scala-project in 0.5s[0m
+[0m2021.06.07 19:34:49 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:34:49 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:34:49 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 19:34:51 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:34:51 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:34:51 INFO  time: compiled scala-project in 0.48s[0m
+Jun 07, 2021 7:34:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4451
+[0m2021.06.07 19:35:10 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:35:10 INFO  time: compiled scala-project in 0.45s[0m
+[0m2021.06.07 19:35:13 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 21m 58.673s)[0m
+[0m2021.06.07 19:35:17 INFO  Listening for transport dt_socket at address: 62236[0m
+[0m2021.06.07 19:35:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:35:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:35:18 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:35:17 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62236 .[0m
+[0m2021.06.07 19:35:17 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:35:17 INFO  Apple@3cb1ffe6[0m
+[0m2021.06.07 19:35:17 ERROR Exception in thread "main" java.lang.NullPointerException[0m
+[0m2021.06.07 19:35:17 ERROR 	at FruitBST.printBST(FruitBST.scala:26)[0m
+[0m2021.06.07 19:35:17 ERROR 	at FruitBST.printBST(FruitBST.scala:26)[0m
+[0m2021.06.07 19:35:17 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:6)[0m
+[0m2021.06.07 19:35:17 ERROR 	at Main$delayedInit$body.apply(Main.scala:2)[0m
+[0m2021.06.07 19:35:17 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m2021.06.07 19:35:17 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m2021.06.07 19:35:17 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m2021.06.07 19:35:17 ERROR 	at scala.App.$anonfun$main$1(App.scala:73)[0m
+[0m2021.06.07 19:35:17 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:73)[0m
+[0m2021.06.07 19:35:17 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)[0m
+[0m2021.06.07 19:35:17 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)[0m
+[0m2021.06.07 19:35:17 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)[0m
+[0m2021.06.07 19:35:17 ERROR 	at scala.App.main(App.scala:73)[0m
+[0m2021.06.07 19:35:17 ERROR 	at scala.App.main$(App.scala:71)[0m
+[0m2021.06.07 19:35:17 ERROR 	at Main$.main(Main.scala:2)[0m
+[0m2021.06.07 19:35:17 ERROR 	at Main.main(Main.scala)[0m
+[0m2021.06.07 19:35:18 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 7:35:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4551
+[0m2021.06.07 19:36:00 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:36:00 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:36:00 INFO  time: compiled scala-project in 0.51s[0m
+Jun 07, 2021 7:36:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4614
+Jun 07, 2021 7:36:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4621
+Jun 07, 2021 7:36:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4628
+[0m2021.06.07 19:36:13 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 22m 58.547s)[0m
+[0m2021.06.07 19:36:17 INFO  Listening for transport dt_socket at address: 64467[0m
+[0m2021.06.07 19:36:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:36:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:36:18 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:36:17 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64467 .[0m
+[0m2021.06.07 19:36:17 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:36:17 INFO  Apple@3cb1ffe6[0m
+[0m2021.06.07 19:36:18 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 7:36:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4646
+Jun 07, 2021 7:36:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4653
+[0m2021.06.07 19:36:42 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 23m 27.701s)[0m
+[0m2021.06.07 19:36:46 INFO  Listening for transport dt_socket at address: 53717[0m
+[0m2021.06.07 19:36:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:36:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:36:47 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:36:46 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53717 .[0m
+[0m2021.06.07 19:36:46 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:38:39 INFO  Apple@3cb1ffe6[0m
+[0m2021.06.07 19:38:39 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 19:38:44 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 25m 29.094s)[0m
+[0m2021.06.07 19:38:48 INFO  Listening for transport dt_socket at address: 51598[0m
+[0m2021.06.07 19:38:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:38:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:38:48 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:38:48 INFO  Trying to attach to remote debuggee VM 127.0.0.1:51598 .[0m
+[0m2021.06.07 19:38:48 INFO  Attaching to debuggee VM succeeded.[0m
+Jun 07, 2021 7:39:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 07, 2021 7:39:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 07, 2021 7:39:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 07, 2021 7:39:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 07, 2021 7:39:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 07, 2021 7:39:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 07, 2021 7:40:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 07, 2021 7:40:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 07, 2021 7:40:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 07, 2021 7:40:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 07, 2021 7:40:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.06.07 19:40:24 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 19:40:39 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:40:39 INFO  time: compiled scala-project in 0.48s[0m
+Jun 07, 2021 7:40:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4741
+[0m2021.06.07 19:41:06 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:41:06 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:41:06 INFO  time: compiled scala-project in 0.52s[0m
+Jun 07, 2021 7:41:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4785
+Jun 07, 2021 7:41:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4792
+[0m2021.06.07 19:41:17 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 28m 2.469s)[0m
+[0m2021.06.07 19:41:21 INFO  Listening for transport dt_socket at address: 60946[0m
+[0m2021.06.07 19:41:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:41:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:41:22 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:41:21 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60946 .[0m
+[0m2021.06.07 19:41:21 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:41:21 INFO  Apple@3cb1ffe6[0m
+[0m2021.06.07 19:41:22 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 7:41:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4806
+[0m2021.06.07 19:41:45 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:41:45 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:41:45 INFO  time: compiled scala-project in 0.55s[0m
+Jun 07, 2021 7:41:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4842
+[0m2021.06.07 19:42:01 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 28m 46.32s)[0m
+[0m2021.06.07 19:42:05 INFO  Listening for transport dt_socket at address: 54379[0m
+[0m2021.06.07 19:42:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:42:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:42:06 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:42:05 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54379 .[0m
+[0m2021.06.07 19:42:05 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:42:05 INFO  150[0m
+[0m2021.06.07 19:42:06 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 19:43:20 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:43:20 INFO  time: compiled scala-project in 0.47s[0m
+[0m2021.06.07 19:43:23 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 30m 8.761s)[0m
+[0m2021.06.07 19:43:28 INFO  Listening for transport dt_socket at address: 58872[0m
+[0m2021.06.07 19:43:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:43:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:43:28 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:43:28 INFO  Trying to attach to remote debuggee VM 127.0.0.1:58872 .[0m
+[0m2021.06.07 19:43:28 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:43:28 INFO  80[0m
+[0m2021.06.07 19:43:28 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 19:43:52 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:43:52 INFO  time: compiled scala-project in 0.73s[0m
+[0m2021.06.07 19:43:56 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:43:56 INFO  time: compiled scala-project in 0.45s[0m
+[0m2021.06.07 19:44:00 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 30m 45.887s)[0m
+[0m2021.06.07 19:44:05 INFO  Listening for transport dt_socket at address: 54562[0m
+[0m2021.06.07 19:44:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:44:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:44:05 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:44:05 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54562 .[0m
+[0m2021.06.07 19:44:05 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:44:05 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 19:44:19 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:44:19 INFO  time: compiled scala-project in 0.45s[0m
+Jun 07, 2021 7:44:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4980
+Jun 07, 2021 7:44:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4991
+[0m2021.06.07 19:44:39 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 31m 24.885s)[0m
+[0m2021.06.07 19:44:44 INFO  Listening for transport dt_socket at address: 58862[0m
+[0m2021.06.07 19:44:44 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:44:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:44:44 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:44:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:58862 .[0m
+[0m2021.06.07 19:44:44 INFO  Attaching to debuggee VM succeeded.[0m
+Jun 07, 2021 7:44:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5004
+[0m2021.06.07 19:44:57 ERROR [error response][evaluate]: an implementation is missing[0m
+[0m2021.06.07 19:45:04 ERROR [error response][evaluate]: an implementation is missing[0m
+Jun 07, 2021 7:45:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5015
+[0m2021.06.07 19:45:43 ERROR [error response][evaluate]: an implementation is missing[0m
+[0m2021.06.07 19:45:44 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 7:45:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5021
+[0m2021.06.07 19:47:18 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:47:18 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:47:18 INFO  time: compiled scala-project in 0.7s[0m
+[0m2021.06.07 19:47:22 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:47:22 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:47:22 INFO  time: compiled scala-project in 0.5s[0m
+[0m2021.06.07 19:47:25 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:47:25 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:47:25 INFO  time: compiled scala-project in 0.52s[0m
+Jun 07, 2021 7:48:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5333
+[0m2021.06.07 19:48:10 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 34m 55.898s)[0m
+[0m2021.06.07 19:48:15 INFO  Listening for transport dt_socket at address: 54392[0m
+[0m2021.06.07 19:48:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:48:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:48:15 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:48:15 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54392 .[0m
+[0m2021.06.07 19:48:15 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:48:32 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 19:48:44 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 35m 29.613s)[0m
+[0m2021.06.07 19:48:48 INFO  Listening for transport dt_socket at address: 63374[0m
+[0m2021.06.07 19:48:49 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:48:49 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:48:49 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:48:48 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63374 .[0m
+[0m2021.06.07 19:48:48 INFO  Attaching to debuggee VM succeeded.[0m
+Jun 07, 2021 7:48:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5355
+[0m2021.06.07 19:48:52 ERROR [error response][evaluate]: an implementation is missing[0m
+Jun 07, 2021 7:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5361
+Jun 07, 2021 7:49:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5366
+[0m2021.06.07 19:49:20 ERROR [error response][evaluate]: an implementation is missing[0m
+[0m2021.06.07 19:49:52 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 19:51:23 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:51:23 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:51:23 INFO  time: compiled scala-project in 0.49s[0m
+[0m2021.06.07 19:51:32 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:51:32 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:51:32 INFO  time: compiled scala-project in 0.5s[0m
+[0m2021.06.07 19:51:42 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:51:42 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:51:42 INFO  time: compiled scala-project in 0.55s[0m
+[0m2021.06.07 19:51:50 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:51:50 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:51:50 INFO  time: compiled scala-project in 0.52s[0m
+Jun 07, 2021 7:51:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5781
+[0m2021.06.07 19:51:55 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 38m 40.015s)[0m
+[0m2021.06.07 19:51:59 INFO  Listening for transport dt_socket at address: 57290[0m
+[0m2021.06.07 19:51:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:51:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:51:59 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:51:59 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57290 .[0m
+[0m2021.06.07 19:51:59 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:51:59 INFO  150[0m
+[0m2021.06.07 19:51:59 INFO  80[0m
+[0m2021.06.07 19:51:59 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 19:52:06 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:52:06 INFO  time: compiled scala-project in 0.44s[0m
+[0m2021.06.07 19:52:14 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 38m 59.488s)[0m
+[0m2021.06.07 19:52:18 INFO  Listening for transport dt_socket at address: 49163[0m
+[0m2021.06.07 19:52:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:52:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:52:19 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:52:18 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49163 .[0m
+[0m2021.06.07 19:52:18 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 19:52:18 INFO  80[0m
+[0m2021.06.07 19:52:18 INFO  80[0m
+[0m2021.06.07 19:52:18 INFO  80[0m
+[0m2021.06.07 19:52:18 INFO  80[0m
+[0m2021.06.07 19:52:18 INFO  80[0m
+[0m2021.06.07 19:52:18 INFO  80[0m
+[0m2021.06.07 19:52:18 INFO  150[0m
+[0m2021.06.07 19:52:18 INFO  80[0m
+[0m2021.06.07 19:52:19 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 7:52:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5832
+[0m2021.06.07 19:52:52 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:52:52 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:52:52 INFO  time: compiled scala-project in 0.56s[0m
+[0m2021.06.07 19:52:58 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:52:58 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:52:58 INFO  time: compiled scala-project in 0.53s[0m
+Jun 07, 2021 7:53:03 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 516, count -1, length 1276
+[0m2021.06.07 19:53:07 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:53:07 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:53:07 INFO  time: compiled scala-project in 0.56s[0m
+[0m2021.06.07 19:53:10 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:53:10 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:53:10 INFO  time: compiled scala-project in 0.63s[0m
+[0m2021.06.07 19:53:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:53:35 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:53:35 INFO  time: compiled scala-project in 0.5s[0m
+[0m2021.06.07 19:54:03 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:54:03 INFO  time: compiled scala-project in 54ms[0m
+[0m2021.06.07 19:54:10 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:54:10 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:54:10 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 19:54:31 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:54:31 INFO  time: compiled scala-project in 42ms[0m
+[0m2021.06.07 19:54:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:54:35 INFO  time: compiled scala-project in 40ms[0m
+[0m2021.06.07 19:54:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:54:41 INFO  time: compiled scala-project in 53ms[0m
+[0m2021.06.07 19:54:43 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:54:43 INFO  time: compiled scala-project in 43ms[0m
+[0m2021.06.07 19:55:20 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:55:20 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:55:20 INFO  time: compiled scala-project in 0.54s[0m
+[0m2021.06.07 19:55:51 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:55:51 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:55:51 INFO  time: compiled scala-project in 0.54s[0m
+[0m2021.06.07 19:57:07 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:57:07 INFO  time: compiled scala-project in 68ms[0m
+[0m2021.06.07 19:57:15 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:57:15 INFO  time: compiled scala-project in 44ms[0m
+[0m2021.06.07 19:57:25 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:57:25 INFO  time: compiled scala-project in 59ms[0m
+[0m2021.06.07 19:57:32 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:57:32 INFO  time: compiled scala-project in 66ms[0m
+[0m2021.06.07 19:57:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:57:35 INFO  time: compiled scala-project in 48ms[0m
+[0m2021.06.07 19:57:44 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:57:44 INFO  time: compiled scala-project in 65ms[0m
+[0m2021.06.07 19:57:55 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:57:55 INFO  time: compiled scala-project in 42ms[0m
+[0m2021.06.07 19:58:19 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:58:19 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:58:19 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 19:58:28 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:58:28 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:58:28 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 19:58:40 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:58:40 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:58:40 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 19:58:50 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:58:50 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:58:50 INFO  time: compiled scala-project in 0.51s[0m
+[0m2021.06.07 19:58:54 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:58:54 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:58:54 INFO  time: compiled scala-project in 0.53s[0m
+[0m2021.06.07 19:59:03 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:59:03 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:59:03 INFO  time: compiled scala-project in 0.68s[0m
+[0m2021.06.07 19:59:17 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 19:59:17 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 19:59:17 INFO  time: compiled scala-project in 0.49s[0m
+Jun 07, 2021 7:59:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6749
+[0m2021.06.07 19:59:23 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 46m 8.468s)[0m
+[0m2021.06.07 19:59:27 INFO  Listening for transport dt_socket at address: 64209[0m
+[0m2021.06.07 19:59:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:59:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:59:28 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:59:27 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64209 .[0m
+[0m2021.06.07 19:59:27 INFO  Attaching to debuggee VM succeeded.[0m
+Jun 07, 2021 7:59:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6759
+[0m2021.06.07 19:59:46 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 7:59:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6765
+[0m2021.06.07 19:59:51 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 46m 36.112s)[0m
+[0m2021.06.07 19:59:55 INFO  Listening for transport dt_socket at address: 49954[0m
+[0m2021.06.07 19:59:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 19:59:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 19:59:55 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 19:59:55 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49954 .[0m
+[0m2021.06.07 19:59:55 INFO  Attaching to debuggee VM succeeded.[0m
+Jun 07, 2021 8:00:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6776
+[0m2021.06.07 20:00:06 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 20:00:17 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:00:17 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:00:17 INFO  time: compiled scala-project in 0.51s[0m
+Jun 07, 2021 8:00:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6844
+Jun 07, 2021 8:00:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6856
+[0m2021.06.07 20:00:24 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 2h 47m 8.951s)[0m
+[0m2021.06.07 20:00:28 INFO  Listening for transport dt_socket at address: 63508[0m
+[0m2021.06.07 20:00:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 20:00:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 20:00:28 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 20:00:28 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63508 .[0m
+[0m2021.06.07 20:00:28 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 20:00:28 INFO  80[0m
+[0m2021.06.07 20:00:28 INFO  80[0m
+[0m2021.06.07 20:00:28 INFO  80[0m
+[0m2021.06.07 20:00:28 INFO  80[0m
+[0m2021.06.07 20:00:28 INFO  80[0m
+[0m2021.06.07 20:00:28 INFO  80[0m
+[0m2021.06.07 20:00:28 INFO  150[0m
+[0m2021.06.07 20:00:28 INFO  80[0m
+[0m2021.06.07 20:00:28 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 8:00:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6870
+[0m2021.06.07 20:01:10 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:01:10 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:01:10 INFO  time: compiled scala-project in 0.5s[0m
+[0m2021.06.07 20:04:11 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:04:11 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:04:11 INFO  time: compiled scala-project in 0.53s[0m
+[0m2021.06.07 20:04:54 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:04:54 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:04:54 INFO  time: compiled scala-project in 0.55s[0m
+[0m2021.06.07 20:05:03 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:05:03 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:05:03 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 20:05:47 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:05:47 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:05:47 INFO  time: compiled scala-project in 0.51s[0m
+[0m2021.06.07 20:06:53 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:06:53 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:06:53 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 20:12:50 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:12:50 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:12:50 INFO  time: compiled scala-project in 0.58s[0m
+[0m2021.06.07 20:12:53 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:12:53 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:12:53 INFO  time: compiled scala-project in 0.51s[0m
+[0m2021.06.07 20:26:44 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:26:44 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:26:44 INFO  time: compiled scala-project in 0.65s[0m
+[0m2021.06.07 20:26:44 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:26:44 INFO  time: compiled scala-project in 46ms[0m
+[0m2021.06.07 20:37:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:37:35 INFO  time: compiled scala-project in 60ms[0m
+[0m2021.06.07 20:37:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:37:41 INFO  time: compiled scala-project in 53ms[0m
+[0m2021.06.07 20:37:47 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:37:47 INFO  time: compiled scala-project in 90ms[0m
+[0m2021.06.07 20:37:51 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:37:51 INFO  time: compiled scala-project in 73ms[0m
+[0m2021.06.07 20:37:56 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:37:56 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:37:56 INFO  time: compiled scala-project in 0.5s[0m
+[0m2021.06.07 20:37:56 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:37:56 INFO  time: compiled scala-project in 41ms[0m
+[0m2021.06.07 20:38:27 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:38:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:38:27 INFO  time: compiled scala-project in 0.49s[0m
+[0m2021.06.07 20:38:27 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:38:27 INFO  time: compiled scala-project in 38ms[0m
+Jun 07, 2021 8:43:15 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.06.07 20:43:20 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:43:20 INFO  time: compiled scala-project in 78ms[0m
+[0m2021.06.07 20:44:11 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:44:11 INFO  time: compiled scala-project in 53ms[0m
+[0m2021.06.07 20:44:14 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:44:14 INFO  time: compiled scala-project in 66ms[0m
+[0m2021.06.07 20:50:16 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:50:16 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:50:16 INFO  time: compiled scala-project in 0.54s[0m
+[0m2021.06.07 20:50:16 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:50:16 INFO  time: compiled scala-project in 53ms[0m
+Jun 07, 2021 8:50:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8121
+[0m2021.06.07 20:50:18 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:50:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:50:18 INFO  time: compiled scala-project in 0.45s[0m
+[0m2021.06.07 20:50:18 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:50:18 INFO  time: compiled scala-project in 41ms[0m
+Jun 07, 2021 8:50:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8131
+Jun 07, 2021 8:50:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8138
+[0m2021.06.07 20:50:39 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 20:50:39 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.07 20:50:39 INFO  time: compiled scala-project in 0.51s[0m
