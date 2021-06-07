@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala:7:7: Oval_Shaped is already defined as class Oval_Shaped[0m
-[0m[[0m[31merror[0m] [0m[0mclass Oval_Shaped extends Fruit{[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala:38:5: reassignment to val[0m
+[0m[[0m[31merror[0m] [0m[0m  a = new Blueberries();[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
