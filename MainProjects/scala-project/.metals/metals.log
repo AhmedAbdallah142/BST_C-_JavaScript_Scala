@@ -447,3 +447,237 @@ Caused by: java.lang.IllegalArgumentException: 4 is not a valid line number, all
 [0m2021.06.07 14:54:05 INFO  Hello, World![0m
 [0m2021.06.07 14:54:05 INFO  Hello, World![0m
 [0m2021.06.07 14:54:06 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 14:57:44 INFO  shutting down Metals[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+No more data in the client stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+Jun 07, 2021 2:57:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+[0m2021.06.07 14:57:44 INFO  Shut down connection with build server.[0m
+Jun 07, 2021 2:57:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+[0m2021.06.07 14:57:44 INFO  Shut down connection with build server.[0m
+[0m2021.06.07 15:41:00 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.07 15:41:05 INFO  time: initialize in 5.74s[0m
+[0m2021.06.07 15:41:05 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.07 15:41:05 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.07 15:41:05 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35837'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35837...
+The server is listening for incoming connections at tcp://127.0.0.1:35837...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 15:41:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 15:41:06 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 41130'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:41130...
+The server is listening for incoming connections at tcp://127.0.0.1:41130...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 15:41:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 15:41:07 INFO  time: Connected to build server in 1.11s[0m
+[0m2021.06.07 15:41:07 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.07 15:41:08 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.07 15:41:10 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jun 07, 2021 3:41:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Jun 07, 2021 3:41:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Jun 07, 2021 3:41:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Jun 07, 2021 3:41:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jun 07, 2021 3:41:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Jun 07, 2021 3:41:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Jun 07, 2021 3:41:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Jun 07, 2021 3:41:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+[0m2021.06.07 15:41:12 INFO  time: indexed workspace in 3.46s[0m
+Jun 07, 2021 3:41:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 53
+[0m2021.06.07 15:42:20 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:42:20 INFO  time: compiled scala-project in 0.24s[0m
+[0m2021.06.07 15:42:32 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:42:32 INFO  time: compiled scala-project in 0.98s[0m
+[0m2021.06.07 15:43:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:43:35 INFO  time: compiled scala-project in 0.11s[0m
+[0m2021.06.07 15:43:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:43:41 INFO  time: compiled scala-project in 0.69s[0m
+[0m2021.06.07 15:44:04 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:44:04 INFO  time: compiled scala-project in 0.74s[0m
+[0m2021.06.07 15:44:25 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:44:25 INFO  time: compiled scala-project in 0.65s[0m
+[0m2021.06.07 15:44:53 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:44:53 INFO  time: compiled scala-project in 58ms[0m
+[0m2021.06.07 15:44:58 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:44:58 INFO  time: compiled scala-project in 0.7s[0m
+[0m2021.06.07 15:45:28 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:45:28 INFO  time: compiled scala-project in 0.75s[0m
+[0m2021.06.07 15:45:39 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:45:39 INFO  time: compiled scala-project in 0.83s[0m
+[0m2021.06.07 15:46:46 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:46:46 INFO  time: compiled scala-project in 0.61s[0m
+[0m2021.06.07 15:46:49 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:46:49 INFO  time: compiled scala-project in 0.6s[0m
+[0m2021.06.07 15:46:54 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:46:54 INFO  time: compiled scala-project in 0.59s[0m
+[0m2021.06.07 15:47:04 INFO  Listening for transport dt_socket at address: 54610[0m
+[0m2021.06.07 15:47:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 15:47:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 15:47:04 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 15:47:04 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54610 .[0m
+[0m2021.06.07 15:47:04 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 15:47:04 INFO  Hello, World![0m
+[0m2021.06.07 15:47:04 INFO  Hello, World![0m
+[0m2021.06.07 15:47:04 INFO  Hello, World![0m
+[0m2021.06.07 15:47:04 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 3:47:05 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:89)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:54)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 21 more
+
+[0m2021.06.07 15:48:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:48:41 INFO  time: compiled scala-project in 0.58s[0m
+[0m2021.06.07 15:48:54 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:48:54 INFO  time: compiled scala-project in 0.6s[0m
+[0m2021.06.07 15:49:04 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:49:04 INFO  time: compiled scala-project in 0.52s[0m
+[0m2021.06.07 15:49:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:49:35 INFO  time: compiled scala-project in 0.59s[0m
+[0m2021.06.07 15:51:00 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:51:00 INFO  time: compiled scala-project in 0.63s[0m
+[0m2021.06.07 15:51:04 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:51:04 INFO  time: compiled scala-project in 0.57s[0m
+[0m2021.06.07 15:51:06 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 10m 0.303s)[0m
+[0m2021.06.07 15:51:11 INFO  Listening for transport dt_socket at address: 52458[0m
+[0m2021.06.07 15:51:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 15:51:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 15:51:11 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 15:51:11 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52458 .[0m
+[0m2021.06.07 15:51:11 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 15:51:11 INFO  Ahmed![0m
+[0m2021.06.07 15:51:11 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 15:54:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 15:54:21 INFO  time: compiled scala-project in 0.55s[0m

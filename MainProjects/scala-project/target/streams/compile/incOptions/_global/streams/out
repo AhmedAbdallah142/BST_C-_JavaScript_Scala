@@ -1,2 +1,47 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Fruit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gooseberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Blueberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Berry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Tiny_Fruit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Grapes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Avocado.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Oval_Shaped.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Elderberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Blackberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Apple.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Fruit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gooseberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Blueberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Berry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Tiny_Fruit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Grapes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Avocado.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Oval_Shaped.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Elderberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Blackberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Apple.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Fruit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Gooseberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Blueberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Berry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Tiny_Fruit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Grapes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Avocado.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Oval_Shaped.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Elderberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Blackberries.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Apple.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\classes.bak[0m
