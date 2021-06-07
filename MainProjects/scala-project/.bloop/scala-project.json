@@ -2,14 +2,14 @@
     "version": "1.4.0",
     "project": {
         "name": "scala-project",
-        "directory": "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project",
-        "workspaceDir": "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project",
+        "directory": "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project",
+        "workspaceDir": "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project",
         "sources": [
-            "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project\\src\\main\\scala",
-            "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project\\src\\main\\scala-2.13",
-            "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project\\src\\main\\scala-2",
-            "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project\\src\\main\\java",
-            "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project\\target\\scala-2.13\\src_managed\\main"
+            "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\src\\main\\scala",
+            "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\src\\main\\scala-2.13",
+            "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\src\\main\\scala-2",
+            "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\src\\main\\java",
+            "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\target\\scala-2.13\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -18,11 +18,11 @@
             "C:\\Users\\ahmed\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.3\\scala-library-2.13.3.jar",
             "C:\\Users\\ahmed\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\1.1.2\\scala-parser-combinators_2.13-1.1.2.jar"
         ],
-        "out": "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project\\.bloop\\scala-project",
-        "classesDir": "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project\\.bloop\\scala-project\\scala-2.13\\classes",
+        "out": "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\.bloop\\scala-project",
+        "classesDir": "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\.bloop\\scala-project\\scala-2.13\\classes",
         "resources": [
-            "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project\\src\\main\\resources",
-            "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project\\target\\scala-2.13\\resource_managed\\main"
+            "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\src\\main\\resources",
+            "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\target\\scala-2.13\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -38,7 +38,7 @@
                 "C:\\Users\\ahmed\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.15.0\\jline-3.15.0.jar",
                 "C:\\Users\\ahmed\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.3.1\\jna-5.3.1.jar"
             ],
-            "analysis": "C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.13.zip",
+            "analysis": "C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project\\target\\streams\\compile\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.13.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -102,7 +102,7 @@
             "config": {
                 "home": "C:\\Program Files\\Java\\jdk-11.0.11",
                 "options": [
-                    "-Duser.dir=C:\\Users\\ahmed\\Desktop\\MainProject\\scala-project"
+                    "-Duser.dir=C:\\Users\\ahmed\\git\\BST_C-_JavaScript_Scala\\MainProjects\\scala-project"
                 ]
             },
             "mainClass": [

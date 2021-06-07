@@ -1,4 +1,4 @@
-[debug] [scala-project-build] Classpath dependencies List()
-[debug] [scala-project-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'scala-project-build' to 'C:\Users\ahmed\Desktop\MainProject\scala-project\project\.bloop\scala-project-build.json'
-[success] Generated .bloop\scala-project-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[scala-project-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[scala-project-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'scala-project-build' to 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\project\.bloop\scala-project-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\scala-project-build.json[0m

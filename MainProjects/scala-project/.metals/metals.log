@@ -171,3 +171,279 @@ Caused by: java.nio.channels.AsynchronousCloseException
 
  INFO  Shut down connection with build server.[0m
 [0m2021.06.07 12:43:05 INFO  Shut down connection with build server.[0m
+[0m2021.06.07 14:50:43 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.07 14:50:45 INFO  time: initialize in 2.86s[0m
+[0m2021.06.07 14:50:46 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.07 14:50:45 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 41287'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.07 14:50:51 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.07 14:50:52 INFO  time: code lens generation in 6.54s[0m
+[0m2021.06.07 14:50:52 INFO  running 'C:\Program Files\Java\jdk-11.0.11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ahmed\AppData\Local\Temp\metals12600162463941209737\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project-test', 'scala-project'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Missing analysis file for project 'scala-project'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:41287...
+The server is listening for incoming connections at tcp://127.0.0.1:41287...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 14:50:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 14:50:54 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19674'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19674...
+The server is listening for incoming connections at tcp://127.0.0.1:19674...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 14:50:55 INFO  [info] welcome to sbt 1.5.2 (Oracle Corporation Java 11.0.11)[0m
+[0m2021.06.07 14:50:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 14:50:55 INFO  time: Connected to build server in 10s[0m
+[0m2021.06.07 14:50:55 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.07 14:50:55 INFO  time: Imported build in 0.17s[0m
+[0m2021.06.07 14:50:56 INFO  [info] loading settings for project scala-project-build-build from metals.sbt ...[0m
+[0m2021.06.07 14:50:56 INFO  [info] loading project definition from C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\project\project[0m
+[0m2021.06.07 14:50:58 INFO  [info] loading settings for project scala-project-build from metals.sbt ...[0m
+[0m2021.06.07 14:50:58 INFO  [info] loading project definition from C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\project[0m
+[0m2021.06.07 14:50:59 INFO  time: indexed workspace in 3.64s[0m
+[0m2021.06.07 14:50:59 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.07 14:51:02 INFO  [success] Generated .bloop\scala-project-build.json[0m
+[0m2021.06.07 14:51:02 INFO  [success] Total time: 4 s, completed Jun 7, 2021, 2:51:03 PM[0m
+[0m2021.06.07 14:51:03 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.06.07 14:51:02 INFO  [info] loading settings for project scala-project from build.sbt ...[0m
+[0m2021.06.07 14:51:02 INFO  [info] set current project to hello-world (in build file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/)[0m
+[0m2021.06.07 14:51:04 INFO  [success] Generated .bloop\scala-project.json[0m
+[0m2021.06.07 14:51:04 INFO  [success] Generated .bloop\scala-project-test.json[0m
+[0m2021.06.07 14:51:04 INFO  [success] Total time: 0 s, completed Jun 7, 2021, 2:51:04 PM[0m
+[0m2021.06.07 14:51:04 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.06.07 14:51:04 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+[0m2021.06.07 14:51:04 INFO  Disconnecting from Bloop session...[0m
+[0m2021.06.07 14:51:04 INFO  Shut down connection with build server.[0m
+[0m2021.06.07 14:51:04 INFO  Shut down connection with build server.[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+[0m2021.06.07 14:51:04 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39436'...
+Waiting for the bsp connection to come up...
+java.lang.NullPointerException
+	at java.base/java.util.Arrays.sort(Arrays.java:1441)
+	at scala.tools.nsc.classpath.JFileDirectoryLookup.listChildren(DirectoryClassPath.scala:118)
+	at scala.tools.nsc.classpath.JFileDirectoryLookup.listChildren$(DirectoryClassPath.scala:102)
+	at scala.tools.nsc.classpath.DirectoryClassPath.listChildren(DirectoryClassPath.scala:291)
+	at scala.tools.nsc.classpath.DirectoryClassPath.listChildren(DirectoryClassPath.scala:291)
+	at scala.tools.nsc.classpath.DirectoryLookup.list(DirectoryClassPath.scala:83)
+	at scala.tools.nsc.classpath.DirectoryLookup.list$(DirectoryClassPath.scala:78)
+	at scala.tools.nsc.classpath.DirectoryClassPath.list(DirectoryClassPath.scala:291)
+	at scala.tools.nsc.classpath.AggregateClassPath.$anonfun$list$3(AggregateClassPath.scala:106)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at scala.tools.nsc.classpath.AggregateClassPath.list(AggregateClassPath.scala:102)
+	at scala.tools.nsc.util.ClassPath.list(ClassPath.scala:35)
+	at scala.tools.nsc.util.ClassPath.list$(ClassPath.scala:35)
+	at scala.tools.nsc.classpath.AggregateClassPath.list(AggregateClassPath.scala:31)
+	at scala.tools.nsc.symtab.SymbolLoaders$PackageLoader.doComplete(SymbolLoaders.scala:296)
+	at scala.tools.nsc.symtab.SymbolLoaders$SymbolLoader.$anonfun$complete$2(SymbolLoaders.scala:248)
+	at scala.tools.nsc.symtab.SymbolLoaders$SymbolLoader.complete(SymbolLoaders.scala:246)
+	at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1559)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.internal.Types$TypeRef.decls(Types.scala:2620)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterPackage(Namers.scala:774)
+	at scala.tools.nsc.typechecker.Namers$Namer.dispatch$1(Namers.scala:296)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:309)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:478)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:477)
+	at scala.tools.nsc.interactive.Global$$anon$4.pluginsEnterSym(Global.scala:227)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Analyzer$namerFactory$$anon$1.apply(Analyzer.scala:50)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2(Global.scala:1665)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2$adapted(Global.scala:1664)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1288)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1664)
+	at scala.tools.nsc.interactive.Global.parseAndEnter(Global.scala:658)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$4(Global.scala:563)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$3(Global.scala:560)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:560)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:32)
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project-test', 'scala-project'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39436...
+The server is listening for incoming connections at tcp://127.0.0.1:39436...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 14:51:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 14:51:05 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 38016'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:38016...
+The server is listening for incoming connections at tcp://127.0.0.1:38016...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 14:51:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 14:51:05 INFO  time: Connected to build server in 1.51s[0m
+[0m2021.06.07 14:51:05 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.07 14:51:08 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.06.07 14:51:08 INFO  time: code lens generation in 6.18s[0m
+[0m2021.06.07 14:51:08 INFO  time: indexed workspace in 2.92s[0m
+[0m2021.06.07 14:51:09 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 14:51:13 INFO  time: compiled scala-project in 3.47s[0m
+[0m2021.06.07 14:52:08 INFO  shutting down Metals[0m
+[0m2021.06.07 14:52:08 INFO  Shut down connection with build server.[0m
+[0m2021.06.07 14:52:08 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+No more data in the server stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+[0m2021.06.07 14:53:03 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.07 14:53:09 INFO  time: initialize in 6.25s[0m
+[0m2021.06.07 14:53:09 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.07 14:53:09 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.07 14:53:09 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36662'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36662...
+The server is listening for incoming connections at tcp://127.0.0.1:36662...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 14:53:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 14:53:10 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31615'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31615...
+The server is listening for incoming connections at tcp://127.0.0.1:31615...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.07 14:53:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.07 14:53:10 INFO  time: Connected to build server in 1.45s[0m
+[0m2021.06.07 14:53:10 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.07 14:53:12 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.07 14:53:16 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.07 14:53:16 INFO  time: code lens generation in 6.74s[0m
+[0m2021.06.07 14:53:17 INFO  time: indexed workspace in 4s[0m
+[0m2021.06.07 14:53:29 INFO  Listening for transport dt_socket at address: 55132[0m
+[0m2021.06.07 14:53:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 14:53:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 14:53:29 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 14:53:29 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55132 .[0m
+[0m2021.06.07 14:53:29 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 14:53:30 INFO  Hello, World![0m
+[0m2021.06.07 14:53:29 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.07 14:53:36 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 26.55s)[0m
+[0m2021.06.07 14:53:41 INFO  Listening for transport dt_socket at address: 56689[0m
+[0m2021.06.07 14:53:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 14:53:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 14:53:41 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 14:53:41 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56689 .[0m
+[0m2021.06.07 14:53:41 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 14:53:41 INFO  Hello, World![0m
+[0m2021.06.07 14:53:41 INFO  Canceling debug proxy for [Main][0m
+Jun 07, 2021 2:53:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 4 is not a valid line number, allowed [0..3]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 4 is not a valid line number, allowed [0..3]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: 4 is not a valid line number, allowed [0..3]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.06.07 14:53:58 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.07 14:53:58 INFO  time: compiled scala-project in 0.75s[0m
+[0m2021.06.07 14:54:05 INFO  Listening for transport dt_socket at address: 49612[0m
+[0m2021.06.07 14:54:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.07 14:54:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.07 14:54:06 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.07 14:54:05 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49612 .[0m
+[0m2021.06.07 14:54:05 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.07 14:54:05 INFO  Hello, World![0m
+[0m2021.06.07 14:54:05 INFO  Hello, World![0m
+[0m2021.06.07 14:54:05 INFO  Hello, World![0m
+[0m2021.06.07 14:54:06 INFO  Canceling debug proxy for [Main][0m
