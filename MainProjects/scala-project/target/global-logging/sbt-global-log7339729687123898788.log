@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7a274521, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"7","parents":[]},"eventTime":1623168609515,"message":"Compiling scala-project","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/Fruit.scala"},"buildTarget":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/test.scala"},"buildTarget":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/Tree.scala"},"buildTarget":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/src/main/scala/FruitBST.scala"},"buildTarget":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"7","parents":[]},"eventTime":1623168609538,"message":"Compiled scala-project","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Compile"},"errors":0,"warnings":0,"time":23}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"8","parents":[]},"eventTime":1623168609552,"message":"Compiling scala-project-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"8","parents":[]},"eventTime":1623168609566,"message":"Compiled scala-project-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/ahmed/git/BST_C-_JavaScript_Scala/MainProjects/scala-project/#scala-project/Test"},"errors":0,"warnings":0,"time":14}})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Jun 8, 2021, 6:10:09 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@55e5415d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\scala-2.13\zinc\inc_compile_2.13.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Jun 8, 2021, 6:10:09 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨1, shutdown, null})[0m
