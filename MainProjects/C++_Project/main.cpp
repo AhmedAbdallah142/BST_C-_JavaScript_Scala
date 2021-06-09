@@ -1,99 +1,162 @@
 #include <iostream>
 using namespace std;
 
-class Node {
-
-  string Name;
-  int weight;
-  Node *left, *right;
-     public:
-    Node();
-    Node(string S, int value);
-    void setWeight(int value);
-    int getWeight();
-    void setName(int S);
-    string getName();
-    void setLeft(Node* n);
-    Node* getLeft(){
+class Fruit
+{
+    Fruit *left, *right;
+public:
+    string type;
+    string shape;
+    string Fsize ;
+    int weight ;
+    Fruit();
+    void setLeft(Fruit* n)
+    {
+        left = n;
+    }
+    Fruit* getLeft()
+    {
         return left;
     }
-    void setRight(Node* n);
-    Node* getRight(){
+    void setRight(Fruit* n)
+    {
+        right = n;
+    }
+    Fruit* getRight()
+    {
         return right;
+    }
+    int getWeight()
+    {
+        return weight;
+    }
+    string getType()
+    {
+        return type;
     }
 };
 
-
-Node ::Node()
-    : Name("Fruit")
+Fruit ::Fruit()
+    : type("Fruit")
     , weight(100)
     , left(NULL)
     , right(NULL)
 {
 }
 
-
-Node ::Node(string S, int value)
+class Oval_Fruit: virtual public Fruit
 {
-    Name = S ;
-    weight = value;
-    left = right = NULL;
-}
-
-void Node ::setWeight(int value)
+public:
+    Oval_Fruit()
+    {
+        shape = "Oval";
+    }
+};
+class Tiny_Fruit: virtual public Fruit
 {
-   weight = value;
-}
+public:
+    Tiny_Fruit()
+    {
+        Fsize = "Tiny";
+    }
+};
 
-int Node::getWeight()
+class Huge_Fruit: virtual public Fruit
 {
-    return weight;
-}
+public:
+    Huge_Fruit()
+    {
+        Fsize = "Huge";
+    }
+};
+class Unoval_Fruit: virtual public Fruit
+{
+public:
+    Unoval_Fruit()
+    {
+        shape = "Unoval";
+    }
+};
+class Berry: virtual public Fruit
+{
+public:
+    Berry()
+    {
+        shape = "Berry";
+    }
+};
 
-void Node ::setName(int S)
+class Apple: public Huge_Fruit, public Oval_Fruit
 {
-   Name = S ;
-}
-
-string  Node::getName()
+public:
+    Apple()
+    {
+        weight = 130;
+        type="Apple";
+    }
+};
+class Avocado: public Huge_Fruit, public Oval_Fruit
 {
-    return Name;
-}
-
-void Node ::setLeft(Node* n)
+public:
+    Avocado()
+    {
+        weight = 100;
+        type="Avocado";
+    }
+};
+class Orange: public Huge_Fruit, public Oval_Fruit
 {
-   left = n;
-}
-
-/*Node* Node::getLeft
+public:
+    Orange()
+    {
+        weight = 110;
+        type="Orange";
+    }
+};/*
+class Apple: public Huge_Fruit, public Oval_Fruit
 {
-    return left;
-}*/
-
-void Node ::setRight(Node* n)
+};
+class Apple: public Huge_Fruit, public Oval_Fruit
 {
-   right = n;
-}
-
-/*Node* Node::getRight
+};
+class Apple: public Huge_Fruit, public Oval_Fruit
 {
-    return right;
-}*/
+};
+class Apple: public Huge_Fruit, public Oval_Fruit
+{
+};
+class Apple: public Huge_Fruit, public Oval_Fruit
+{
+};
+class Apple: public Huge_Fruit, public Oval_Fruit
+{
+};
+class Apple: public Huge_Fruit, public Oval_Fruit
+{
+};
+class Apple: public Huge_Fruit, public Oval_Fruit
+{
+};
+class Apple: public Huge_Fruit, public Oval_Fruit
+{
+};*/
 
 
 class BST
 {
-    Node* root;
-    public:
+    Fruit* root;
+public:
     BST();
-    Node* getroot(){
+    Fruit* getroot()
+    {
         return root;
     }
-    void setroot(Node* r){
+    void setroot(Fruit* r)
+    {
         root=r;
     }
-    Node* Insert(Node* r , Node* n);
-    void  Iterate(Node* root);
+    virtual Fruit* Insert(Fruit* r, Fruit* n) = 0;
+    virtual void  Iterate(Fruit* root) = 0;
 };
 
 BST ::BST()
@@ -101,12 +164,63 @@ BST ::BST()
 {
 }
 
-
-Node* BST ::Insert(Node* r,Node* n)
+class FruitsTree : public BST
 {
+public:
+    Fruit* Insert(Fruit* r, Fruit* n) override
+    {
+        if (r == NULL)
+        {
+            return n;
+        }
 
+        if (((*n).getWeight()) > ((*r).getWeight()))
+        {
+            (*r).setRight(Insert((*r).getRight(),n));
+        }
+        else
+        {
+            (*r).setLeft(Insert((*r).getLeft(),n));
+        }
+        return r;
+    }
+
+
+
+    void  Iterate(Fruit* root) override
+    {
+
+        if (root == NULL)
+        {
+            return;
+        }
+        Iterate((*root).getLeft());
+        cout << (*root).getType() <<"  "<< (*root).getWeight() << endl;
+        Iterate((*root).getRight());
+    }
+
+    void filterByType(Fruit* root,string type)
+    {
+        if (root == NULL)
+        {
+            return;
+        }
+        filterByType((*root).getLeft(),type);
+        if((*root).getType()  ==  type)
+        {
+            cout << (*root).getType() <<"  "<< (*root).getWeight() << endl;
+        }
+        filterByType((*root).getRight(),type);
+    }
+
+};
+
+/*
+Fruit* BST ::Insert(Fruit* r,Fruit* n)
+{
     if (r == NULL)
     {
+        cout << (*n).getType()<<endl;
         return n;
     }
 
@@ -122,37 +236,30 @@ Node* BST ::Insert(Node* r,Node* n)
 }
 
 
-void BST ::Iterate(Node* root)
+void BST ::Iterate(Fruit* root)
 {
+
     if (root == NULL) {
         return;
     }
     Iterate((*root).getLeft());
-    cout << (*root).getName() <<"  "<< (*root).getWeight() << endl;
+    cout << (*root).getType() <<"  "<< (*root).getWeight() << endl;
     Iterate((*root).getRight());
-}
+}*/
 
 int main()
 {
-    BST b;
-    Node n1("Mango",50);
-    Node n2("Apple",30);
-    Node n3("Strawberry",20);
-    Node n4("peach",40);
-    Node n5("Grape",70);
-    Node n6("banana",60);
-    Node n7("apricot",80);
-
+    FruitsTree b;
+    Apple n1 ;
+    Avocado n2 ;
+    Orange n3 ;
     b.setroot(b.Insert(b.getroot(),&n1));
     b.Insert(b.getroot(),&n2);
     b.Insert(b.getroot(),&n3);
-    b.Insert(b.getroot(),&n4);
-    b.Insert(b.getroot(),&n5);
-    b.Insert(b.getroot(),&n6);
-    b.Insert(b.getroot(),&n7);
-
-
+    cout<<"Tree"<<endl;
     b.Iterate(b.getroot());
+    cout<<"Apples"<<endl;
+    b.filterByType(b.getroot() , "Avocado");
     return 0;
 }
 
