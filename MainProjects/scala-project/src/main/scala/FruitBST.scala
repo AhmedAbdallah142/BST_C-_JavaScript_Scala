@@ -1,4 +1,38 @@
-class FruitBST () {
+class FruitBST {
+  var root:FruitTree = EmptyTree;
+
+   def insert(nodeFruit: Fruit) = {
+    root = root.insert(nodeFruit);
+  }
+
+  def iterate(){
+    root.iterate();
+  }
+
+  def filterByType(fruitType: String){
+    root.filterByType(fruitType);
+  }
+
+  def filterByWeight(fruitWeight: Int){
+    root.filterByWeight(fruitWeight);
+  }
+
+  def magnifyByType(fruitType: String, fruitWeight: Int){
+    for (e <- root.DeleteMagnifyByType(fruitType,fruitWeight)) insert(e);
+  }
+
+  def findHeaviest(): FruitTree = {
+    root.findHeaviest();
+  }
+
+  def findLightest(): FruitTree = {
+    root.findLightest();
+  }
+
+}
+
+
+/*class FruitBST () {
     var root : Node = null;
     def insert( NodeFruit : Fruit ){
         if (root == null){
@@ -25,7 +59,7 @@ class FruitBST () {
                 }
             }
         }
-    }
+    }*/
     /*def delete(NodeFruit : Fruit):(Boolean)={
         var temp:Node = root;
         var parent:Node = null;
@@ -48,7 +82,7 @@ class FruitBST () {
         }
         return false;
     }*/
-    def printBST(temp : Node){
+   /* def printBST(temp : Node){
         if (temp!=null){
             printBST(temp.LeftNode);
             printBST(temp.RightNode);
@@ -60,4 +94,4 @@ class Node(NodeFruit : Fruit){
     var element : Fruit = NodeFruit;
     var RightNode : Node = null;
     var LeftNode : Node = null;
-}
+}*/
