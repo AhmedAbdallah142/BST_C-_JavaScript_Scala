@@ -1,3 +1,4 @@
+import scala.collection.mutable.ListBuffer
 class FruitBST {
   var root:FruitTree = EmptyTree;
 
@@ -18,8 +19,139 @@ class FruitBST {
   }
 
   def magnifyByType(fruitType: String, fruitWeight: Int){
-    for (e <- root.DeleteMagnifyByType(fruitType,fruitWeight)) insert(e);
+    for (e <- DeleteMagnifyByType(fruitType,fruitWeight,root)) insert(e);
   }
+  private def DeleteMagnifyByType(fruitType: String, fruitWeight: Int,nodeTree :FruitTree): ListBuffer[Fruit] = {
+    var list = new ListBuffer[Fruit]();
+    nodeTree match {
+        case TreeNode(nodeFruit,left, right) => {
+            list.addAll(DeleteMagnifyByType(fruitType,fruitWeight,left));
+            list.addAll(DeleteMagnifyByType(fruitType,fruitWeight,right));
+            if (nodeFruit.fruitType.equals(fruitType)){
+                deleteTreeNode(nodeTree);
+                nodeFruit.weight += fruitWeight;
+                list.addOne(nodeFruit);
+            }
+        }
+        case EmptyTree => {}
+    }
+    list;
+  }
+  def deleteTreeNode(treeNode:FruitTree){
+    def setLeft(treeNode:FruitTree) : FruitTree = {
+      treeNode match {
+        case TreeNode(_,left,_) =>{
+          left match {
+            case TreeNode(_, _, _) => setLeft(left);
+            case EmptyTree => treeNode;
+          }
+          
+        }
+        case EmptyTree => {treeNode};
+      }
+    }
+    def Successor(treeNode:FruitTree):FruitTree = {
+      treeNode match {
+        case TreeNode(_,_,right)=>{
+          setLeft(right);
+        }
+        case EmptyTree => EmptyTree
+      }
+    }
+    treeNode match {
+      case TreeNode(_,_,_) => {
+        val successor:FruitTree = Successor(treeNode);
+        successor match {
+          case TreeNode(_,_,_) => {
+            treeNode.asInstanceOf[TreeNode].nodeFruit = successor.asInstanceOf[TreeNode].nodeFruit;
+            deleteNodeFromParent(successor);
+          }
+          case EmptyTree => {
+            deleteNodeFromParent(treeNode)
+          }
+        }
+      }
+      case _ =>{}
+    }
+    def deleteNodeFromParent(nodeTree:FruitTree){
+      val p : FruitTree = getParent(nodeTree,root);
+      p match {
+        case TreeNode(nodeFruit, left, _) =>{
+          if (left.equals(treeNode)){
+            p.asInstanceOf[TreeNode].left = EmptyTree;
+          }else{
+            p.asInstanceOf[TreeNode].right = EmptyTree;
+          } 
+        }
+        case EmptyTree => {
+          root match {
+            case TreeNode(_, left, right) => {
+              left match {
+                case TreeNode(_, _, right) => {}
+              }
+            }
+          }
+        }
+      }
+    }
+      
+  }
+  /*def Successor(nodeTree:FruitTree):FruitTree = {
+    var temp:FruitTree= nodeTree;
+    temp match {
+      case TreeNode(_,_,_,right)=>{
+        temp = right;
+        def setLeft(){
+          temp match {
+            case TreeNode(_,_,left,_) =>{
+              temp = left;
+              setLeft();
+            }
+            case EmptyTree => {};
+          }
+        }
+      }
+    }
+    temp;
+  }*/
+  def getParent(treeNode:FruitTree,root:FruitTree):FruitTree = {
+    root match {
+      case TreeNode(_, left, right) if(left.equals(treeNode)||right.equals(treeNode)) => {
+        root;
+      }
+      case TreeNode(_, left, right) => {
+        val t = getParent(treeNode,left);
+        t match {
+          case TreeNode(nodeFruit, left, right) => {t}
+          case EmptyTree => {getParent(treeNode,right)}
+        }
+      }
+      case EmptyTree => {EmptyTree}
+    }
+  }
+  /*private def deleteNode(treeNode:FruitTree,parent:FruitTree){
+        /*treeNode match {
+        case TreeNode(nodeFruit,left, right) => {
+          right match {
+            case TreeNode(nodeFruit2, _, _) => {
+              right.asInstanceOf[TreeNode].nodeFruit = nodeFruit;
+              treeNode.asInstanceOf[TreeNode].nodeFruit = nodeFruit2;
+              deleteNode(right,treeNode);
+            }
+            case EmptyTree => {
+              parent match {
+                case TreeNode(_, _, _) => {
+                  parent.asInstanceOf[TreeNode].right = left;
+                }
+                case EmptyTree => {
+                    root = left;
+                }
+              }
+            }
+          }
+        }
+      }*/
+  }*/
 
   def findHeaviest(): FruitTree = {
     root.findHeaviest();

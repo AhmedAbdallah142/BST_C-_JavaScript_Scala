@@ -6,10 +6,14 @@ object Main extends App {
   fruit.insert(new Blueberries());
   fruit.insert(new Blackberries());
   fruit.insert(new Avocado());
-  fruit.insert(new Apple());
+  //fruit.insert(new Apple());
   fruit.filterByType("Apple");
   println("--------------------------------");
+  fruit.iterate();
   fruit.magnifyByType("Avocado",200);
+  println("--------------------------------");
+  fruit.iterate();
+  println("--------------------------------");
   fruit.filterByWeight(100);
   println("--------------------------------");
   fruit.iterate();
