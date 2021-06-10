@@ -79,21 +79,22 @@ case class TreeNode (var nodeFruit : Fruit,var left : FruitTree , var right : Fr
 
 
   override def filterByWeight(fruitWeight: Int): Unit = {
-    InOrder((treeNode:FruitTree)=>{
+    /*InOrder((treeNode:FruitTree)=>{
       if (treeNode.asInstanceOf[TreeNode].nodeFruit.weight >= fruitWeight)
         printNode(treeNode.asInstanceOf[TreeNode]);
-    });
-    /*def filterByWeight(treeNode : FruitTree) {
+    });*/
+    def filterByWeight(treeNode : FruitTree) {
         treeNode match {
-          case TreeNode(data,_,_,right) if (data.weight < fruitWeight) => filterByWeight(right);
-          case TreeNode(data,_,left,right) if (data.weight > fruitWeight) => {
+          case TreeNode(data,_,right) if (data.weight < fruitWeight) => filterByWeight(right);
+          case TreeNode(data,left,right) if (data.weight >= fruitWeight) => {
             filterByWeight(left);
             println("Type = "+data.fruitType +", Weight = "+ data.weight);
             filterByWeight(right);
           }
+          case EmptyTree => treeNode.filterByWeight(fruitWeight);
       }
     }
-    filterByWeight(this);*/
+    filterByWeight(this);
   }
   def printNode(treeNode:TreeNode){
     println("Type = "+treeNode.asInstanceOf[TreeNode].nodeFruit.fruitType +", Weight = "+ treeNode.asInstanceOf[TreeNode].nodeFruit.weight)

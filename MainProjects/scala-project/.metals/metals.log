@@ -16633,3 +16633,425 @@ WARNING: Unmatched cancel notification for request id 452
 [0m2021.06.10 02:17:34 INFO  Type = Apple, Weight = 150[0m
 [0m2021.06.10 02:17:34 INFO  Type = Avocado, Weight = 330[0m
 [0m2021.06.10 02:17:33 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.10 02:22:02 INFO  shutting down Metals[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+Jun 10, 2021 2:22:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+[0m2021.06.10 02:22:02 INFO  Shut down connection with build server.[0m
+Jun 10, 2021 2:22:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+[0mNo more data in the client stdin, exiting...
+2021.06.10 02:22:02 INFO  Shut down connection with build server.[0m
+[0m2021.06.10 10:52:13 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.10 10:52:23 INFO  time: initialize in 10s[0m
+[0m2021.06.10 10:52:23 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.10 10:52:23 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.10 10:52:23 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44013'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.10 10:52:35 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project-test', 'scala-project'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44013...
+The server is listening for incoming connections at tcp://127.0.0.1:44013...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.10 10:52:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.10 10:52:39 INFO  time: code lens generation in 15s[0m
+[0m2021.06.10 10:52:38 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.10 10:52:39 INFO  time: code lens generation in 15s[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12318'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12318...
+The server is listening for incoming connections at tcp://127.0.0.1:12318...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.10 10:52:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.10 10:52:40 INFO  time: Connected to build server in 16s[0m
+[0m2021.06.10 10:52:40 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.10 10:52:40 INFO  time: Imported build in 0.27s[0m
+[0m2021.06.10 10:52:47 INFO  time: indexed workspace in 6.74s[0m
+[0m2021.06.10 10:54:17 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 10:54:21 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 1m 42.82s)[0m
+[0m2021.06.10 10:54:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 10:54:28 INFO  time: compiled scala-project in 6.83s[0m
+[0m2021.06.10 10:54:30 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 1m 51.801s)[0m
+[0m2021.06.10 10:54:33 INFO  Listening for transport dt_socket at address: 52969[0m
+[0m2021.06.10 10:54:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.10 10:54:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.10 10:54:34 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.10 10:54:35 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52969 .[0m
+[0m2021.06.10 10:54:35 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.10 10:54:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:54:35 INFO  --------------------------------[0m
+[0m2021.06.10 10:54:35 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 10:54:35 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 10:54:35 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.10 10:54:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:54:35 INFO  --------------------------------[0m
+[0m2021.06.10 10:54:35 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 10:54:35 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 10:54:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:54:35 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 10:54:35 INFO  --------------------------------[0m
+[0m2021.06.10 10:54:35 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 10:54:35 INFO  --------------------------------[0m
+[0m2021.06.10 10:54:35 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 10:54:35 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 10:54:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:54:35 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 10:54:35 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.10 10:55:34 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 10:55:37 INFO  time: compiled scala-project in 2.55s[0m
+[0m2021.06.10 10:55:43 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 3m 4.156s)[0m
+[0m2021.06.10 10:55:47 INFO  Listening for transport dt_socket at address: 52997[0m
+[0m2021.06.10 10:55:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.10 10:55:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.10 10:55:49 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.10 10:55:49 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52997 .[0m
+[0m2021.06.10 10:55:49 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.10 10:55:49 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:55:49 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:55:49 INFO  --------------------------------[0m
+[0m2021.06.10 10:55:49 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 10:55:49 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 10:55:49 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.10 10:55:49 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:55:49 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:55:49 INFO  --------------------------------[0m
+[0m2021.06.10 10:55:49 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 10:55:49 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 10:55:49 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:55:49 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:55:49 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 10:55:49 INFO  --------------------------------[0m
+[0m2021.06.10 10:55:49 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:55:49 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:55:49 INFO  --------------------------------[0m
+[0m2021.06.10 10:55:49 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 10:55:49 INFO  --------------------------------[0m
+[0m2021.06.10 10:55:49 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 10:55:49 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 10:55:49 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:55:49 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:55:49 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 10:55:49 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.10 10:57:33 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 10:57:34 INFO  time: compiled scala-project in 1.33s[0m
+[0m2021.06.10 10:57:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 10:57:41 INFO  time: compiled scala-project in 0.69s[0m
+[0m2021.06.10 10:57:44 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 10:57:48 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.10 10:57:48 INFO  time: compiled scala-project in 3.9s[0m
+Jun 10, 2021 10:57:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 286
+Jun 10, 2021 10:57:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 297
+[0m2021.06.10 10:57:58 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 5m 19.135s)[0m
+[0m2021.06.10 10:58:02 INFO  Listening for transport dt_socket at address: 53028[0m
+[0m2021.06.10 10:58:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.10 10:58:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.10 10:58:04 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.10 10:58:04 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53028 .[0m
+[0m2021.06.10 10:58:04 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.10 10:58:04 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:58:04 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:58:04 INFO  --------------------------------[0m
+[0m2021.06.10 10:58:04 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 10:58:04 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 10:58:04 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.10 10:58:04 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:58:04 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:58:04 INFO  --------------------------------[0m
+[0m2021.06.10 10:58:04 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 10:58:04 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 10:58:04 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:58:04 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:58:04 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 10:58:04 INFO  --------------------------------[0m
+[0m2021.06.10 10:58:04 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:58:04 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 10:58:04 INFO  --------------------------------[0m
+[0m2021.06.10 10:58:04 ERROR Exception in thread "main" scala.MatchError: EmptyTree (of class EmptyTree$)[0m
+[0m2021.06.10 10:58:04 ERROR 	at TreeNode.filterByWeight$1(Tree.scala:87)[0m
+[0m2021.06.10 10:58:04 ERROR 	at TreeNode.filterByWeight$1(Tree.scala:90)[0m
+[0m2021.06.10 10:58:04 ERROR 	at TreeNode.filterByWeight(Tree.scala:96)[0m
+[0m2021.06.10 10:58:04 ERROR 	at FruitBST.filterByWeight(FruitBST.scala:18)[0m
+[0m2021.06.10 10:58:04 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:19)[0m
+[0m2021.06.10 10:58:04 ERROR 	at Main$delayedInit$body.apply(Main.scala:2)[0m
+[0m2021.06.10 10:58:04 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m2021.06.10 10:58:04 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m2021.06.10 10:58:04 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m2021.06.10 10:58:04 ERROR 	at scala.App.$anonfun$main$1(App.scala:73)[0m
+[0m2021.06.10 10:58:04 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:73)[0m
+[0m2021.06.10 10:58:04 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)[0m
+[0m2021.06.10 10:58:04 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)[0m
+[0m2021.06.10 10:58:04 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)[0m
+[0m2021.06.10 10:58:04 ERROR 	at scala.App.main(App.scala:73)[0m
+[0m2021.06.10 10:58:04 ERROR 	at scala.App.main$(App.scala:71)[0m
+[0m2021.06.10 10:58:04 ERROR 	at Main$.main(Main.scala:2)[0m
+[0m2021.06.10 10:58:04 ERROR 	at Main.main(Main.scala)[0m
+[0m2021.06.10 10:58:05 INFO  Canceling debug proxy for [Main][0m
+Jun 10, 2021 10:58:05 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$3(DebugProxy.scala:121)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$3$adapted(DebugProxy.scala:118)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:118)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:92)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 26 more
+
+Jun 10, 2021 10:58:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 307
+Jun 10, 2021 10:58:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 314
+Jun 10, 2021 10:58:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 321
+Jun 10, 2021 10:58:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 327
+[0m2021.06.10 10:58:58 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 10:59:01 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.10 10:59:01 INFO  time: compiled scala-project in 3s[0m
+[0m2021.06.10 10:59:33 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 10:59:36 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.10 10:59:36 INFO  time: compiled scala-project in 3.24s[0m
+[0m2021.06.10 10:59:42 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 10:59:42 INFO  time: compiled scala-project in 0.62s[0m
+Jun 10, 2021 11:00:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 484
+Jun 10, 2021 11:00:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 493
+[0m2021.06.10 11:00:08 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 7m 29.118s)[0m
+[0m2021.06.10 11:00:12 INFO  Listening for transport dt_socket at address: 53054[0m
+[0m2021.06.10 11:00:13 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.10 11:00:13 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.10 11:00:14 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.10 11:00:14 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53054 .[0m
+[0m2021.06.10 11:00:14 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.10 11:00:14 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:00:14 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:00:14 INFO  --------------------------------[0m
+[0m2021.06.10 11:00:14 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:00:14 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:00:14 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.10 11:00:14 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:00:14 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:00:14 INFO  --------------------------------[0m
+[0m2021.06.10 11:00:14 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:00:14 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:00:14 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:00:14 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:00:14 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:00:14 INFO  --------------------------------[0m
+[0m2021.06.10 11:00:14 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:00:14 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:00:14 INFO  --------------------------------[0m
+[0m2021.06.10 11:00:14 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:00:14 INFO  --------------------------------[0m
+[0m2021.06.10 11:00:14 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:00:14 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:00:14 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:00:14 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:00:14 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:00:14 INFO  Canceling debug proxy for [Main][0m
+Jun 10, 2021 11:01:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 503
+Jun 10, 2021 11:01:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 511
+Jun 10, 2021 11:07:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 546
+Jun 10, 2021 11:07:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 554
+Jun 10, 2021 11:07:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 563
+Jun 10, 2021 11:07:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 570
+Jun 10, 2021 11:07:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 577
+Jun 10, 2021 11:07:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 589
+Jun 10, 2021 11:08:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 596
+Jun 10, 2021 11:08:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 612
+Jun 10, 2021 11:08:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 619
+Jun 10, 2021 11:08:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 626
+[0m2021.06.10 11:08:22 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 15m 43.377s)[0m
+[0m2021.06.10 11:08:26 INFO  Listening for transport dt_socket at address: 53117[0m
+[0m2021.06.10 11:08:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.10 11:08:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.10 11:08:28 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.10 11:08:28 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53117 .[0m
+[0m2021.06.10 11:08:28 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.10 11:08:28 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:08:28 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:08:28 INFO  --------------------------------[0m
+[0m2021.06.10 11:08:28 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:08:28 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:08:28 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.10 11:08:28 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:08:28 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:08:28 INFO  --------------------------------[0m
+[0m2021.06.10 11:08:28 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:08:28 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:08:28 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:08:28 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:08:28 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:08:28 INFO  --------------------------------[0m
+[0m2021.06.10 11:08:28 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:08:28 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:08:28 INFO  --------------------------------[0m
+[0m2021.06.10 11:08:28 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:08:28 INFO  --------------------------------[0m
+[0m2021.06.10 11:08:28 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:08:28 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:08:28 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:08:29 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:08:29 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:08:29 INFO  Canceling debug proxy for [Main][0m
