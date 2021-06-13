@@ -72,6 +72,15 @@ FruitBST.prototype.findHeaviest = function(){
   console.log(node.value);
 }
 
+FruitBST.prototype.findLightest = function(){
+  var node = this;
+  while(node.left !== undefined){
+    node = node.left;
+  }
+  console.log(node.value);
+}
+
+
 var bst = FruitBST(apple);
 bst.insert(orange);
 bst.insert(mango);
@@ -79,5 +88,6 @@ bst.insert(tomato);
 //console.log(bst);
 //bst.iterate();
 bst.findHeaviest();
+bst.findLightest();
 
 
