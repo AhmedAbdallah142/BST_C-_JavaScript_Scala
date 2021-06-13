@@ -64,11 +64,20 @@ FruitBST.prototype.iterate = function(){
   iter(this);
 }
 
+FruitBST.prototype.findHeaviest = function(){
+  var node = this;
+  while(node.right !== undefined){
+    node = node.right;
+  }
+  console.log(node.value);
+}
+
 var bst = FruitBST(apple);
 bst.insert(orange);
 bst.insert(mango);
 bst.insert(tomato);
 //console.log(bst);
-bst.iterate();
+//bst.iterate();
+bst.findHeaviest();
 
 
