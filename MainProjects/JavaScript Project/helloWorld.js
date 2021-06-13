@@ -81,13 +81,29 @@ FruitBST.prototype.findLightest = function(){
 }
 
 
+FruitBST.prototype.filterByWeight = function(weight){
+  function iter(bst){
+    if (bst === undefined){
+      return;
+    }
+    iter(bst.left);
+    if(bst.value.weight > weight){
+      console.log(bst.value);
+    }
+    iter(bst.right);
+  }
+  iter(this);
+}
+
+
 var bst = FruitBST(apple);
 bst.insert(orange);
 bst.insert(mango);
 bst.insert(tomato);
 //console.log(bst);
 //bst.iterate();
-bst.findHeaviest();
-bst.findLightest();
+//bst.findHeaviest();
+//bst.findLightest();
+bst.filterByWeight(150);
 
 
