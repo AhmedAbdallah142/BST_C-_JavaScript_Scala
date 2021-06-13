@@ -15,10 +15,13 @@ var orange = Object.create(Fruit);
 orange.setWeight(150);
 orange.setType("orange fruit");
 
-
 var mango = Object.create(Fruit);
 mango.setWeight(200);
 mango.setType("mango fruit");
+
+var tomato = Object.create(Fruit);
+tomato.setWeight(100);
+tomato.setType("tomato fruit");
 
 
 var FruitBST = function(value) {
@@ -49,9 +52,23 @@ FruitBST.prototype.insert = function(value){
   findplace(this);
 }
 
+FruitBST.prototype.iterate = function(){
+  function iter(bst){
+    if (bst === undefined){
+      return;
+    }
+    iter(bst.left);
+    console.log(bst.value);
+    iter(bst.right);
+  }
+  iter(this);
+}
+
 var bst = FruitBST(apple);
 bst.insert(orange);
 bst.insert(mango);
-console.log(bst);
+bst.insert(tomato);
+//console.log(bst);
+bst.iterate();
 
 
