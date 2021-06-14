@@ -52,17 +52,72 @@ FruitBST.prototype.insert = function(value){
   findplace(this);
 }
 
-FruitBST.prototype.iterate = function(){
+FruitBST.prototype.inorder = function(myfunction){
   function iter(bst){
     if (bst === undefined){
       return;
     }
     iter(bst.left);
-    console.log(bst.value);
+    myfunction(bst);
     iter(bst.right);
   }
   iter(this);
 }
+
+
+FruitBST.prototype.iterate = function(){
+  this.inorder(iterate2);
+  function iterate2(bst){
+    if (bst === undefined){
+      return;
+    }
+    console.log(bst.value);
+  }
+}
+
+
+FruitBST.prototype.filterbytype = function(type){
+  this.inorder(filttype);
+  function filttype(bst){
+    if (bst === undefined){
+      return;
+    }
+    if(bst.value.type === type){
+      console.log(bst.value);
+    }
+  }
+}
+
+
+FruitBST.prototype.filterByWeight = function(weight){
+  this.inorder(filtweight);
+  function filtweight(bst){
+    if (bst === undefined){
+      return;
+    }
+    if(bst.value.weight === weight){
+      console.log(bst.value);
+    }
+  }
+}
+
+
+
+
+FruitBST.prototype.magnifyByType = function(type , weight){
+  this.inorder(magnifyByType2);
+  function magnifyByType2(bst){
+    if (bst === undefined){
+      return;
+    }
+    if(bst.value.type === type){
+      var newWeight = bst.value.getWeight() + weight;
+      bst.value.setWeight(newWeight);
+    }
+  }
+}
+
+
 
 FruitBST.prototype.findHeaviest = function(){
   var node = this;
@@ -71,6 +126,8 @@ FruitBST.prototype.findHeaviest = function(){
   }
   console.log(node.value);
 }
+
+
 
 FruitBST.prototype.findLightest = function(){
   var node = this;
@@ -81,19 +138,17 @@ FruitBST.prototype.findLightest = function(){
 }
 
 
-FruitBST.prototype.filterByWeight = function(weight){
-  function iter(bst){
-    if (bst === undefined){
-      return;
-    }
-    iter(bst.left);
-    if(bst.value.weight > weight){
-      console.log(bst.value);
-    }
-    iter(bst.right);
-  }
-  iter(this);
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 var bst = FruitBST(apple);
@@ -104,6 +159,12 @@ bst.insert(tomato);
 //bst.iterate();
 //bst.findHeaviest();
 //bst.findLightest();
-bst.filterByWeight(150);
+//bst.filterByWeight(150);
+//bst.filterbytype("mango fruit");
+//bst.filterByWeight(200);
+//console.log("*******");
+//bst.magnifyByType("tomato fruit" , 45);
+//bst.iterate();
+
 
 
