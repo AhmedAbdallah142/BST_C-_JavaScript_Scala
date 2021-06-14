@@ -39,3 +39,7 @@ WARNING: Unmatched cancel notification for request id 17
 [0m2021.06.09 18:40:06 WARN  no build target for: C:\Users\Ahmed Ashraf\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala[0m
 [0m2021.06.09 18:40:17 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
 [0m2021.06.09 18:40:19 INFO  time: code lens generation in 12s[0m
+[0m2021.06.09 18:48:47 WARN  no build target for: C:\Users\Ahmed Ashraf\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\FruitBST.scala[0m
+[0m2021.06.09 18:48:59 WARN  no build target for: C:\Users\Ahmed Ashraf\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala[0m
+[0m2021.06.09 18:49:03 WARN  no build target for: C:\Users\Ahmed Ashraf\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Tree.scala[0m
+[0m2021.06.09 22:11:52 INFO  shutting down Metals[0m

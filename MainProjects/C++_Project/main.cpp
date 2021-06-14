@@ -1,151 +1,15 @@
-#include <iostream>
-using namespace std;
 
-class Fruit
-{
-    Fruit *left, *right;
-public:
-    string type;
-    string shape;
-    string Fsize ;
-    int weight ;
-    Fruit();
-    void setLeft(Fruit* n)
-    {
-        left = n;
-    }
-    Fruit* getLeft()
-    {
-        return left;
-    }
-    void setRight(Fruit* n)
-    {
-        right = n;
-    }
-    Fruit* getRight()
-    {
-        return right;
-    }
-    int getWeight()
-    {
-        return weight;
-    }
-    string getType()
-    {
-        return type;
-    }
-};
+#include "Fruits.h"
 
-Fruit ::Fruit()
-    : type("Fruit")
-    , weight(100)
-    , left(NULL)
-    , right(NULL)
-{
-}
+//using namespace std;
 
-class Oval_Fruit: virtual public Fruit
-{
-public:
-    Oval_Fruit()
-    {
-        shape = "Oval";
-    }
-};
-class Tiny_Fruit: virtual public Fruit
-{
-public:
-    Tiny_Fruit()
-    {
-        Fsize = "Tiny";
-    }
-};
-
-class Huge_Fruit: virtual public Fruit
-{
-public:
-    Huge_Fruit()
-    {
-        Fsize = "Huge";
-    }
-};
-class Unoval_Fruit: virtual public Fruit
-{
-public:
-    Unoval_Fruit()
-    {
-        shape = "Unoval";
-    }
-};
-class Berry: virtual public Fruit
-{
-public:
-    Berry()
-    {
-        shape = "Berry";
-    }
-};
-
-class Apple: public Huge_Fruit, public Oval_Fruit
-{
-public:
-    Apple()
-    {
-        weight = 130;
-        type="Apple";
-    }
-};
-class Avocado: public Huge_Fruit, public Oval_Fruit
-{
-public:
-    Avocado()
-    {
-        weight = 100;
-        type="Avocado";
-    }
-};
-class Orange: public Huge_Fruit, public Oval_Fruit
-{
-public:
-    Orange()
-    {
-        weight = 110;
-        type="Orange";
-    }
-};/*
-class Apple: public Huge_Fruit, public Oval_Fruit
-{
-};
-class Apple: public Huge_Fruit, public Oval_Fruit
-{
-};
-class Apple: public Huge_Fruit, public Oval_Fruit
-{
-};
-class Apple: public Huge_Fruit, public Oval_Fruit
-{
-};
-class Apple: public Huge_Fruit, public Oval_Fruit
-{
-};
-class Apple: public Huge_Fruit, public Oval_Fruit
-{
-};
-class Apple: public Huge_Fruit, public Oval_Fruit
-{
-};
-class Apple: public Huge_Fruit, public Oval_Fruit
-{
-};
-class Apple: public Huge_Fruit, public Oval_Fruit
-{
-};*/
 
 
 class BST
 {
-    Fruit* root;
+
 public:
+    Fruit* root;
     BST();
     Fruit* getroot()
     {
@@ -157,6 +21,7 @@ public:
     }
     virtual Fruit* Insert(Fruit* r, Fruit* n) = 0;
     virtual void  Iterate(Fruit* root) = 0;
+    virtual Fruit* deleteNode(Fruit* parent , Fruit* root, Fruit* deleted ) = 0;
 };
 
 BST ::BST()
@@ -167,6 +32,7 @@ BST ::BST()
 class FruitsTree : public BST
 {
 public:
+    vector<Fruit*> deleteAndInsert ;
     Fruit* Insert(Fruit* r, Fruit* n) override
     {
         if (r == NULL)
@@ -213,39 +79,136 @@ public:
         filterByType((*root).getRight(),type);
     }
 
-};
-
-/*
-Fruit* BST ::Insert(Fruit* r,Fruit* n)
-{
-    if (r == NULL)
+    void filterByWeight(Fruit* root,int weight)
     {
-        cout << (*n).getType()<<endl;
-        return n;
+        if (root == NULL)
+        {
+            return;
+        }
+        filterByWeight((*root).getLeft(),weight);
+        if((*root).getWeight()  >=  weight)
+        {
+            cout << (*root).getType() <<"  "<< (*root).getWeight() << endl;
+        }
+        filterByWeight((*root).getRight(),weight);
     }
 
-    if (((*n).getWeight()) > ((*r).getWeight()))
+    Fruit* findHeaviest(Fruit* root){
+            while (root != NULL && (*root).getRight() != NULL)
+            {
+
+                root = ( (*root).getRight() );
+
+            }
+
+    cout <<"The Heaviest :-    " << (*root).getType() <<"  "<< (*root).getWeight() << endl;
+    return root;
+    }
+
+
+    Fruit* findLightest(Fruit* root){
+            while (root != NULL && (*root).getLeft() != NULL)
+            {
+
+                //cout<<(*(*root).getLeft()).getType()<<endl;
+                root = (*root).getLeft() ;
+
+            }
+
+    cout <<"The Lightest :-    " << (*root).getType() <<"  "<< (*root).getWeight() << endl;
+    return root;
+    }
+
+
+    Fruit* deleteNode(Fruit* parent , Fruit* root, Fruit* deleted ) override
     {
-        (*r).setRight(Insert((*r).getRight(),n));
+        if (root == NULL)
+            return root;
+
+        if (((*deleted).getWeight()) < ((*root).getWeight())){
+                parent = root ;
+                (*root).setLeft(deleteNode( parent , (*root).getLeft() , deleted ));
+        }
+        else if (((*deleted).getWeight()) > ((*root).getWeight())){
+                 parent = root ;
+                (*root).setRight(deleteNode( parent , (*root).getRight() , deleted ));
+        }
+        else {
+            if(root == deleted){
+                if ((*root).getRight() == NULL && (*root).getLeft() == NULL){
+                    return NULL;
+                }
+                else if ( (*root).getLeft() == NULL ) {
+                    Fruit* temp = (*root).getRight();
+                    return temp;
+                }
+                else if ((*root).getRight() == NULL) {
+                    Fruit* temp = (*root).getLeft();
+                    return temp;
+                }
+                Fruit* temp = deleteMinValue( root , (*root).getRight() );
+                if(((*root).getWeight()) > ((*parent).getWeight())){
+                    (*parent).setRight(temp);
+                }else{
+                    (*parent).setLeft(temp);
+                }
+                (*temp).setRight( (*root).getRight() );
+                (*temp).setLeft ( (*root).getLeft() );
+            }
+            else{
+                    parent = root ;
+                (*root).setLeft( deleteNode(parent , (*root).getLeft() , deleted ));
+            }
+        }
+        return root;
     }
-    else
+
+    Fruit* deleteMinValue(Fruit* parent , Fruit* root)
     {
-        (*r).setLeft(Insert((*r).getLeft(),n));
+     while (root != NULL && (*root).getLeft() != NULL)
+            {
+                parent = root ;
+                root = (*root).getLeft() ;
+            }
+            (*parent).setLeft(NULL);
+            return root;
     }
-    return r;
-}
-
-
-void BST ::Iterate(Fruit* root)
-{
-
-    if (root == NULL) {
-        return;
+    void deletedMagnify(Fruit* r,string Type,int Weight)
+    {
+       if (r == NULL)
+        {
+            return;
+        }
+        deletedMagnify((*r).getLeft(),Type , Weight);
+        if((*r).getType()  ==  Type)
+        {
+            root=deleteNode(NULL,root,r);
+            (*r).setLeft(NULL);
+            (*r).setRight(NULL);
+            (*r).weight+=Weight;
+            //Insert(root,r);
+            deleteAndInsert.push_back(r);
+        }
+        deletedMagnify((*r).getRight(),Type,Weight);
     }
-    Iterate((*root).getLeft());
-    cout << (*root).getType() <<"  "<< (*root).getWeight() << endl;
-    Iterate((*root).getRight());
-}*/
+
+    void insertMagnify(){
+        for(int i = 0 ; i < deleteAndInsert.size() ; i++ ){
+            Insert(root,deleteAndInsert[i]);
+        }
+        deleteAndInsert.clear();
+    }
+
+
+    void magnifyByType(Fruit* r,string Type,int Weight)
+    {
+        deletedMagnify(r,Type,Weight);
+        insertMagnify();
+    }
+
+    };
+
+
 
 int main()
 {
@@ -253,13 +216,43 @@ int main()
     Apple n1 ;
     Avocado n2 ;
     Orange n3 ;
+    Apple n4 ;
+    Avocado n5 ;
+    Orange n6 ;
+    Apple n7 ;
+    Avocado n8 ;
+    Orange n9 ;
     b.setroot(b.Insert(b.getroot(),&n1));
     b.Insert(b.getroot(),&n2);
     b.Insert(b.getroot(),&n3);
+    b.Insert(b.getroot(),&n4);
+    b.Insert(b.getroot(),&n5);
+    b.Insert(b.getroot(),&n6);
+    b.Insert(b.getroot(),&n7);
+    b.Insert(b.getroot(),&n8);
+    b.Insert(b.getroot(),&n9);
     cout<<"Tree"<<endl;
     b.Iterate(b.getroot());
-    cout<<"Apples"<<endl;
+    cout<<"Avocado"<<endl;
     b.filterByType(b.getroot() , "Avocado");
+    cout<<"90"<<endl;
+    b.filterByWeight(b.getroot() , 90);
+    cout<<""<<endl;
+    b.findHeaviest(b.getroot() );
+    cout<<""<<endl;
+    b.findLightest(b.getroot() );
+    cout<<"Tree"<<endl;
+    //b.setroot(b.deleteNode(NULL, b.getroot() , &n3 ));
+    b.magnifyByType(b.getroot() , "Avocado" , 200);
+    b.Iterate(b.getroot());
+    cout<<"Avocado"<<endl;
+    b.filterByType(b.getroot() , "Avocado");
+    cout<<"90"<<endl;
+    b.filterByWeight(b.getroot() , 90);
+    cout<<""<<endl;
+    b.findHeaviest(b.getroot() );
+    cout<<""<<endl;
+    b.findLightest(b.getroot() );
     return 0;
 }
 
