@@ -9,8 +9,14 @@ object Main extends App {
   fruit.insert(new Apple());
   fruit.filterByType("Apple");
   println("--------------------------------");
+  fruit.iterate();
   fruit.magnifyByType("Avocado",200);
-  fruit.filterByWeight(100);
+  println("--------------------------------");
+  fruit.iterate();
+  println("--------------------------------");
+  fruit.filterByType("Apple")
+  println("--------------------------------");
+  fruit.filterByWeight(330);
   println("--------------------------------");
   fruit.iterate();
 

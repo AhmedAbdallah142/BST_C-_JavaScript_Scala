@@ -5,16 +5,16 @@ trait FruitTree{
     def InOrder(function:FruitTree => Unit);
     def filterByType(fruitType:String);
     def filterByWeight(fruitWeight:Int);
-    def DeleteMagnifyByType(fruitType: String, fruitWeight: Int):ListBuffer[Fruit];
+    //def DeleteMagnifyByType(fruitType: String, fruitWeight: Int):ListBuffer[Fruit];
     def findHeaviest():FruitTree;
     def findLightest():FruitTree;
 }
 
 case object EmptyTree extends FruitTree{
 
-  override def DeleteMagnifyByType(fruitType: String, fruitWeight: Int): ListBuffer[Fruit] = {
+  /*override def DeleteMagnifyByType(fruitType: String, fruitWeight: Int): ListBuffer[Fruit] = {
     new ListBuffer();
-  }
+  }*/
 
   override def InOrder(function: FruitTree => Unit): Unit = {}
 
@@ -31,11 +31,11 @@ case object EmptyTree extends FruitTree{
   override def insert(nodeFruit: Fruit): FruitTree = TreeNode (nodeFruit,EmptyTree,EmptyTree)
 }
 
-case class TreeNode (var nodeFruit : Fruit , var left : FruitTree , var right : FruitTree) extends FruitTree {
+case class TreeNode (var nodeFruit : Fruit,var left : FruitTree , var right : FruitTree) extends FruitTree {
 
-  override def DeleteMagnifyByType(fruitType: String, fruitWeight: Int): ListBuffer[Fruit] = {
+  /*override def DeleteMagnifyByType(fruitType: String, fruitWeight: Int): ListBuffer[Fruit] = {
     var list = new ListBuffer[Fruit]();
-    def handleMagnifiedNode(treeNode:FruitTree,parent:FruitTree) {
+    /*def handleMagnifiedNode(treeNode:FruitTree,parent:FruitTree) {
         treeNode match {
         case TreeNode(nodeFruit,left, right) => {
           right match {
@@ -64,9 +64,11 @@ case class TreeNode (var nodeFruit : Fruit , var left : FruitTree , var right : 
       nodeFruit.weight += fruitWeight;
       list.addOne(nodeFruit);
       handleMagnifiedNode(this,EmptyTree);
-    }
+    }*/
     list;
-  }
+  }*/
+
+
 
 
   override def InOrder(function: FruitTree => Unit): Unit = {
@@ -77,20 +79,26 @@ case class TreeNode (var nodeFruit : Fruit , var left : FruitTree , var right : 
 
 
   override def filterByWeight(fruitWeight: Int): Unit = {
+    /*InOrder((treeNode:FruitTree)=>{
+      if (treeNode.asInstanceOf[TreeNode].nodeFruit.weight >= fruitWeight)
+        printNode(treeNode.asInstanceOf[TreeNode]);
+    });*/
     def filterByWeight(treeNode : FruitTree) {
         treeNode match {
-          case TreeNode(data,left,right) if (data.weight < fruitWeight) => filterByWeight(right);
-          case TreeNode(data,left,right) if (data.weight > fruitWeight) => {
+          case TreeNode(data,_,right) if (data.weight < fruitWeight) => filterByWeight(right);
+          case TreeNode(data,left,right) if (data.weight >= fruitWeight) => {
             filterByWeight(left);
             println("Type = "+data.fruitType +", Weight = "+ data.weight);
             filterByWeight(right);
           }
-          case EmptyTree => {}
+          case EmptyTree => treeNode.filterByWeight(fruitWeight);
       }
     }
     filterByWeight(this);
   }
-
+  def printNode(treeNode:TreeNode){
+    println("Type = "+treeNode.asInstanceOf[TreeNode].nodeFruit.fruitType +", Weight = "+ treeNode.asInstanceOf[TreeNode].nodeFruit.weight)
+  }
   override def findHeaviest(): FruitTree = {
     def findHeaviest(treeNode : FruitTree) : FruitTree = {
       treeNode match {
@@ -109,9 +117,9 @@ case class TreeNode (var nodeFruit : Fruit , var left : FruitTree , var right : 
   override def findLightest(): FruitTree = {
     def findLightest(treeNode : FruitTree) : FruitTree = {
       treeNode match {
-        case TreeNode(_, left, _) => {
+        case TreeNode(_,left, _) => {
           left match {
-            case TreeNode(_, _, _) => findLightest(left);
+            case TreeNode(_,_, _) => findLightest(left);
             case EmptyTree => treeNode;
           }
         }
@@ -137,16 +145,17 @@ case class TreeNode (var nodeFruit : Fruit , var left : FruitTree , var right : 
 
   override def iterate(): Unit = {
     InOrder((treeNode:FruitTree)=>{
-        println("Type = "+treeNode.asInstanceOf[TreeNode].nodeFruit.fruitType +", Weight = "+ treeNode.asInstanceOf[TreeNode].nodeFruit.weight)
+        println("Type = "+treeNode.asInstanceOf[TreeNode].nodeFruit.fruitType +", Weight = "+ 
+        treeNode.asInstanceOf[TreeNode].nodeFruit.weight /*+ " Parent = " +treeNode.asInstanceOf[TreeNode].parent*/)
     });
   }
 
 
   override def insert(nodeFruit: Fruit): FruitTree = {
       def insert(t:FruitTree,nodeFruit:Fruit):FruitTree = t match {
-          case TreeNode(data, left, right) if (data.weight >= nodeFruit.weight) => TreeNode(data,insert(left,nodeFruit),right);
-          case TreeNode(data, left, right) if (data.weight < nodeFruit.weight) => TreeNode(data,left,insert(right,nodeFruit))
-          case EmptyTree => t.insert(nodeFruit)
+          case TreeNode(data,left, right) if (data.weight >= nodeFruit.weight) => TreeNode(data,insert(left,nodeFruit),right);
+          case TreeNode(data,left, right) if (data.weight < nodeFruit.weight) => TreeNode(data,left,insert(right,nodeFruit));
+          case EmptyTree => t.insert(nodeFruit);
           case _ => t
       }
       insert(this,nodeFruit)
