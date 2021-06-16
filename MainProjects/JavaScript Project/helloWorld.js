@@ -1,6 +1,7 @@
 var Fruit = {
   weight: 0,
   type: "fruit",
+  shape : "A",
   setWeight: function (weight) {
     this.weight = weight;
   },
@@ -13,13 +14,25 @@ var Fruit = {
   getType: function () {
     return this.type;
   },
+  print: function () {
+    
+  },
 };
+
+var oval = {
+  getshape : function(){
+    return "oval";
+  }
+}
 
 
 
 var apple = Object.create(Fruit);
 apple.setWeight(180);
 apple.setType("apple fruit");
+apple.shape = oval.getshape();
+console.log(apple.shape);
+
 
 var orange = Object.create(Fruit);
 orange.setWeight(150);
