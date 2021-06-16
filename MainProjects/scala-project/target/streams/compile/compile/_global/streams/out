@@ -1,6 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Tree.scala:90:37: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : FruitTree[0m
-[0m[[0m[31merror[0m] [0m[0m required: Int[0m
-[0m[[0m[31merror[0m] [0m[0m            treeNode.filterByWeight(left);[0m
-[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:93:7: Mango is already defined as class Mango[0m
+[0m[[0m[31merror[0m] [0m[0mclass Mango extends Medium_Fruit with Oval_Shaped{[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
