@@ -17055,3 +17055,2477 @@ WARNING: Unmatched cancel notification for request id 626
 [0m2021.06.10 11:08:29 INFO  Type = Apple, Weight = 150[0m
 [0m2021.06.10 11:08:29 INFO  Type = Avocado, Weight = 330[0m
 [0m2021.06.10 11:08:29 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.10 11:20:47 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 28m 8.121s)[0m
+[0m2021.06.10 11:20:51 INFO  Listening for transport dt_socket at address: 61953[0m
+[0m2021.06.10 11:20:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.10 11:20:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.10 11:20:53 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.10 11:20:53 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61953 .[0m
+[0m2021.06.10 11:20:53 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.10 11:20:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:20:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:20:53 INFO  --------------------------------[0m
+[0m2021.06.10 11:20:53 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:20:53 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:20:53 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.10 11:20:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:20:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:20:53 INFO  --------------------------------[0m
+[0m2021.06.10 11:20:53 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:20:53 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:20:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:20:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:20:53 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:20:53 INFO  --------------------------------[0m
+[0m2021.06.10 11:20:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:20:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:20:53 INFO  --------------------------------[0m
+[0m2021.06.10 11:20:53 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:20:53 INFO  --------------------------------[0m
+[0m2021.06.10 11:20:53 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:20:53 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:20:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:20:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:20:53 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:20:53 INFO  Canceling debug proxy for [Main][0m
+Jun 10, 2021 11:21:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 646
+[0m2021.06.10 11:22:02 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 11:22:02 INFO  time: compiled scala-project in 0.41s[0m
+[0m2021.06.10 11:22:16 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 11:22:19 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.10 11:22:19 INFO  time: compiled scala-project in 2.77s[0m
+[0m2021.06.10 11:22:24 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 11:22:26 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.10 11:22:26 INFO  time: compiled scala-project in 2.59s[0m
+Jun 10, 2021 11:22:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 803
+Jun 10, 2021 11:22:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 812
+[0m2021.06.10 11:22:48 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 30m 9.18s)[0m
+[0m2021.06.10 11:22:52 INFO  Listening for transport dt_socket at address: 61979[0m
+[0m2021.06.10 11:22:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.10 11:22:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.10 11:22:54 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.10 11:22:54 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61979 .[0m
+[0m2021.06.10 11:22:54 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.10 11:22:54 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:22:54 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:22:54 INFO  --------------------------------[0m
+[0m2021.06.10 11:22:54 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:22:54 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:22:54 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.10 11:22:54 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:22:54 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:22:54 INFO  --------------------------------[0m
+[0m2021.06.10 11:22:54 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:22:54 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:22:54 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:22:54 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:22:54 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:22:54 INFO  --------------------------------[0m
+[0m2021.06.10 11:22:54 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:22:54 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:22:54 INFO  --------------------------------[0m
+[0m2021.06.10 11:22:54 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:22:54 INFO  --------------------------------[0m
+[0m2021.06.10 11:22:54 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.10 11:22:54 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.10 11:22:54 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:22:54 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.10 11:22:54 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.10 11:22:54 INFO  Canceling debug proxy for [Main][0m
+Jun 10, 2021 11:23:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 823
+Jun 10, 2021 11:23:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 830
+Jun 10, 2021 11:23:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 836
+[0m2021.06.10 11:28:26 INFO  shutting down Metals[0m
+[0m2021.06.10 11:28:26 INFO  Unexpected exception when forwarding server stdin ---> client stdout
+No more data in the client stdin, exiting...
+java.net.SocketException: Socket closed
+Shut down connection with build server.	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+[0m	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+[0m2021.06.10 11:28:26 INFO  Shut down connection with build server.[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+[0m2021.06.10 12:03:03 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.10 12:03:08 INFO  time: initialize in 5.45s[0m
+[0m2021.06.10 12:03:08 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.10 12:03:08 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\FruitBST.scala[0m
+[0m2021.06.10 12:03:08 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.10 12:03:09 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44042'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.10 12:03:17 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 4.14s[0m
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 4.17s[0m
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 5.06s[0m
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 5.11s[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project', 'scala-project-test'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44042...
+The server is listening for incoming connections at tcp://127.0.0.1:44042...
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 5.56s[0m
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 5.59s[0m
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 5.64s[0m
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 5.68s[0m
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 5.74s[0m
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 5.75s[0m
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 5.83s[0m
+[0m2021.06.10 12:03:23 INFO  time: code lens generation in 5.85s[0m
+[0m2021.06.10 12:03:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.10 12:03:24 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30855'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30855...
+The server is listening for incoming connections at tcp://127.0.0.1:30855...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.10 12:03:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.10 12:03:26 INFO  time: Connected to build server in 17s[0m
+[0m2021.06.10 12:03:26 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.10 12:03:26 INFO  time: Imported build in 0.33s[0m
+[0m2021.06.10 12:03:33 INFO  time: indexed workspace in 6.29s[0m
+[0m2021.06.10 12:03:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 12:03:44 INFO  time: compiled scala-project in 8.85s[0m
+[0m2021.06.10 12:03:46 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 12:03:46 INFO  time: compiled scala-project in 0.46s[0m
+Jun 10, 2021 12:04:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 85
+[0m2021.06.10 12:04:02 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 12:04:02 INFO  time: compiled scala-project in 0.47s[0m
+Jun 10, 2021 12:04:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+Jun 10, 2021 12:04:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+[0m2021.06.10 12:04:17 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala:3:12: stale bloop error: identifier expected but 'def' found.
+  def map (def f ,list){
+           ^[0m
+[0m2021.06.10 12:04:17 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala:44:1: stale bloop error: ':' expected but '}' found.
+}
+^[0m
+[0m2021.06.10 12:04:17 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala:3:12: stale bloop error: identifier expected but 'def' found.
+  def map (def f ,list){
+           ^[0m
+[0m2021.06.10 12:04:17 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala:44:1: stale bloop error: ':' expected but '}' found.
+}
+^[0m
+[0m2021.06.10 12:04:19 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 12:04:21 INFO  shutting down Metals[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.06.10 12:04:23 ERROR timeout: build server 'bloop' during shutdown[0m
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@3466a479 rejected from java.util.concurrent.ThreadPoolExecutor@67f30bb3[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 1246]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)2021.06.10 12:04:23
+ 	at java.base/java.lang.Thread.run(Thread.java:834)
+ERROR timeout: build server 'bloop' during shutdown[0m
+[0m2021.06.10 13:53:38 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.10 13:53:50 INFO  time: initialize in 11s[0m
+[0m2021.06.10 13:53:50 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.10 13:53:50 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.10 13:53:50 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Tree.scala[0m
+[0m2021.06.10 13:53:50 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37563'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.10 13:54:01 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project', 'scala-project-test'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37563...
+The server is listening for incoming connections at tcp://127.0.0.1:37563...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.10 13:54:08 INFO  time: code lens generation in 17s[0m
+[0m2021.06.10 13:54:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.10 13:54:08 INFO  time: code lens generation in 18s[0m
+[0m2021.06.10 13:54:08 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37340'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37340...
+The server is listening for incoming connections at tcp://127.0.0.1:37340...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.10 13:54:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.10 13:54:10 INFO  time: Connected to build server in 20s[0m
+[0m2021.06.10 13:54:10 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.10 13:54:10 INFO  time: Imported build in 0.32s[0m
+[0m2021.06.10 13:54:17 INFO  time: indexed workspace in 6.75s[0m
+[0m2021.06.10 13:54:20 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.10 13:54:31 INFO  time: compiled scala-project in 11s[0m
+[0m2021.06.10 14:05:46 INFO  shutting down Metals[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+[0m2021.06.10 14:05:48 ERROR timeout: build server 'bloop' during shutdown[0m
+[0m2021.06.10 14:05:48 ERROR timeout: build server 'bloop' during shutdown[0m
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@665bbfdd rejected from java.util.concurrent.ThreadPoolExecutor@23592d72[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 480]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m2021.06.11 00:33:19 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.11 00:33:25 INFO  time: initialize in 6.57s[0m
+[0m2021.06.11 00:33:26 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.11 00:33:25 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Tree.scala[0m
+[0m2021.06.11 00:33:25 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.11 00:33:25 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32415'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.11 00:33:31 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project', 'scala-project-test'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32415...
+The server is listening for incoming connections at tcp://127.0.0.1:32415...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.11 00:33:34 INFO  time: code lens generation in 6.16s[0m
+[0m2021.06.11 00:33:34 INFO  time: code lens generation in 6.18s[0m
+[0m2021.06.11 00:33:34 INFO  time: code lens generation in 8.42s[0m
+[0m2021.06.11 00:33:34 INFO  time: code lens generation in 8.45s[0m
+[0m2021.06.11 00:33:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.11 00:33:34 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 41860'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:41860...
+The server is listening for incoming connections at tcp://127.0.0.1:41860...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.11 00:33:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.11 00:33:35 INFO  time: Connected to build server in 9.91s[0m
+[0m2021.06.11 00:33:35 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.11 00:33:36 INFO  time: Imported build in 0.14s[0m
+[0m2021.06.11 00:33:38 INFO  time: indexed workspace in 2.81s[0m
+[0m2021.06.11 00:33:42 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 7.883s)[0m
+[0m2021.06.11 00:33:47 INFO  Listening for transport dt_socket at address: 54155[0m
+[0m2021.06.11 00:33:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.11 00:33:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.11 00:33:47 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.11 00:33:47 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54155 .[0m
+[0m2021.06.11 00:33:47 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.11 00:33:48 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.11 00:33:48 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.11 00:33:48 INFO  --------------------------------[0m
+[0m2021.06.11 00:33:48 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.11 00:33:48 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.11 00:33:48 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.11 00:33:48 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.11 00:33:48 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.11 00:33:48 INFO  --------------------------------[0m
+[0m2021.06.11 00:33:48 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.11 00:33:48 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.11 00:33:48 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.11 00:33:48 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.11 00:33:48 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.11 00:33:48 INFO  --------------------------------[0m
+[0m2021.06.11 00:33:48 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.11 00:33:48 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.11 00:33:48 INFO  --------------------------------[0m
+[0m2021.06.11 00:33:48 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.11 00:33:48 INFO  --------------------------------[0m
+[0m2021.06.11 00:33:48 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.11 00:33:48 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.11 00:33:48 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.11 00:33:48 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.11 00:33:48 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.11 00:33:47 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.11 00:34:46 INFO  shutting down Metals[0m
+[0m2021.06.11 00:34:46 INFO  Shut down connection with build server.[0m
+[0m2021.06.11 00:34:46 INFO  Shut down connection with build server.[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+[0m2021.06.14 15:34:23 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.14 15:34:30 INFO  time: initialize in 6.3s[0m
+[0m2021.06.14 15:34:30 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.14 15:34:30 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.14 15:34:30 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Tree.scala[0m
+[0m2021.06.14 15:34:30 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\FruitBST.scala[0m
+[0m2021.06.14 15:34:30 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 17274'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.14 15:34:36 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project', 'scala-project-test'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:17274...
+The server is listening for incoming connections at tcp://127.0.0.1:17274...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.14 15:34:38 INFO  time: code lens generation in 8.2s[0m
+[0m2021.06.14 15:34:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.14 15:34:38 INFO  time: code lens generation in 8.31s[0m
+[0m2021.06.14 15:34:38 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13851'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13851...
+The server is listening for incoming connections at tcp://127.0.0.1:13851...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.14 15:34:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+Jun 14, 2021 3:34:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+[0m2021.06.14 15:34:38 INFO  time: Connected to build server in 9.55s[0m
+[0m2021.06.14 15:34:38 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.14 15:34:39 INFO  time: Imported build in 0.15s[0m
+[0m2021.06.14 15:34:41 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.14 15:34:41 INFO  time: code lens generation in 1.86s[0m
+[0m2021.06.14 15:34:41 INFO  time: code lens generation in 1.88s[0m
+Jun 14, 2021 3:34:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+[0m2021.06.14 15:34:44 INFO  time: indexed workspace in 4.46s[0m
+Jun 14, 2021 3:36:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+Jun 14, 2021 3:36:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+Jun 14, 2021 3:37:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+Jun 14, 2021 3:37:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+[0m2021.06.14 15:38:53 INFO  shutting down Metals[0m
+[0mUnexpected exception when forwarding server stdin ---> client stdout2021.06.14 15:38:53
+ INFO  Shut down connection with build server.No more data in the client stdin, exiting...[0m
+
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+Jun 14, 2021 3:38:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+[0m2021.06.14 15:38:53 INFO  Shut down connection with build server.[0m
+[0m2021.06.14 21:54:28 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.14 21:54:34 INFO  time: initialize in 6.56s[0m
+[0m2021.06.14 21:54:35 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.14 21:54:34 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 42996'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.14 21:54:40 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project-test', 'scala-project'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:42996...
+The server is listening for incoming connections at tcp://127.0.0.1:42996...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.14 21:54:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.14 21:54:44 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28211'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28211...
+The server is listening for incoming connections at tcp://127.0.0.1:28211...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.14 21:54:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.14 21:54:44 INFO  time: Connected to build server in 9.94s[0m
+[0m2021.06.14 21:54:44 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.14 21:54:46 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jun 14, 2021 9:54:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.06.14 21:54:46 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Tree.scala[0m
+[0m2021.06.14 21:54:47 INFO  time: Imported build in 0.4s[0m
+[0m2021.06.14 21:54:49 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.14 21:54:51 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.06.14 21:54:52 INFO  time: indexed workspace in 5.37s[0m
+[0m2021.06.14 21:54:55 INFO  time: code lens generation in 8.95s[0m
+[0m2021.06.14 21:54:56 INFO  time: code lens generation in 9.26s[0m
+[0m2021.06.14 21:54:56 INFO  time: code lens generation in 9.39s[0m
+[0m2021.06.14 21:54:56 INFO  time: code lens generation in 9.47s[0m
+[0m2021.06.14 21:54:56 INFO  time: code lens generation in 15s[0m
+[0m2021.06.14 21:54:56 INFO  time: code lens generation in 15s[0m
+Jun 14, 2021 9:58:51 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 14, 2021 9:58:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:136)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:109)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:98)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:811)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+[0m2021.06.14 21:58:54 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.14 21:58:57 INFO  time: compiled scala-project in 2.81s[0m
+[0m2021.06.14 21:59:14 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.14 21:59:14 INFO  time: compiled scala-project in 0.65s[0m
+[0m2021.06.14 21:59:52 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.14 21:59:52 INFO  time: compiled scala-project in 0.55s[0m
+[0m2021.06.14 22:00:02 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.14 22:00:02 INFO  time: compiled scala-project in 0.43s[0m
+[0m2021.06.14 22:03:32 INFO  compiling scala-project (1 scala source)[0m
+Jun 14, 2021 10:03:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 544
+[0m2021.06.14 22:03:36 WARN  7 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.14 22:03:36 INFO  time: compiled scala-project in 3.85s[0m
+[0m2021.06.14 22:03:38 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.14 22:03:39 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.14 22:03:39 INFO  time: compiled scala-project in 1.48s[0m
+[0m2021.06.14 22:06:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.14 22:06:37 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.14 22:06:37 INFO  time: compiled scala-project in 1.9s[0m
+[0m2021.06.14 22:06:39 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.14 22:06:40 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.14 22:06:40 INFO  time: compiled scala-project in 1.28s[0m
+[0m2021.06.14 22:11:11 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.14 22:11:11 INFO  time: compiled scala-project in 0.23s[0m
+[0m2021.06.14 22:11:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.14 22:11:23 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.14 22:11:23 INFO  time: compiled scala-project in 1.44s[0m
+[0m2021.06.14 22:11:35 INFO  Listening for transport dt_socket at address: 55616[0m
+[0m2021.06.14 22:11:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.14 22:11:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.14 22:11:35 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.14 22:11:35 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55616 .[0m
+[0m2021.06.14 22:11:35 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.14 22:11:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.14 22:11:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.14 22:11:35 INFO  --------------------------------[0m
+[0m2021.06.14 22:11:35 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.14 22:11:35 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.14 22:11:35 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.14 22:11:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.14 22:11:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.14 22:11:35 INFO  --------------------------------[0m
+[0m2021.06.14 22:11:35 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.14 22:11:35 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.14 22:11:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.14 22:11:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.14 22:11:35 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.14 22:11:35 INFO  --------------------------------[0m
+[0m2021.06.14 22:11:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.14 22:11:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.14 22:11:35 INFO  --------------------------------[0m
+[0m2021.06.14 22:11:35 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.14 22:11:35 INFO  --------------------------------[0m
+[0m2021.06.14 22:11:35 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.14 22:11:35 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.14 22:11:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.14 22:11:35 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.14 22:11:35 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.14 22:11:35 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.14 22:36:15 INFO  shutting down Metals[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+No more data in the client stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+Jun 14, 2021 10:36:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	... 14 more
+
+[0m2021.06.14 22:36:15 INFO  Shut down connection with build server.[0m
+Jun 14, 2021 10:36:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+[0m2021.06.14 22:36:15 INFO  Shut down connection with build server.[0m
+[0m2021.06.16 15:03:47 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.16 15:03:53 INFO  time: initialize in 6.51s[0m
+[0m2021.06.16 15:03:53 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.16 15:03:53 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.16 15:03:53 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Tree.scala[0m
+[0m2021.06.16 15:03:53 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19945'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.16 15:03:59 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project-test', 'scala-project'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19945...
+The server is listening for incoming connections at tcp://127.0.0.1:19945...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 15:04:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 15:04:02 INFO  time: code lens generation in 8.27s[0m
+[0m2021.06.16 15:04:02 INFO  time: code lens generation in 8.37s[0m
+[0m2021.06.16 15:04:02 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32740'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32740...
+The server is listening for incoming connections at tcp://127.0.0.1:32740...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 15:04:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 15:04:03 INFO  time: Connected to build server in 9.52s[0m
+[0m2021.06.16 15:04:03 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.16 15:04:03 INFO  time: Imported build in 0.14s[0m
+[0m2021.06.16 15:04:05 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.16 15:04:06 INFO  time: indexed workspace in 3.21s[0m
+Jun 16, 2021 3:04:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Jun 16, 2021 3:04:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Jun 16, 2021 3:04:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+Jun 16, 2021 3:04:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Jun 16, 2021 3:04:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 58
+Jun 16, 2021 3:04:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63
+Jun 16, 2021 3:04:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72
+Jun 16, 2021 3:04:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 80
+Jun 16, 2021 3:04:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+Jun 16, 2021 3:05:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 217
+[0m2021.06.16 15:06:02 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:06:07 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.16 15:06:07 INFO  time: compiled scala-project in 5.42s[0m
+Jun 16, 2021 3:06:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 244
+[0m2021.06.16 15:06:19 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:06:19 INFO  Listening for transport dt_socket at address: 60549[0m
+[0m2021.06.16 15:06:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.16 15:06:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.16 15:06:20 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.16 15:06:20 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60549 .[0m
+[0m2021.06.16 15:06:20 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.16 15:06:20 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:06:20 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:06:20 INFO  --------------------------------[0m
+[0m2021.06.16 15:06:20 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:06:20 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:06:20 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.16 15:06:20 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:06:20 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:06:20 INFO  --------------------------------[0m
+[0m2021.06.16 15:06:20 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:06:20 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:06:20 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:06:20 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:06:20 INFO  Type = Avocado, Weight = 530[0m
+[0m2021.06.16 15:06:20 INFO  --------------------------------[0m
+[0m2021.06.16 15:06:20 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:06:20 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:06:20 INFO  --------------------------------[0m
+[0m2021.06.16 15:06:20 INFO  Type = Avocado, Weight = 530[0m
+[0m2021.06.16 15:06:20 INFO  --------------------------------[0m
+[0m2021.06.16 15:06:20 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:06:20 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:06:20 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:06:20 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:06:20 INFO  Type = Avocado, Weight = 530[0m
+[0m2021.06.16 15:06:20 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.16 15:06:20 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.16 15:06:20 INFO  time: compiled scala-project in 2.13s[0m
+Jun 16, 2021 3:06:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 259
+Jun 16, 2021 3:06:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 264
+Jun 16, 2021 3:07:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 285
+Jun 16, 2021 3:07:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 293
+[0m2021.06.16 15:07:11 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:07:11 INFO  Listening for transport dt_socket at address: 62657[0m
+[0m2021.06.16 15:07:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.16 15:07:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.16 15:07:12 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.16 15:07:12 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62657 .[0m
+[0m2021.06.16 15:07:12 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.16 15:07:12 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:07:12 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:07:12 INFO  --------------------------------[0m
+[0m2021.06.16 15:07:12 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:07:12 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:07:12 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.16 15:07:12 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:07:12 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:07:12 INFO  --------------------------------[0m
+[0m2021.06.16 15:07:12 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:07:12 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:07:12 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:07:12 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:07:12 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:07:12 INFO  --------------------------------[0m
+[0m2021.06.16 15:07:12 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:07:12 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:07:12 INFO  --------------------------------[0m
+[0m2021.06.16 15:07:12 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:07:12 INFO  --------------------------------[0m
+[0m2021.06.16 15:07:12 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:07:12 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:07:12 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:07:12 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:07:12 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:07:13 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.16 15:07:12 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.16 15:07:12 INFO  time: compiled scala-project in 1.81s[0m
+Jun 16, 2021 3:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 308
+Jun 16, 2021 3:07:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 315
+Jun 16, 2021 3:07:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 320
+[0m2021.06.16 15:08:20 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:08:20 INFO  time: compiled scala-project in 0.61s[0m
+Jun 16, 2021 3:08:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 455
+Jun 16, 2021 3:08:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 460
+[0m2021.06.16 15:08:43 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:08:43 INFO  time: compiled scala-project in 0.15s[0m
+[0m2021.06.16 15:08:57 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:08:57 INFO  time: compiled scala-project in 0.15s[0m
+[0m2021.06.16 15:09:18 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:09:18 INFO  time: compiled scala-project in 0.16s[0m
+[0m2021.06.16 15:09:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:09:35 INFO  time: compiled scala-project in 0.12s[0m
+[0m2021.06.16 15:09:39 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:09:39 INFO  time: compiled scala-project in 0.11s[0m
+[0m2021.06.16 15:10:15 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:10:15 INFO  time: compiled scala-project in 0.24s[0m
+[0m2021.06.16 15:10:23 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:10:23 INFO  time: compiled scala-project in 0.2s[0m
+[0m2021.06.16 15:10:30 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:10:31 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.16 15:10:31 INFO  time: compiled scala-project in 1.29s[0m
+Jun 16, 2021 3:10:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 738
+[0m2021.06.16 15:10:37 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 6m 34.703s)[0m
+[0m2021.06.16 15:10:41 INFO  Listening for transport dt_socket at address: 49313[0m
+[0m2021.06.16 15:10:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.16 15:10:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.16 15:10:42 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.16 15:10:41 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49313 .[0m
+[0m2021.06.16 15:10:41 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.16 15:10:42 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:42 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:42 INFO  --------------------------------[0m
+[0m2021.06.16 15:10:42 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:10:42 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:10:42 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.16 15:10:42 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:42 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:42 INFO  --------------------------------[0m
+[0m2021.06.16 15:10:42 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:10:42 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:10:42 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:42 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:42 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:10:42 INFO  --------------------------------[0m
+[0m2021.06.16 15:10:42 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:42 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:42 INFO  --------------------------------[0m
+[0m2021.06.16 15:10:42 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:10:42 INFO  --------------------------------[0m
+[0m2021.06.16 15:10:42 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:10:42 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:10:42 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:42 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:42 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:10:42 INFO  Canceling debug proxy for [Main][0m
+Jun 16, 2021 3:10:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 747
+Jun 16, 2021 3:10:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 762
+[0m2021.06.16 15:10:55 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 6m 53.092s)[0m
+[0m2021.06.16 15:10:59 INFO  Listening for transport dt_socket at address: 54569[0m
+[0m2021.06.16 15:11:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.16 15:11:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.16 15:11:00 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.16 15:10:59 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54569 .[0m
+[0m2021.06.16 15:10:59 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.16 15:10:59 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:59 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:59 INFO  --------------------------------[0m
+[0m2021.06.16 15:10:59 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:10:59 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:10:59 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.16 15:10:59 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:59 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:59 INFO  --------------------------------[0m
+[0m2021.06.16 15:10:59 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:10:59 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:10:59 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:59 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:59 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:10:59 INFO  --------------------------------[0m
+[0m2021.06.16 15:10:59 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:10:59 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:00 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:00 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:11:00 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:00 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:11:00 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:11:00 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:00 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:00 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:11:00 INFO  Canceling debug proxy for [Main][0m
+Jun 16, 2021 3:11:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 770
+Jun 16, 2021 3:11:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 778
+Jun 16, 2021 3:11:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 783
+[0m2021.06.16 15:11:15 INFO  compiling scala-project (1 scala source)[0m
+Jun 16, 2021 3:11:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 814
+[0m2021.06.16 15:11:16 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.16 15:11:16 INFO  time: compiled scala-project in 1.45s[0m
+[0m2021.06.16 15:11:18 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 7m 16.513s)[0m
+Jun 16, 2021 3:11:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 823
+[0m2021.06.16 15:11:21 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 7m 18.613s)[0m
+[0m2021.06.16 15:11:23 INFO  Listening for transport dt_socket at address: 58538[0m
+[0m2021.06.16 15:11:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.16 15:11:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.16 15:11:23 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.16 15:11:23 INFO  Trying to attach to remote debuggee VM 127.0.0.1:58538 .[0m
+[0m2021.06.16 15:11:23 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.16 15:11:23 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:23 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:23 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:23 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:11:23 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:11:23 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.16 15:11:23 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:23 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:23 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:23 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:11:23 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:11:23 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:23 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:23 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:11:23 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:23 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:23 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:23 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:23 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:11:23 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:23 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:11:23 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:11:23 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:23 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:23 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:11:23 INFO  Canceling debug proxy for [Main][0m
+Jun 16, 2021 3:11:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 834
+Jun 16, 2021 3:11:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 839
+Jun 16, 2021 3:11:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 859
+[0m2021.06.16 15:11:49 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 7m 47.146s)[0m
+Jun 16, 2021 3:11:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 865
+[0m2021.06.16 15:11:51 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 7m 49.25s)[0m
+[0m2021.06.16 15:11:53 INFO  Listening for transport dt_socket at address: 64200[0m
+[0m2021.06.16 15:11:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.16 15:11:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.16 15:11:54 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.16 15:11:53 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64200 .[0m
+[0m2021.06.16 15:11:53 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.16 15:11:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:53 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:53 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:11:53 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:11:53 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.16 15:11:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:53 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:53 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:11:53 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:11:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:53 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:11:53 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:53 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:53 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:11:53 INFO  --------------------------------[0m
+[0m2021.06.16 15:11:53 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:11:53 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:11:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:53 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:11:53 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:11:54 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.16 15:12:03 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:12:05 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.16 15:12:05 INFO  time: compiled scala-project in 1.08s[0m
+[0m2021.06.16 15:12:08 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:12:09 WARN  6 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.16 15:12:09 INFO  time: compiled scala-project in 1.14s[0m
+Jun 16, 2021 3:12:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 909
+[0m2021.06.16 15:12:57 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:12:57 INFO  time: compiled scala-project in 0.1s[0m
+[0m2021.06.16 15:14:12 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 15:14:12 INFO  time: compiled scala-project in 82ms[0m
+[0m2021.06.16 15:16:22 INFO  shutting down Metals[0m
+[0m2021.06.16 15:16:22 INFO  Shut down connection with build server.[0m
+[0m2021.06.16 15:16:22 INFO  Shut down connection with build server.[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+[0m2021.06.16 15:16:51 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.16 15:16:54 INFO  time: initialize in 2.84s[0m
+[0m2021.06.16 15:16:54 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.16 15:16:54 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala[0m
+[0m2021.06.16 15:16:54 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.16 15:16:54 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20012'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.16 15:16:58 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.16 15:17:00 INFO  time: code lens generation in 5.94s[0m
+[0m2021.06.16 15:17:00 INFO  time: code lens generation in 5.98s[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project-test', 'scala-project'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20012...
+The server is listening for incoming connections at tcp://127.0.0.1:20012...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 15:17:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 15:17:02 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12888'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12888...
+The server is listening for incoming connections at tcp://127.0.0.1:12888...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 15:17:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 15:17:03 INFO  time: Connected to build server in 8.54s[0m
+[0m2021.06.16 15:17:03 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.16 15:17:03 INFO  time: Imported build in 0.12s[0m
+[0m2021.06.16 15:17:06 INFO  time: indexed workspace in 2.81s[0m
+[0m2021.06.16 15:17:15 INFO  Listening for transport dt_socket at address: 56574[0m
+[0m2021.06.16 15:17:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.16 15:17:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.16 15:17:16 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.16 15:17:15 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56574 .[0m
+[0m2021.06.16 15:17:15 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.16 15:17:15 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:17:15 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:17:15 INFO  --------------------------------[0m
+[0m2021.06.16 15:17:15 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:17:15 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:17:15 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.16 15:17:15 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:17:15 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:17:15 INFO  --------------------------------[0m
+[0m2021.06.16 15:17:15 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:17:15 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:17:15 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:17:15 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:17:15 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:17:15 INFO  --------------------------------[0m
+[0m2021.06.16 15:17:15 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:17:15 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:17:15 INFO  --------------------------------[0m
+[0m2021.06.16 15:17:15 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:17:15 INFO  --------------------------------[0m
+[0m2021.06.16 15:17:15 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 15:17:15 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 15:17:15 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:17:15 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 15:17:15 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 15:17:16 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.16 15:18:03 INFO  shutting down Metals[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.06.16 15:18:05 ERROR timeout: build server 'bloop' during shutdown[0m
+[0m2021.06.16 15:18:05 ERROR timeout: build server 'bloop' during shutdown[0m
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@72228e16 rejected from java.util.concurrent.ThreadPoolExecutor@7f983625[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 375]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m2021.06.16 17:10:28 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.16 17:10:30 INFO  time: initialize in 2.2s[0m
+[0m2021.06.16 17:10:30 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.16 17:10:30 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.16 17:10:30 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 30224'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.16 17:10:33 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.16 17:10:35 INFO  time: code lens generation in 4.23s[0m
+[0m2021.06.16 17:10:35 INFO  time: code lens generation in 4.51s[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project-test', 'scala-project'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:30224...
+The server is listening for incoming connections at tcp://127.0.0.1:30224...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 17:10:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 17:10:37 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 41225'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:41225...
+The server is listening for incoming connections at tcp://127.0.0.1:41225...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 17:10:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 17:10:37 INFO  time: Connected to build server in 7.54s[0m
+[0m2021.06.16 17:10:37 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.16 17:10:38 INFO  time: Imported build in 0.1s[0m
+[0m2021.06.16 17:10:40 INFO  time: indexed workspace in 2s[0m
+[0m2021.06.16 17:11:48 INFO  shutting down Metals[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+No more data in the client stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+Jun 16, 2021 5:11:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+[0m2021.06.16 17:11:48 INFO  Jun 16, 2021 5:11:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+Shut down connection with build server.[0m
+[0m2021.06.16 17:11:48 INFO  Shut down connection with build server.[0m
+[0m2021.06.16 18:43:46 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.16 18:43:52 INFO  time: initialize in 5.64s[0m
+[0m2021.06.16 18:43:52 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.16 18:43:52 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.16 18:43:52 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 18536'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.16 18:43:55 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+[0m2021.06.16 18:43:56 INFO  time: code lens generation in 1.46s[0m
+[0m2021.06.16 18:43:56 INFO  time: code lens generation in 1.48s[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project', 'scala-project-test'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:18536...
+The server is listening for incoming connections at tcp://127.0.0.1:18536...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 18:43:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 18:43:59 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12528'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12528...
+The server is listening for incoming connections at tcp://127.0.0.1:12528...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 18:43:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 18:43:59 INFO  time: Connected to build server in 6.99s[0m
+[0m2021.06.16 18:43:59 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.16 18:44:01 INFO  time: indexed workspace in 2.08s[0m
+[0m2021.06.16 18:44:09 INFO  Listening for transport dt_socket at address: 60836[0m
+[0m2021.06.16 18:44:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.16 18:44:09 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.16 18:44:10 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.16 18:44:09 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60836 .[0m
+[0m2021.06.16 18:44:09 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.16 18:44:09 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 18:44:09 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 18:44:09 INFO  --------------------------------[0m
+[0m2021.06.16 18:44:09 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 18:44:09 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 18:44:09 INFO  Type = Avocado, Weight = 130[0m
+[0m2021.06.16 18:44:09 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 18:44:09 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 18:44:09 INFO  --------------------------------[0m
+[0m2021.06.16 18:44:09 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 18:44:09 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 18:44:09 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 18:44:09 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 18:44:09 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 18:44:09 INFO  --------------------------------[0m
+[0m2021.06.16 18:44:09 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 18:44:09 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 18:44:09 INFO  --------------------------------[0m
+[0m2021.06.16 18:44:09 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 18:44:09 INFO  --------------------------------[0m
+[0m2021.06.16 18:44:09 INFO  Type = Blackberries, Weight = 0[0m
+[0m2021.06.16 18:44:09 INFO  Type = Blueberries, Weight = 80[0m
+[0m2021.06.16 18:44:09 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 18:44:09 INFO  Type = Apple, Weight = 150[0m
+[0m2021.06.16 18:44:09 INFO  Type = Avocado, Weight = 330[0m
+[0m2021.06.16 18:44:10 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.16 18:44:44 INFO  shutting down Metals[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)[0m
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)2021.06.16 18:44:44
+ 	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+INFO 	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+ 	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)Shut down connection with build server.
+[0mNo more data in the client stdin, exiting...
+
+Jun 16, 2021 6:44:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.endWrite(SocketChannelImpl.java:447)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+[0m2021.06.16 18:44:44 INFO  Shut down connection with build server.[0m
+[0m2021.06.16 19:59:28 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.16 19:59:34 INFO  time: initialize in 6.53s[0m
+[0m2021.06.16 19:59:34 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.16 19:59:34 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.16 19:59:34 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 39037'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.16 19:59:38 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+[0m2021.06.16 19:59:40 INFO  time: code lens generation in 5.51s[0m
+[0m2021.06.16 19:59:40 INFO  time: code lens generation in 5.54s[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project-test', 'scala-project'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:39037...
+The server is listening for incoming connections at tcp://127.0.0.1:39037...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 19:59:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 19:59:42 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 11664'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:11664...
+The server is listening for incoming connections at tcp://127.0.0.1:11664...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 19:59:42 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Tree.scala[0m
+[0m2021.06.16 19:59:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 19:59:43 INFO  time: Connected to build server in 8.52s[0m
+[0m2021.06.16 19:59:43 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.16 19:59:43 INFO  time: Imported build in 0.17s[0m
+[0m2021.06.16 19:59:42 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala[0m
+[0m2021.06.16 19:59:45 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.16 19:59:45 INFO  time: code lens generation in 2.47s[0m
+[0m2021.06.16 19:59:48 INFO  time: indexed workspace in 4.58s[0m
+[0m2021.06.16 19:59:49 INFO  time: code lens generation in 6.17s[0m
+[0m2021.06.16 19:59:49 INFO  time: code lens generation in 5.8s[0m
+[0m2021.06.16 19:59:49 INFO  time: code lens generation in 5.82s[0m
+[0m2021.06.16 20:00:11 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:00:13 INFO  time: compiled scala-project in 1.77s[0m
+[0m2021.06.16 20:00:36 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:00:36 INFO  time: compiled scala-project in 0.16s[0m
+[0m2021.06.16 20:00:40 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:00:40 INFO  time: compiled scala-project in 0.17s[0m
+[0m2021.06.16 20:00:48 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:00:48 INFO  time: compiled scala-project in 0.14s[0m
+[0m2021.06.16 20:00:53 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:00:53 INFO  time: compiled scala-project in 0.15s[0m
+[0m2021.06.16 20:00:58 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:00:58 INFO  time: compiled scala-project in 94ms[0m
+[0m2021.06.16 20:01:09 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:01:09 INFO  time: compiled scala-project in 0.2s[0m
+[0m2021.06.16 20:01:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:01:22 INFO  time: compiled scala-project in 1.02s[0m
+Jun 16, 2021 8:01:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 271
+[0m2021.06.16 20:03:00 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:03:00 INFO  time: compiled scala-project in 0.86s[0m
+[0m2021.06.16 20:03:03 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:03:03 INFO  time: compiled scala-project in 0.69s[0m
+[0m2021.06.16 20:06:47 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:06:47 INFO  time: compiled scala-project in 0.71s[0m
+Jun 16, 2021 8:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 507
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:14:1: stale bloop error: class Grapes needs to be abstract. Missing implementation for:
+  def weight: Int // inherited from trait Fruit 
+(Note that variables need to be initialized to be defined)
+> class Grapes extends Tiny_Fruit{
+> 
+>   override var fruitType: String = "Grapes"
+>   this.weight = 140;//21 grapes
+>   //this.fruitType = "Grapes";
+> 
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:21:1: stale bloop error: class Apple needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Apple extends Oval_Shaped{
+> 
+>   this.weight = 150;
+>   this.fruitType = "Apple"
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:26:1: stale bloop error: class Avocado needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Avocado extends Oval_Shaped{
+> 
+>   this.weight = 130;
+>   this.fruitType= "Avocado"
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:31:1: stale bloop error: class Blackberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Blackberries extends Berry{
+> 
+>   this.fruitType = "Blackberries";
+> 
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:37:1: stale bloop error: class Elderberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Elderberries extends Berry{
+> 
+>   this.weight = 77;
+>   this.fruitType = "Elderberries"
+> 
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:43:1: stale bloop error: class Gooseberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Gooseberries extends Berry{
+>   this.fruitType = "Gooseberries"
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:46:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:14:1: stale bloop error: class Grapes needs to be abstract. Missing implementation for:
+  def weight: Int // inherited from trait Fruit 
+(Note that variables need to be initialized to be defined)
+> class Grapes extends Tiny_Fruit{
+> 
+>   override var fruitType: String = "Grapes"
+>   this.weight = 140;//21 grapes
+>   //this.fruitType = "Grapes";
+> 
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:21:1: stale bloop error: class Apple needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Apple extends Oval_Shaped{
+> 
+>   this.weight = 150;
+>   this.fruitType = "Apple"
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:26:1: stale bloop error: class Avocado needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Avocado extends Oval_Shaped{
+> 
+>   this.weight = 130;
+>   this.fruitType= "Avocado"
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:31:1: stale bloop error: class Blackberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Blackberries extends Berry{
+> 
+>   this.fruitType = "Blackberries";
+> 
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:37:1: stale bloop error: class Elderberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Elderberries extends Berry{
+> 
+>   this.weight = 77;
+>   this.fruitType = "Elderberries"
+> 
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:43:1: stale bloop error: class Gooseberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Gooseberries extends Berry{
+>   this.fruitType = "Gooseberries"
+> }[0m
+[0m2021.06.16 20:06:55 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:46:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Int): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:07:04 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:07:04 INFO  time: compiled scala-project in 0.81s[0m
+[0m2021.06.16 20:08:22 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:08:22 INFO  time: compiled scala-project in 0.14s[0m
+[0m2021.06.16 20:08:40 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:08:40 INFO  time: compiled scala-project in 0.81s[0m
+[0m2021.06.16 20:09:16 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:09:16 INFO  time: compiled scala-project in 0.7s[0m
+[0m2021.06.16 20:09:36 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:09:36 INFO  time: compiled scala-project in 0.77s[0m
+[0m2021.06.16 20:09:51 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:09:51 INFO  time: compiled scala-project in 0.88s[0m
+[0m2021.06.16 20:10:10 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:10:10 INFO  time: compiled scala-project in 0.72s[0m
+[0m2021.06.16 20:10:26 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:10:26 INFO  time: compiled scala-project in 80ms[0m
+[0m2021.06.16 20:10:32 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:10:32 INFO  time: compiled scala-project in 0.64s[0m
+[0m2021.06.16 20:10:40 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:10:40 INFO  time: compiled scala-project in 0.64s[0m
+[0m2021.06.16 20:10:42 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:10:42 INFO  time: compiled scala-project in 0.63s[0m
+[0m2021.06.16 20:10:45 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:10:45 INFO  time: compiled scala-project in 0.61s[0m
+[0m2021.06.16 20:11:18 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:11:18 INFO  time: compiled scala-project in 0.65s[0m
+[0m2021.06.16 20:11:28 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:11:28 INFO  time: compiled scala-project in 0.66s[0m
+[0m2021.06.16 20:11:30 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:11:30 INFO  time: compiled scala-project in 0.62s[0m
+[0m2021.06.16 20:11:36 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:11:36 INFO  time: compiled scala-project in 0.61s[0m
+[0m2021.06.16 20:11:44 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:11:44 INFO  time: compiled scala-project in 0.66s[0m
+[0m2021.06.16 20:12:03 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:12:03 INFO  time: compiled scala-project in 0.74s[0m
+[0m2021.06.16 20:12:22 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:12:22 INFO  time: compiled scala-project in 0.6s[0m
+[0m2021.06.16 20:12:30 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:12:30 INFO  time: compiled scala-project in 0.64s[0m
+[0m2021.06.16 20:12:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:12:41 INFO  time: compiled scala-project in 0.61s[0m
+[0m2021.06.16 20:12:45 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:12:45 INFO  time: compiled scala-project in 0.6s[0m
+[0m2021.06.16 20:12:48 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:12:48 INFO  time: compiled scala-project in 0.67s[0m
+[0m2021.06.16 20:12:51 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:12:51 INFO  time: compiled scala-project in 0.55s[0m
+[0m2021.06.16 20:13:04 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:13:04 INFO  time: compiled scala-project in 82ms[0m
+[0m2021.06.16 20:13:07 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:13:07 INFO  time: compiled scala-project in 0.14s[0m
+[0m2021.06.16 20:13:18 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:13:18 INFO  time: compiled scala-project in 72ms[0m
+[0m2021.06.16 20:13:26 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:13:26 INFO  time: compiled scala-project in 0.12s[0m
+[0m2021.06.16 20:13:33 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:13:33 INFO  time: compiled scala-project in 0.12s[0m
+[0m2021.06.16 20:13:44 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:13:44 INFO  time: compiled scala-project in 0.16s[0m
+[0m2021.06.16 20:13:47 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:13:47 INFO  time: compiled scala-project in 0.66s[0m
+[0m2021.06.16 20:13:57 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:46:1: stale bloop error: class Elderberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Elderberries extends Berry{
+> 
+>   this.weight = 77;
+>   this.fruitType = "Elderberries"
+> 
+> }[0m
+[0m2021.06.16 20:13:57 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:52:1: stale bloop error: class Gooseberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Gooseberries extends Berry{
+>   this.fruitType = "Gooseberries"
+> }[0m
+[0m2021.06.16 20:13:57 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:55:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:13:57 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:46:1: stale bloop error: class Elderberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Elderberries extends Berry{
+> 
+>   this.weight = 77;
+>   this.fruitType = "Elderberries"
+> 
+> }[0m
+[0m2021.06.16 20:13:57 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:52:1: stale bloop error: class Gooseberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Gooseberries extends Berry{
+>   this.fruitType = "Gooseberries"
+> }[0m
+[0m2021.06.16 20:13:57 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:55:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:13:59 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:13:59 INFO  time: compiled scala-project in 0.63s[0m
+[0m2021.06.16 20:14:06 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:14:06 INFO  time: compiled scala-project in 0.62s[0m
+[0m2021.06.16 20:14:08 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:14:08 INFO  time: compiled scala-project in 0.61s[0m
+[0m2021.06.16 20:15:49 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:15:49 INFO  time: compiled scala-project in 0.65s[0m
+[0m2021.06.16 20:15:53 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:15:53 INFO  time: compiled scala-project in 0.65s[0m
+[0m2021.06.16 20:15:57 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:15:57 INFO  time: compiled scala-project in 0.7s[0m
+[0m2021.06.16 20:16:02 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:16:02 INFO  time: compiled scala-project in 0.6s[0m
+[0m2021.06.16 20:16:08 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:16:08 INFO  time: compiled scala-project in 0.61s[0m
+[0m2021.06.16 20:16:19 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:16:19 INFO  time: compiled scala-project in 0.64s[0m
+[0m2021.06.16 20:16:25 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:16:25 INFO  time: compiled scala-project in 0.78s[0m
+[0m2021.06.16 20:19:59 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:53:1: stale bloop error: class Gooseberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Gooseberries extends Berry{
+>   this.fruitType = "Gooseberries"
+> }[0m
+[0m2021.06.16 20:19:59 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:56:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:20:00 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:53:1: stale bloop error: class Gooseberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Gooseberries extends Berry{
+>   this.fruitType = "Gooseberries"
+> }[0m
+[0m2021.06.16 20:20:00 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:56:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:19:59 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:53:1: stale bloop error: class Gooseberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Gooseberries extends Berry{
+>   this.fruitType = "Gooseberries"
+> }[0m
+[0m2021.06.16 20:19:59 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:56:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:20:00 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:53:1: stale bloop error: class Gooseberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Gooseberries extends Berry{
+>   this.fruitType = "Gooseberries"
+> }[0m
+[0m2021.06.16 20:20:00 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:56:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:22:37 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:22:37 INFO  time: compiled scala-project in 0.77s[0m
+[0m2021.06.16 20:22:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:22:41 INFO  time: compiled scala-project in 0.6s[0m
+[0m2021.06.16 20:22:44 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:22:44 INFO  time: compiled scala-project in 0.57s[0m
+[0m2021.06.16 20:22:47 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:22:47 INFO  time: compiled scala-project in 0.58s[0m
+[0m2021.06.16 20:22:49 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:57:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:22:49 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:57:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:22:49 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:57:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:22:49 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:57:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:22:53 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:22:53 INFO  time: compiled scala-project in 0.61s[0m
+[0m2021.06.16 20:23:41 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:23:41 INFO  time: compiled scala-project in 0.61s[0m
+[0m2021.06.16 20:23:44 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:57:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:23:44 INFO  C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Fruit.scala:57:1: stale bloop error: class Blueberries needs to be abstract.
+Missing implementations for 2 members. Stub implementations follow:
+  def fruitType_=(x$1: String): Unit = ???
+  def weight_=(x$1: Double): Unit = ???
+
+> class Blueberries extends Berry{
+> 
+>   this.weight= 80;
+>   this.fruitType = "Blueberries"
+> }[0m
+[0m2021.06.16 20:23:46 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:23:46 INFO  time: compiled scala-project in 0.6s[0m
+[0m2021.06.16 20:23:55 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:23:55 INFO  time: compiled scala-project in 0.62s[0m
+[0m2021.06.16 20:23:59 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:23:59 INFO  time: compiled scala-project in 0.58s[0m
+[0m2021.06.16 20:24:03 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:24:03 INFO  time: compiled scala-project in 0.59s[0m
+[0m2021.06.16 20:24:06 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:24:06 INFO  time: compiled scala-project in 0.61s[0m
+[0m2021.06.16 20:24:09 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:24:10 INFO  time: compiled scala-project in 1.46s[0m
+[0m2021.06.16 20:24:10 INFO  compiling scala-project (4 scala sources)[0m
+[0m2021.06.16 20:24:12 WARN  12 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.06.16 20:24:12 INFO  time: compiled scala-project in 2.29s[0m
+[0m2021.06.16 20:24:15 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:24:15 INFO  time: compiled scala-project in 0.81s[0m
+[0m2021.06.16 20:24:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:24:35 INFO  time: compiled scala-project in 0.93s[0m
+[0m2021.06.16 20:25:02 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:25:02 INFO  time: compiled scala-project in 0.82s[0m
+[0m2021.06.16 20:25:11 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:25:11 INFO  time: compiled scala-project in 0.95s[0m
+[0m2021.06.16 20:25:30 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:25:30 INFO  time: compiled scala-project in 0.78s[0m
+[0m2021.06.16 20:25:44 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:25:44 INFO  time: compiled scala-project in 0.84s[0m
+[0m2021.06.16 20:25:58 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:25:58 INFO  time: compiled scala-project in 0.96s[0m
+[0m2021.06.16 20:26:12 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:26:12 INFO  time: compiled scala-project in 76ms[0m
+[0m2021.06.16 20:26:20 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:26:20 INFO  time: compiled scala-project in 0.79s[0m
+[0m2021.06.16 20:26:25 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:26:25 INFO  time: compiled scala-project in 0.81s[0m
+[0m2021.06.16 20:26:33 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:26:33 INFO  time: compiled scala-project in 0.78s[0m
+[0m2021.06.16 20:26:38 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:26:38 INFO  time: compiled scala-project in 0.74s[0m
+[0m2021.06.16 20:26:52 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:26:52 INFO  time: compiled scala-project in 0.85s[0m
+[0m2021.06.16 20:27:02 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:27:02 INFO  time: compiled scala-project in 0.76s[0m
+[0m2021.06.16 20:27:08 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:27:08 INFO  time: compiled scala-project in 0.79s[0m
+[0m2021.06.16 20:27:22 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:27:22 INFO  time: compiled scala-project in 66ms[0m
+[0m2021.06.16 20:27:36 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:27:36 INFO  time: compiled scala-project in 0.87s[0m
+[0m2021.06.16 20:27:40 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:27:40 INFO  time: compiled scala-project in 0.8s[0m
+[0m2021.06.16 20:27:52 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:27:52 INFO  time: compiled scala-project in 0.74s[0m
+[0m2021.06.16 20:27:59 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:27:59 INFO  time: compiled scala-project in 0.82s[0m
+[0m2021.06.16 20:28:02 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:28:02 INFO  time: compiled scala-project in 0.75s[0m
+[0m2021.06.16 20:28:04 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:28:04 INFO  time: compiled scala-project in 0.73s[0m
+[0m2021.06.16 20:28:17 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:28:17 INFO  time: compiled scala-project in 0.76s[0m
+[0m2021.06.16 20:28:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:28:21 INFO  Deduplicating compilation of scala-project from bsp client 'Metals 0.10.4' (since 28m 39.558s)[0m
+[0m2021.06.16 20:28:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:28:21 INFO  time: compiled scala-project in 45ms[0m
+[0m2021.06.16 20:28:32 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:28:32 INFO  time: compiled scala-project in 0.92s[0m
+[0m2021.06.16 20:28:36 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:28:37 INFO  time: compiled scala-project in 1.05s[0m
+[0m2021.06.16 20:28:55 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:28:55 INFO  time: compiled scala-project in 0.75s[0m
+[0m2021.06.16 20:29:01 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:29:01 INFO  time: compiled scala-project in 0.79s[0m
+[0m2021.06.16 20:29:10 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:29:10 INFO  time: compiled scala-project in 0.77s[0m
+[0m2021.06.16 20:29:31 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:29:31 INFO  time: compiled scala-project in 0.77s[0m
+[0m2021.06.16 20:29:49 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:29:49 INFO  time: compiled scala-project in 0.97s[0m
+[0m2021.06.16 20:29:58 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:29:58 INFO  time: compiled scala-project in 0.74s[0m
+[0m2021.06.16 20:30:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:30:21 INFO  time: compiled scala-project in 59ms[0m
+[0m2021.06.16 20:30:33 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:30:33 INFO  time: compiled scala-project in 0.75s[0m
+[0m2021.06.16 20:30:38 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:30:38 INFO  time: compiled scala-project in 0.81s[0m
+[0m2021.06.16 20:30:57 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:30:57 INFO  time: compiled scala-project in 0.73s[0m
+[0m2021.06.16 20:31:16 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:31:16 INFO  time: compiled scala-project in 0.76s[0m
+[0m2021.06.16 20:31:35 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:31:35 INFO  time: compiled scala-project in 0.75s[0m
+[0m2021.06.16 20:31:40 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:31:40 INFO  time: compiled scala-project in 0.78s[0m
+[0m2021.06.16 20:31:54 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:31:54 INFO  time: compiled scala-project in 0.71s[0m
+[0m2021.06.16 20:32:08 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:32:08 INFO  time: compiled scala-project in 67ms[0m
+[0m2021.06.16 20:32:11 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:32:11 INFO  time: compiled scala-project in 80ms[0m
+[0m2021.06.16 20:32:21 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:32:21 INFO  time: compiled scala-project in 79ms[0m
+[0m2021.06.16 20:32:26 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:32:26 INFO  time: compiled scala-project in 61ms[0m
+[0m2021.06.16 20:32:32 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:32:32 INFO  time: compiled scala-project in 57ms[0m
+[0m2021.06.16 20:32:46 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:32:46 INFO  time: compiled scala-project in 73ms[0m
+[0m2021.06.16 20:32:48 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:32:48 INFO  time: compiled scala-project in 70ms[0m
+[0m2021.06.16 20:32:58 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:32:58 INFO  time: compiled scala-project in 0.82s[0m
+[0m2021.06.16 20:33:02 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:33:03 INFO  time: compiled scala-project in 1.16s[0m
+[0m2021.06.16 20:33:19 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:33:19 INFO  time: compiled scala-project in 0.85s[0m
+[0m2021.06.16 20:33:22 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:33:22 INFO  time: compiled scala-project in 0.74s[0m
+[0m2021.06.16 20:33:49 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:33:50 INFO  time: compiled scala-project in 1.07s[0m
+[0m2021.06.16 20:33:54 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:33:54 INFO  time: compiled scala-project in 0.76s[0m
+[0m2021.06.16 20:34:06 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:34:06 INFO  time: compiled scala-project in 0.79s[0m
+[0m2021.06.16 20:34:15 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:34:15 INFO  time: compiled scala-project in 0.73s[0m
+[0m2021.06.16 20:34:24 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:34:24 INFO  time: compiled scala-project in 0.73s[0m
+[0m2021.06.16 20:34:29 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:34:29 INFO  time: compiled scala-project in 0.73s[0m
+[0m2021.06.16 20:34:32 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:34:32 INFO  time: compiled scala-project in 0.44s[0m
+[0m2021.06.16 20:34:34 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:34:35 INFO  time: compiled scala-project in 1.01s[0m
+[0m2021.06.16 20:34:38 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:34:38 INFO  time: compiled scala-project in 0.74s[0m
+[0m2021.06.16 20:34:43 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:34:43 INFO  time: compiled scala-project in 0.73s[0m
+[0m2021.06.16 20:35:03 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:35:03 INFO  time: compiled scala-project in 0.74s[0m
+[0m2021.06.16 20:35:24 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:35:24 INFO  time: compiled scala-project in 76ms[0m
+[0m2021.06.16 20:35:28 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:35:28 INFO  time: compiled scala-project in 0.77s[0m
+[0m2021.06.16 20:35:32 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:35:32 INFO  time: compiled scala-project in 0.78s[0m
+[0m2021.06.16 20:35:37 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:35:37 INFO  time: compiled scala-project in 0.73s[0m
+[0m2021.06.16 20:35:42 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:35:42 INFO  time: compiled scala-project in 81ms[0m
+[0m2021.06.16 20:35:46 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:35:46 INFO  time: compiled scala-project in 0.79s[0m
+[0m2021.06.16 20:35:55 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:35:55 INFO  time: compiled scala-project in 0.81s[0m
+[0m2021.06.16 20:36:00 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:36:00 INFO  time: compiled scala-project in 73ms[0m
+[0m2021.06.16 20:36:13 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:36:13 INFO  time: compiled scala-project in 0.86s[0m
+[0m2021.06.16 20:36:16 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:36:16 INFO  time: compiled scala-project in 0.94s[0m
+[0m2021.06.16 20:36:23 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:36:23 INFO  time: compiled scala-project in 0.75s[0m
+[0m2021.06.16 20:36:27 INFO  compiling scala-project (1 scala source)[0m
+[0m2021.06.16 20:36:27 INFO  time: compiled scala-project in 0.77s[0m
+Jun 16, 2021 8:37:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3977
+Jun 16, 2021 8:37:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3985
+Jun 16, 2021 8:37:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3992
+[0m2021.06.16 20:37:45 INFO  Listening for transport dt_socket at address: 57258[0m
+[0m2021.06.16 20:37:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.16 20:37:46 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.16 20:37:46 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.16 20:37:45 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57258 .[0m
+[0m2021.06.16 20:37:45 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.16 20:37:46 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:37:46 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:37:46 INFO  --------------------------------[0m
+[0m2021.06.16 20:37:46 INFO  Type = Blueberries, Weight = 0.5[0m
+[0m2021.06.16 20:37:46 INFO  Type = Blackberries, Weight = 2.45[0m
+[0m2021.06.16 20:37:46 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.16 20:37:46 INFO  Type = Avocado, Weight = 170.0[0m
+[0m2021.06.16 20:37:46 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:37:46 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:37:46 INFO  --------------------------------[0m
+[0m2021.06.16 20:37:46 INFO  Type = Blueberries, Weight = 0.5[0m
+[0m2021.06.16 20:37:46 INFO  Type = Blackberries, Weight = 2.45[0m
+[0m2021.06.16 20:37:46 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:37:46 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:37:46 INFO  Type = Avocado, Weight = 370.0[0m
+[0m2021.06.16 20:37:46 INFO  --------------------------------[0m
+[0m2021.06.16 20:37:46 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:37:46 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:37:46 INFO  --------------------------------[0m
+[0m2021.06.16 20:37:46 INFO  Type = Avocado, Weight = 370.0[0m
+[0m2021.06.16 20:37:46 INFO  --------------------------------[0m
+[0m2021.06.16 20:37:46 INFO  Type = Blueberries, Weight = 0.5[0m
+[0m2021.06.16 20:37:46 INFO  Type = Blackberries, Weight = 2.45[0m
+[0m2021.06.16 20:37:46 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:37:46 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:37:46 INFO  Type = Avocado, Weight = 370.0[0m
+[0m2021.06.16 20:37:56 INFO  shutting down Metals[0m
+[0m2021.06.16 20:37:56 INFO  Shut down connection with build server.[0m
+[0m2021.06.16 20:37:56 INFO  Shut down connection with build server.[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:388)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:155)
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.06.16 20:38:18 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.16 20:38:24 INFO  time: initialize in 6.18s[0m
+[0m2021.06.16 20:38:24 INFO  Attempting to connect to the build server...[0m
+[0m2021.06.16 20:38:24 WARN  no build target for: C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\src\main\scala\Main.scala[0m
+[0m2021.06.16 20:38:24 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 14360'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.16 20:38:27 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+[0m2021.06.16 20:38:29 INFO  time: code lens generation in 4.2s[0m
+[0m2021.06.16 20:38:29 INFO  time: code lens generation in 4.21s[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project.json'
+[0m[32m[D][0m Loading project from 'c:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\.bloop\scala-project-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\ahmed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'scala-project-test', 'scala-project'
+[0m[32m[D][0m Missing analysis file for project 'scala-project-test'
+[0m[32m[D][0m Loading previous analysis for 'scala-project' from 'C:\Users\ahmed\git\BST_C-_JavaScript_Scala\MainProjects\scala-project\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:14360...
+The server is listening for incoming connections at tcp://127.0.0.1:14360...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 20:38:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 20:38:31 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12846'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12846...
+The server is listening for incoming connections at tcp://127.0.0.1:12846...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.16 20:38:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.16 20:38:32 INFO  time: Connected to build server in 7.33s[0m
+[0m2021.06.16 20:38:32 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.16 20:38:34 INFO  time: indexed workspace in 2.03s[0m
+[0m2021.06.16 20:38:42 INFO  Listening for transport dt_socket at address: 62010[0m
+[0m2021.06.16 20:38:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.16 20:38:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ahmed\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.16 20:38:43 INFO  Starting debug proxy for [Main][0m
+[0m2021.06.16 20:38:42 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62010 .[0m
+[0m2021.06.16 20:38:42 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.16 20:38:42 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:38:42 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:38:42 INFO  --------------------------------[0m
+[0m2021.06.16 20:38:42 INFO  Type = Blueberries, Weight = 0.5[0m
+[0m2021.06.16 20:38:42 INFO  Type = Blackberries, Weight = 2.45[0m
+[0m2021.06.16 20:38:42 INFO  Type = Avocado, Weight = 170.0[0m
+[0m2021.06.16 20:38:42 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:38:42 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:38:42 INFO  --------------------------------[0m
+[0m2021.06.16 20:38:42 INFO  Type = Blueberries, Weight = 0.5[0m
+[0m2021.06.16 20:38:42 INFO  Type = Blackberries, Weight = 2.45[0m
+[0m2021.06.16 20:38:42 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:38:42 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:38:42 INFO  Type = Avocado, Weight = 370.0[0m
+[0m2021.06.16 20:38:42 INFO  --------------------------------[0m
+[0m2021.06.16 20:38:42 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:38:42 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:38:42 INFO  --------------------------------[0m
+[0m2021.06.16 20:38:42 INFO  Type = Avocado, Weight = 370.0[0m
+[0m2021.06.16 20:38:42 INFO  --------------------------------[0m
+[0m2021.06.16 20:38:42 INFO  Type = Blueberries, Weight = 0.5[0m
+[0m2021.06.16 20:38:42 INFO  Type = Blackberries, Weight = 2.45[0m
+[0m2021.06.16 20:38:42 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:38:42 INFO  Type = Apple, Weight = 195.0[0m
+[0m2021.06.16 20:38:42 INFO  Type = Avocado, Weight = 370.0[0m
+[0m2021.06.16 20:38:43 INFO  Canceling debug proxy for [Main][0m
+[0m2021.06.16 22:27:13 INFO  shutting down Metals[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.06.16 22:27:15 ERROR timeout: build server 'bloop' during shutdown[0m
+[0m2021.06.16 22:27:15 ERROR timeout: build server 'bloop' during shutdown[0m
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@4e4912f7 rejected from java.util.concurrent.ThreadPoolExecutor@b4b855a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 882]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)

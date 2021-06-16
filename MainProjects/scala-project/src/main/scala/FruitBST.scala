@@ -19,7 +19,10 @@ class FruitBST {
   }
 
   def magnifyByType(fruitType: String, fruitWeight: Int){
-    for (e <- DeleteMagnifyByType(fruitType,fruitWeight,root)) insert(e);
+    
+    DeleteMagnifyByType(fruitType,fruitWeight,root).foreach(insert)
+    
+    //for (e <- DeleteMagnifyByType(fruitType,fruitWeight,root)) insert(e)
   }
   private def DeleteMagnifyByType(fruitType: String, fruitWeight: Int,nodeTree :FruitTree): ListBuffer[Fruit] = {
     var list = new ListBuffer[Fruit]();

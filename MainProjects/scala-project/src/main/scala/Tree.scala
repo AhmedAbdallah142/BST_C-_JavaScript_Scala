@@ -133,7 +133,7 @@ case class TreeNode (var nodeFruit : Fruit,var left : FruitTree , var right : Fr
   override def filterByType(fruitType: String): Unit = {
     InOrder((treeNode:FruitTree)=>{
       if (treeNode.asInstanceOf[TreeNode].nodeFruit.fruitType.equals(fruitType))
-        println("Type = "+treeNode.asInstanceOf[TreeNode].nodeFruit.fruitType +", Weight = "+ treeNode.asInstanceOf[TreeNode].nodeFruit.weight)
+        printNode(treeNode.asInstanceOf[TreeNode]);
     });
     /*this.left.filterByType(fruitType);
     if (nodeFruit.fruitType.equals(fruitType)){
@@ -145,8 +145,7 @@ case class TreeNode (var nodeFruit : Fruit,var left : FruitTree , var right : Fr
 
   override def iterate(): Unit = {
     InOrder((treeNode:FruitTree)=>{
-        println("Type = "+treeNode.asInstanceOf[TreeNode].nodeFruit.fruitType +", Weight = "+ 
-        treeNode.asInstanceOf[TreeNode].nodeFruit.weight /*+ " Parent = " +treeNode.asInstanceOf[TreeNode].parent*/)
+      printNode(treeNode.asInstanceOf[TreeNode]);
     });
   }
 
