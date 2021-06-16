@@ -147,6 +147,7 @@ public:
                     return temp;
                 }
                 Fruit* temp = deleteMinValue( root , (*root).getRight() );
+                if(parent != NULL){
                 if(((*root).getWeight()) > ((*parent).getWeight())){
                     (*parent).setRight(temp);
                 }else{
@@ -154,6 +155,12 @@ public:
                 }
                 (*temp).setRight( (*root).getRight() );
                 (*temp).setLeft ( (*root).getLeft() );
+                }else{
+                    (*temp).setRight( (*root).getRight() );
+                    (*temp).setLeft ( (*root).getLeft() );
+                    root = temp;
+
+                }
             }
             else{
                     parent = root ;
@@ -214,21 +221,28 @@ int main()
 {
     FruitsTree b;
     Apple n1 ;
+    n1.weight=20;
     Avocado n2 ;
+    n2.weight=10;
     Orange n3 ;
-    Apple n4 ;
+    n3.weight=30;
+   // Apple n4 ;
     Avocado n5 ;
+    n5.weight=5;
     Orange n6 ;
-    Apple n7 ;
+    n6.weight=15;
+    //Apple n7 ;
     Avocado n8 ;
+    n8.weight=25;
     Orange n9 ;
+    n9.weight=35;
     b.setroot(b.Insert(b.getroot(),&n1));
     b.Insert(b.getroot(),&n2);
     b.Insert(b.getroot(),&n3);
-    b.Insert(b.getroot(),&n4);
+  //  b.Insert(b.getroot(),&n4);
     b.Insert(b.getroot(),&n5);
     b.Insert(b.getroot(),&n6);
-    b.Insert(b.getroot(),&n7);
+   // b.Insert(b.getroot(),&n7);
     b.Insert(b.getroot(),&n8);
     b.Insert(b.getroot(),&n9);
     cout<<"Tree"<<endl;
@@ -242,8 +256,9 @@ int main()
     cout<<""<<endl;
     b.findLightest(b.getroot() );
     cout<<"Tree"<<endl;
-    //b.setroot(b.deleteNode(NULL, b.getroot() , &n3 ));
-    b.magnifyByType(b.getroot() , "Avocado" , 200);
+    b.setroot(b.deleteNode(NULL, b.getroot() , &n1 ));
+    b.Iterate(b.getroot());
+    /*b.magnifyByType(b.getroot() , "Apple" , 200);
     b.Iterate(b.getroot());
     cout<<"Avocado"<<endl;
     b.filterByType(b.getroot() , "Avocado");
@@ -252,7 +267,7 @@ int main()
     cout<<""<<endl;
     b.findHeaviest(b.getroot() );
     cout<<""<<endl;
-    b.findLightest(b.getroot() );
+    b.findLightest(b.getroot() );*/
     return 0;
 }
 
