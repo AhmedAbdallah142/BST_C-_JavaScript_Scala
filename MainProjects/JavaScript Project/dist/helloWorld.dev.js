@@ -16,8 +16,8 @@ var Fruit = {
   getType: function getType() {
     return this.type;
   },
-  setName: function setName(name) {
-    this.name = name;
+  setName: function setName() {
+    this.name = "fruit";
   }
 }; //////////////friuts type////////////////
 
@@ -56,83 +56,122 @@ var huge = {
 var apple = Object.create(Fruit);
 apple.setWeight(195);
 apple.setType(Medium.getshape() + " " + oval.getshape());
-apple.setName("apple");
+apple.setName = function () {
+  this.name = "apple";
+}, apple.setName();
 var avocado = Object.create(Fruit);
 avocado.setWeight(170);
 avocado.setType(Medium.getshape() + " " + oval.getshape());
-avocado.setName("avocado");
+avocado.setName = function () {
+  this.name = "avocado";
+}, avocado.setName();
 var Blackberries = Object.create(Fruit);
 Blackberries.setWeight(2.45);
 Blackberries.setType(tiny.getshape() + " " + berry.getshape());
-Blackberries.setName("Blackberries");
+Blackberries.setName = function () {
+  this.name = "Blackberries";
+}, Blackberries.setName();
 var Elderberries = Object.create(Fruit);
 Elderberries.setWeight(0.5);
 Elderberries.setType(tiny.getshape() + " " + berry.getshape());
-Elderberries.setName("Elderberries");
+Elderberries.setName = function () {
+  this.name = "Elderberries";
+}, Elderberries.setName();
 var Gooseberries = Object.create(Fruit);
-Gooseberries.setWeight(1);
+Gooseberries.setWeight(2.3);
 Gooseberries.setType(tiny.getshape() + " " + berry.getshape());
-Gooseberries.setName("Gooseberries");
+Gooseberries.setName = function () {
+  this.name = "Gooseberries";
+}, Gooseberries.setName();
 var Cranberries = Object.create(Fruit);
-Cranberries.setWeight(1.5);
+Cranberries.setWeight(1.7);
 Cranberries.setType(tiny.getshape() + " " + berry.getshape());
-Cranberries.setName("Cranberries");
+Cranberries.setName = function () {
+  this.name = "Cranberries";
+}, Cranberries.setName();
 var Blueberries = Object.create(Fruit);
 Blueberries.setWeight(0.5);
 Blueberries.setType(tiny.getshape() + " " + berry.getshape());
-Blueberries.setName("Blueberries");
+Blueberries.setName = function () {
+  this.name = "Blueberries";
+}, Blueberries.setName();
 var Grapes = Object.create(Fruit);
 Grapes.setWeight(5);
 Grapes.setType(tiny.getshape() + " " + circular.getshape());
-Grapes.setName("Grapes");
+Grapes.setName = function () {
+  this.name = "Grapes";
+}, Grapes.setName();
 var Banana = Object.create(Fruit);
 Banana.setWeight(120);
 Banana.setType(Medium.getshape());
-Banana.setName("Banana");
+Banana.setName = function () {
+  this.name = "Banana";
+}, Banana.setName();
 var Figs = Object.create(Fruit);
 Figs.setWeight(50);
 Figs.setType(Medium.getshape() + " " + oval.getshape());
-Figs.setName("Figs");
+Figs.setName = function () {
+  this.name = "Figs";
+}, Figs.setName();
 var orange = Object.create(Fruit);
 orange.setWeight(130);
 orange.setType(Medium.getshape() + " " + circular.getshape());
-orange.setName("orange");
+orange.setName = function () {
+  this.name = "orange";
+}, orange.setName();
 var Apricots = Object.create(Fruit);
 Apricots.setWeight(35);
 Apricots.setType(tiny.getshape() + " " + circular.getshape());
-Apricots.setName("Apricots");
+Apricots.setName = function () {
+  this.name = "Apricots";
+}, Apricots.setName();
 var Pineapple = Object.create(Fruit);
 Pineapple.setWeight(1590);
 Pineapple.setType(huge.getshape() + " " + oval.getshape());
-Pineapple.setName("Pineapple");
+Pineapple.setName = function () {
+  this.name = "Pineapple";
+}, Pineapple.setName();
 var Peaches = Object.create(Fruit);
 Peaches.setWeight(150);
 Peaches.setType(Medium.getshape() + " " + circular.getshape());
-Peaches.setName("Peaches");
+Peaches.setName = function () {
+  this.name = "Peaches";
+}, Peaches.setName();
 var Pear = Object.create(Fruit);
 Pear.setWeight(180);
-Pear.setType(Medium.getshape() + " " + oval.getshape());
-Pear.setName("Pear");
+Pear.setName = function () {
+  this.name = "Pear";
+}, Pear.setName();
 var Strawberries = Object.create(Fruit);
 Strawberries.setWeight(12);
 Strawberries.setType(tiny.getshape() + " " + oval.getshape());
-Strawberries.setName("Strawberries");
+Strawberries.setName = function () {
+  this.name = "Strawberries";
+}, Strawberries.setName();
 var Watermelon = Object.create(Fruit);
 Watermelon.setWeight(9000);
 Watermelon.setType(huge.getshape() + " " + circular.getshape());
-Watermelon.setName("Watermelon");
+Watermelon.setName = function () {
+  this.name = "Watermelon";
+}, Watermelon.setName();
 var Guava = Object.create(Fruit);
 Guava.setWeight(200);
 Guava.setType(Medium.getshape() + " " + oval.getshape());
-Guava.setName("Guava");
+Guava.setName = function () {
+  this.name = "Guava";
+}, Guava.setName();
 var Mango = Object.create(Fruit);
 Mango.setWeight(200);
 Mango.setType(Medium.getshape() + " " + oval.getshape());
-Mango.setName("Mango");
+Mango.setName = function () {
+  this.name = "Mango";
+}, Mango.setName();
 var Cantaloupe = Object.create(Fruit);
 Cantaloupe.setWeight(2750);
 Cantaloupe.setType(huge.getshape() + " " + oval.getshape());
-Cantaloupe.setName("Cantaloupe"); /////////////////////////////////////////////
+Cantaloupe.setName = function () {
+  this.name = "Cantaloupe";
+}, Cantaloupe.setName(); /////////////////////////////////////////////
 ////////////binary search tree//////////////
 
 var FruitBST = function FruitBST(value) {
@@ -141,6 +180,10 @@ var FruitBST = function FruitBST(value) {
   root.left = undefined;
   root.right = undefined;
   return root;
+};
+
+FruitBST.prototype.display = function (n) {
+  console.log("name:" + n.value.name + "  type:" + n.value.getType() + "  weight: " + n.value.getWeight());
 };
 
 FruitBST.prototype.insert = function (value) {
@@ -183,7 +226,7 @@ FruitBST.prototype.iterate = function () {
       return;
     }
 
-    console.log(bst.value);
+    FruitBST.prototype.display(bst);
   }
 };
 
@@ -196,7 +239,7 @@ FruitBST.prototype.filterbytype = function (type) {
     }
 
     if (bst.value.type.includes(type)) {
-      console.log(bst.value);
+      FruitBST.prototype.display(bst);
     }
   }
 };
@@ -209,8 +252,8 @@ FruitBST.prototype.filterByWeight = function (weight) {
       return;
     }
 
-    if (bst.value.weight === weight) {
-      console.log(bst.value);
+    if (bst.value.weight > weight) {
+      FruitBST.prototype.display(bst);
     }
   }
 };
@@ -248,7 +291,7 @@ FruitBST.prototype.findHeaviest = function () {
     node = node.right;
   }
 
-  console.log(node.value);
+  FruitBST.prototype.display(node);
 };
 
 FruitBST.prototype.findLightest = function () {
@@ -258,7 +301,7 @@ FruitBST.prototype.findLightest = function () {
     node = node.left;
   }
 
-  console.log(node.value);
+  FruitBST.prototype.display(node);
 }; //////////////////testing//////////////////////
 
 
@@ -274,12 +317,3 @@ bst.insert(Blackberries);
 bst.insert(Banana);
 bst.insert(Blueberries);
 bst.insert(Watermelon);
-bst.iterate(); //bst.findHeaviest();
-//bst.findLightest();
-//bst.filterByWeight(150);
-//bst.filterbytype("mango fruit");
-//bst.filterByWeight(200);
-//console.log("*******");
-//var newbst1 = bst.magnifyByType("oval" , 145);
-//console.log("*******");
-//newbst1.iterate();
