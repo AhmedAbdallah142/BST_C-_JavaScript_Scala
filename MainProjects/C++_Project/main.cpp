@@ -1,9 +1,4 @@
-
 #include "Fruits.h"
-
-//using namespace std;
-
-
 
 class BST
 {
@@ -33,6 +28,8 @@ class FruitsTree : public BST
 {
 public:
     vector<Fruit*> deleteAndInsert ;
+
+
     Fruit* Insert(Fruit* r, Fruit* n) override
     {
         if (r == NULL)
@@ -61,9 +58,10 @@ public:
             return;
         }
         Iterate((*root).getLeft());
-        cout << (*root).getType() <<"  "<< (*root).getWeight() << endl;
+        cout << "Type : "<<(*root).getType() <<"\tWeight:"<< (*root).getWeight() << "\tShape : "<< (*root).getShape() << "\tSize : "<< (*root).getSize() << endl;
         Iterate((*root).getRight());
     }
+
 
     void filterByType(Fruit* root,string type)
     {
@@ -74,7 +72,7 @@ public:
         filterByType((*root).getLeft(),type);
         if((*root).getType()  ==  type)
         {
-            cout << (*root).getType() <<"  "<< (*root).getWeight() << endl;
+            cout << "Type : "<<(*root).getType() <<"\tWeight:"<< (*root).getWeight() << "\tShape : "<< (*root).getShape() << "\tSize : "<< (*root).getSize() << endl;
         }
         filterByType((*root).getRight(),type);
     }
@@ -88,7 +86,7 @@ public:
         filterByWeight((*root).getLeft(),weight);
         if((*root).getWeight()  >=  weight)
         {
-            cout << (*root).getType() <<"  "<< (*root).getWeight() << endl;
+            cout << "Type : "<<(*root).getType() <<"\tWeight:"<< (*root).getWeight() << "\tShape : "<< (*root).getShape() << "\tSize : "<< (*root).getSize() << endl;
         }
         filterByWeight((*root).getRight(),weight);
     }
@@ -101,7 +99,7 @@ public:
 
             }
 
-    cout <<"The Heaviest :-    " << (*root).getType() <<"  "<< (*root).getWeight() << endl;
+    cout <<"The Heaviest :-    " << "Type : "<<(*root).getType() <<"\tWeight:"<< (*root).getWeight() << "\tShape : "<< (*root).getShape() << "\tSize : "<< (*root).getSize() << endl;
     return root;
     }
 
@@ -109,66 +107,66 @@ public:
     Fruit* findLightest(Fruit* root){
             while (root != NULL && (*root).getLeft() != NULL)
             {
-
-                //cout<<(*(*root).getLeft()).getType()<<endl;
                 root = (*root).getLeft() ;
 
             }
 
-    cout <<"The Lightest :-    " << (*root).getType() <<"  "<< (*root).getWeight() << endl;
+    cout <<"The Lightest :-    "<< "Type : "<<(*root).getType() <<"\tWeight:"<< (*root).getWeight() << "\tShape : "<< (*root).getShape() << "\tSize : "<< (*root).getSize() << endl;
     return root;
     }
 
 
-    Fruit* deleteNode(Fruit* parent , Fruit* root, Fruit* deleted ) override
+    Fruit* deleteNode(Fruit* parent , Fruit* r, Fruit* deleted ) override
     {
-        if (root == NULL)
-            return root;
+        if (r == NULL)
+            return r;
 
-        if (((*deleted).getWeight()) < ((*root).getWeight())){
-                parent = root ;
-                (*root).setLeft(deleteNode( parent , (*root).getLeft() , deleted ));
+        if (((*deleted).getWeight()) < ((*r).getWeight())){
+                parent = r ;
+                (*r).setLeft(deleteNode( parent , (*r).getLeft() , deleted ));
         }
-        else if (((*deleted).getWeight()) > ((*root).getWeight())){
-                 parent = root ;
-                (*root).setRight(deleteNode( parent , (*root).getRight() , deleted ));
+        else if (((*deleted).getWeight()) > ((*r).getWeight())){
+                 parent = r ;
+                (*r).setRight(deleteNode( parent , (*r).getRight() , deleted ));
         }
         else {
-            if(root == deleted){
-                if ((*root).getRight() == NULL && (*root).getLeft() == NULL){
+            if(r == deleted){
+                if ((*r).getRight() == NULL && (*r).getLeft() == NULL){
                     return NULL;
                 }
-                else if ( (*root).getLeft() == NULL ) {
-                    Fruit* temp = (*root).getRight();
+                else if ( (*r).getLeft() == NULL ) {
+                    Fruit* temp = (*r).getRight();
                     return temp;
                 }
-                else if ((*root).getRight() == NULL) {
-                    Fruit* temp = (*root).getLeft();
+                else if ((*r).getRight() == NULL) {
+                    Fruit* temp = (*r).getLeft();
                     return temp;
                 }
-                Fruit* temp = deleteMinValue( root , (*root).getRight() );
+                Fruit* temp = deleteMinValue( r , (*r).getRight() );
                 if(parent != NULL){
-                if(((*root).getWeight()) > ((*parent).getWeight())){
+                if(((*r).getWeight()) > ((*parent).getWeight())){
                     (*parent).setRight(temp);
                 }else{
                     (*parent).setLeft(temp);
                 }
-                (*temp).setRight( (*root).getRight() );
-                (*temp).setLeft ( (*root).getLeft() );
+                (*temp).setRight( (*r).getRight() );
+                (*temp).setLeft ( (*r).getLeft() );
+                return temp;
                 }else{
-                    (*temp).setRight( (*root).getRight() );
-                    (*temp).setLeft ( (*root).getLeft() );
+                    (*temp).setRight( (*r).getRight() );
+                    (*temp).setLeft ( (*r).getLeft() );
                     root = temp;
-
+                     return root;
                 }
             }
             else{
-                    parent = root ;
-                (*root).setLeft( deleteNode(parent , (*root).getLeft() , deleted ));
+                    parent = r ;
+                (*r).setLeft( deleteNode(parent , (*r).getLeft() , deleted ));
             }
         }
-        return root;
+        return r;
     }
+
 
     Fruit* deleteMinValue(Fruit* parent , Fruit* root)
     {
@@ -177,9 +175,15 @@ public:
                 parent = root ;
                 root = (*root).getLeft() ;
             }
-            (*parent).setLeft(NULL);
+            if(((*root).getWeight()) > ((*parent).getWeight())){
+                    (*parent).setRight(NULL);
+                }else{
+                    (*parent).setLeft(NULL);
+                }
             return root;
     }
+
+
     void deletedMagnify(Fruit* r,string Type,int Weight)
     {
        if (r == NULL)
@@ -193,7 +197,6 @@ public:
             (*r).setLeft(NULL);
             (*r).setRight(NULL);
             (*r).weight+=Weight;
-            //Insert(root,r);
             deleteAndInsert.push_back(r);
         }
         deletedMagnify((*r).getRight(),Type,Weight);
@@ -215,60 +218,83 @@ public:
 
     };
 
-
+/*
+bst.insert(apple);
+bst.insert(orange);
+bst.insert(Figs);
+bst.insert(Pear);
+bst.insert(Peaches);
+bst.insert(Mango);
+bst.insert(Guava);
+bst.insert(Grapes);
+bst.insert(Blackberries);
+bst.insert(Banana);
+bst.insert(Blueberries);
+bst.insert(Watermelon);
+*/
 
 int main()
 {
-    FruitsTree b;
-    Apple n1 ;
-    n1.weight=20;
-    Avocado n2 ;
-    n2.weight=10;
-    Orange n3 ;
-    n3.weight=30;
-   // Apple n4 ;
-    Avocado n5 ;
-    n5.weight=5;
-    Orange n6 ;
-    n6.weight=15;
-    //Apple n7 ;
-    Avocado n8 ;
-    n8.weight=25;
-    Orange n9 ;
-    n9.weight=35;
-    b.setroot(b.Insert(b.getroot(),&n1));
-    b.Insert(b.getroot(),&n2);
-    b.Insert(b.getroot(),&n3);
-  //  b.Insert(b.getroot(),&n4);
-    b.Insert(b.getroot(),&n5);
-    b.Insert(b.getroot(),&n6);
-   // b.Insert(b.getroot(),&n7);
-    b.Insert(b.getroot(),&n8);
-    b.Insert(b.getroot(),&n9);
-    cout<<"Tree"<<endl;
-    b.Iterate(b.getroot());
-    cout<<"Avocado"<<endl;
-    b.filterByType(b.getroot() , "Avocado");
-    cout<<"90"<<endl;
-    b.filterByWeight(b.getroot() , 90);
-    cout<<""<<endl;
-    b.findHeaviest(b.getroot() );
-    cout<<""<<endl;
-    b.findLightest(b.getroot() );
-    cout<<"Tree"<<endl;
-    b.setroot(b.deleteNode(NULL, b.getroot() , &n1 ));
-    b.Iterate(b.getroot());
-    /*b.magnifyByType(b.getroot() , "Apple" , 200);
-    b.Iterate(b.getroot());
-    cout<<"Avocado"<<endl;
-    b.filterByType(b.getroot() , "Avocado");
-    cout<<"90"<<endl;
-    b.filterByWeight(b.getroot() , 90);
-    cout<<""<<endl;
-    b.findHeaviest(b.getroot() );
-    cout<<""<<endl;
-    b.findLightest(b.getroot() );*/
+    FruitsTree tree;
+
+    Apple apple;
+    Apple apple2(150);
+    Apple apple3(200);
+    Orange orange ;
+    Figs fig;
+    Pear pear;
+    Peaches peach;
+    Mango mango;
+    Guava guava;
+    Grapes grape;
+    Blackberries blackBerry;
+    Banana banana;
+    Blueberries blueBerry;
+    Watermelon watermelon;
+
+    tree.setroot(tree.Insert(tree.getroot(),&apple));
+    tree.setroot(tree.Insert(tree.getroot(),&apple2));
+    tree.setroot(tree.Insert(tree.getroot(),&apple3));
+    tree.setroot(tree.Insert(tree.getroot(),&orange));
+    tree.setroot(tree.Insert(tree.getroot(),&fig));
+    tree.setroot(tree.Insert(tree.getroot(),&pear));
+    tree.setroot(tree.Insert(tree.getroot(),&peach));
+    tree.setroot(tree.Insert(tree.getroot(),&mango));
+    tree.setroot(tree.Insert(tree.getroot(),&guava));
+    tree.setroot(tree.Insert(tree.getroot(),&grape));
+    tree.setroot(tree.Insert(tree.getroot(),&blackBerry));
+    tree.setroot(tree.Insert(tree.getroot(),&banana));
+    tree.setroot(tree.Insert(tree.getroot(),&blueBerry));
+    tree.setroot(tree.Insert(tree.getroot(),&watermelon));
+
+    cout << "\t\t\t Tree"<<endl;
+    tree.Iterate(tree.getroot());
+    cout <<"\n\n\n"<<endl;
+
+    cout<<"\t\t\t Apple"<<endl;
+    tree.filterByType(tree.getroot() , "Apple");
+    cout <<"\n\n\n"<<endl;
+
+    cout<<"Fruits greater than or equal 100\n"<<endl;
+    tree.filterByWeight(tree.getroot() , 100);
+    cout <<"\n\n\n"<<endl;
+
+    cout<<"\t\t\t The heaviest"<<endl;
+    tree.findHeaviest(tree.getroot());
+    cout <<"\n\n\n"<<endl;
+
+    cout<<"\t\t\t The lightest"<<endl;
+    tree.findLightest(tree.getroot() );
+    cout <<"\n\n\n"<<endl;
+
+    cout<<"\t\t\t Magnify The apple by 50 gram "<<endl;
+    tree.magnifyByType(tree.getroot(),"Apple",200 );
+    tree.Iterate(tree.getroot());
+    cout <<"\n\n\n"<<endl;
+
+
     return 0;
 }
+
 
 
