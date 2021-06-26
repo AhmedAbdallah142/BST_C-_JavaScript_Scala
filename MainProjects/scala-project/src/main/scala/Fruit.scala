@@ -94,6 +94,3 @@ class Cantaloupe extends Huge_Fruit with Oval_Shaped{
   override var weight: Double = 2750
   override var fruitType: String = "Cantaloupe"
 }
-
-
-

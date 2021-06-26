@@ -1,41 +1,45 @@
 
 object Main extends App {
+  var fruit : FruitBST = new FruitBST()
+  fruit.insert(new Apple())
+  fruit.insert(new Orange())
+  fruit.insert(new Figs())
+  fruit.insert(new Pear())
+  fruit.insert(new Peaches())
+  fruit.insert(new Mango())
+  fruit.insert(new Guava())
+  fruit.insert(new Grapes())
+  fruit.insert(new Blackberries())
+  fruit.insert(new Banana())
+  fruit.insert(new Blueberries())
+  fruit.insert(new Watermelon())
+  fruit.insert(new Avocado())
+  fruit.insert(new Apple())
 
-  var fruit : FruitBST = new FruitBST();
-  fruit.insert(new Apple());
-  fruit.insert(new Blueberries());
-  fruit.insert(new Blackberries());
-  fruit.insert(new Avocado());
-  fruit.insert(new Apple());
-  fruit.filterByType("Apple");
-  println("--------------------------------");
-  fruit.iterate();
-  fruit.magnifyByType("Avocado",200);
-  println("--------------------------------");
-  fruit.iterate();
-  println("--------------------------------");
+
+  //************************************************************\\
+  fruit.iterate()
+  println("===================================\n")
+
+  //************************************************************\\
+  fruit.findHeaviest();
+  println("===================================\n")
+
+  //************************************************************\\
+  fruit.findLightest()
+  println("===================================\n")
+  
+  //************************************************************\\
+  fruit.magnifyByType("Avocado",200)
+  fruit.iterate()
+  println("===================================\n")
+
+   //***********************************************************\\
   fruit.filterByType("Apple")
-  println("--------------------------------");
-  fruit.filterByWeight(330);
-  println("--------------------------------");
-  fruit.iterate();
+  println("===================================\n")
 
-  /*var bst : FruitTree = new TreeNode(new Apple(),EmptyTree,EmptyTree);
-  bst = bst.insert(new Blueberries());
-  bst = bst.insert(new Blackberries());
-  bst = bst.insert(new Avocado());
-  bst = bst.insert(new Apple());
- // bst.mfilterByType("Apple");
-  //bst.filterByType("Apple");
-  //bst.iterate();
-  //println("--------------------------------")
-  //bst.filterByWeight(20);
-  //println("--------------------------------")
-  bst.magnifyByType("Avocado",200);
-  bst.findHeaviest().iterate();
-  println("--------------------------------")
-  //println(bst.findLightest().iterate());
-  //println("--------------------------------")
-  bst.iterate();*/
-  //var tr: TreeNode = new TreeNode(new Avocado(),EmptyTree,EmptyTree)
+  //************************************************************\\
+  fruit.filterByWeight(330)
+  println("===================================\n")
+  
 }

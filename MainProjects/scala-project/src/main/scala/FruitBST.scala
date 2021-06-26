@@ -2,7 +2,7 @@ import scala.collection.mutable.ListBuffer
 class FruitBST {
   var root:FruitTree = EmptyTree;
 
-   def insert(nodeFruit: Fruit) = {
+  def insert(nodeFruit: Fruit) = {
     root = root.insert(nodeFruit);
   }
 
@@ -99,24 +99,7 @@ class FruitBST {
     }
       
   }
-  /*def Successor(nodeTree:FruitTree):FruitTree = {
-    var temp:FruitTree= nodeTree;
-    temp match {
-      case TreeNode(_,_,_,right)=>{
-        temp = right;
-        def setLeft(){
-          temp match {
-            case TreeNode(_,_,left,_) =>{
-              temp = left;
-              setLeft();
-            }
-            case EmptyTree => {};
-          }
-        }
-      }
-    }
-    temp;
-  }*/
+
   def getParent(treeNode:FruitTree,root:FruitTree):FruitTree = {
     root match {
       case TreeNode(_, left, right) if(left.equals(treeNode)||right.equals(treeNode)) => {
@@ -132,35 +115,12 @@ class FruitBST {
       case EmptyTree => {EmptyTree}
     }
   }
-  /*private def deleteNode(treeNode:FruitTree,parent:FruitTree){
-        /*treeNode match {
-        case TreeNode(nodeFruit,left, right) => {
-          right match {
-            case TreeNode(nodeFruit2, _, _) => {
-              right.asInstanceOf[TreeNode].nodeFruit = nodeFruit;
-              treeNode.asInstanceOf[TreeNode].nodeFruit = nodeFruit2;
-              deleteNode(right,treeNode);
-            }
-            case EmptyTree => {
-              parent match {
-                case TreeNode(_, _, _) => {
-                  parent.asInstanceOf[TreeNode].right = left;
-                }
-                case EmptyTree => {
-                    root = left;
-                }
-              }
-            }
-          }
-        }
-      }*/
-  }*/
 
-  def findHeaviest(): FruitTree = {
+  def findHeaviest() {
     root.findHeaviest();
   }
 
-  def findLightest(): FruitTree = {
+  def findLightest() {
     root.findLightest();
   }
 
